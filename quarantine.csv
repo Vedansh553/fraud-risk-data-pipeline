@@ -1,0 +1,1840 @@
+transaction_id,customer_id,transaction_ts,merchant_id,merchant_category,channel,amount,country,home_country,card_present,is_fraud,reject_reason
+100149,14613,2026-03-16 19:05:16,372,grocery,ecommerce,,IN,IN,0,0,missing_amount
+7560,15114,2026-01-06 16:23:53,2938,,pos,,IN,IN,1,0,missing_amount
+90951,12014,,2521,dining,pos,240.33,IN,IN,1,0,unparseable_timestamp
+9460,14654,2026-01-08 01:41:42,1596,grocery,pos,,IN,IN,1,0,missing_amount
+21299,14068,2026-01-16 21:54:16,504,,contactless,,IN,IN,1,0,missing_amount
+96991,10219,2026-03-14 09:39:18,2366,grocery,ecommerce,-322.0,IN,IN,0,0,non_positive_amount
+106350,12824,2026-03-21 13:41:55,2537,dining,pos,,US,US,1,0,missing_amount
+81307,12693,2026-03-02 16:18:19,970,entertainment,ecommerce,,US,US,0,0,missing_amount
+3628,11260,2026-01-03 16:48:00,1771,fashion,ecommerce,,IN,IN,0,0,missing_amount
+84124,14197,2026-03-04 20:11:28,474,fuel,contactless,,IN,IN,1,0,missing_amount
+26120,10293,2026-01-20 13:08:10,59,grocery,pos,,IN,IN,1,0,missing_amount
+105854,11570,2026-03-21 04:43:38,2148,grocery,ecommerce,,IN,IN,0,0,missing_amount
+12855,14208,2026-01-10 13:35:10,15,utilities,pos,,IN,IN,1,0,missing_amount
+99824,14371,,2124,grocery,atm,776.53,US,US,1,0,unparseable_timestamp
+36675,12734,2026-01-28 11:11:01,2166,grocery,pos,-431.0,IN,IN,1,0,non_positive_amount
+2138,15220,,2984,fuel,atm,302.54,IN,IN,1,0,unparseable_timestamp
+1779,13246,2026-01-02 07:46:32,1372,grocery,ecommerce,-318.0,IN,IN,0,0,non_positive_amount
+13245,14147,2026-01-10 20:10:54,2163,grocery,pos,-92.0,IN,IN,1,0,non_positive_amount
+73151,12633,2026-02-24 13:12:47,661,electronics,ecommerce,,IN,IN,0,0,missing_amount
+104876,12452,2026-03-20 10:56:05,1039,grocery,ecommerce,,IN,IN,0,0,missing_amount
+101995,13936,2026-03-18 06:26:09,1917,fuel,pos,,AE,AE,1,0,missing_amount
+102428,14130,2026-03-18 13:42:31,829,electronics,pos,,IN,IN,1,0,missing_amount
+1972,15598,2026-01-02 11:20:35,230,grocery,ecommerce,-322.0,IN,IN,0,0,non_positive_amount
+12102,15406,,2193,grocery,ecommerce,130.19,AE,IN,0,0,unparseable_timestamp
+57332,14897,2026-02-12 21:26:52,833,grocery,atm,,IN,IN,1,0,missing_amount
+3283,14783,2026-01-03 10:43:52,27,dining,pos,-166.0,IN,IN,1,0,non_positive_amount
+96993,12905,2026-03-14 09:40:35,2580,grocery,pos,,IN,IN,1,0,missing_amount
+5714,11079,2026-01-05 06:53:34,675,utilities,pos,-455.0,SG,SG,1,0,non_positive_amount
+93016,14196,2026-03-11 11:08:37,1158,fashion,ecommerce,-75.0,,IN,0,0,non_positive_amount
+43836,11968,2026-02-02 19:02:30,2405,fuel,contactless,,IN,IN,1,0,missing_amount
+5761,15064,2026-01-05 07:59:21,2572,utilities,ecommerce,,AE,AE,0,0,missing_amount
+96232,15124,2026-03-13 20:29:00,1013,travel,ecommerce,-39.0,IN,IN,0,0,non_positive_amount
+23396,10331,2026-01-18 12:23:18,1155,grocery,ecommerce,-246.0,GB,AE,0,1,non_positive_amount
+29701,14751,2026-01-23 04:45:32,2660,fuel,ecommerce,,IN,IN,0,0,missing_amount
+118632,11329,2026-03-30 15:48:42,2016,entertainment,pos,-22.0,IN,IN,1,0,non_positive_amount
+64562,14291,2026-02-18 05:26:19,2793,dining,ecommerce,,IN,IN,0,0,missing_amount
+61472,13500,2026-02-15 21:27:06,1682,utilities,ecommerce,,IN,IN,0,0,missing_amount
+96981,11117,2026-03-14 09:28:31,2705,electronics,contactless,-496.0,IN,IN,1,0,non_positive_amount
+15262,13781,2026-01-12 07:53:55,2312,fuel,contactless,,IN,IN,1,0,missing_amount
+79512,12432,2026-03-01 06:27:27,2837,entertainment,pos,7484206.0,IN,IN,1,0,amount_outlier
+87644,13398,,2257,utilities,ecommerce,5342.56,IN,IN,0,0,unparseable_timestamp
+53205,11524,2026-02-09 19:48:08,1776,fashion,ecommerce,-484.0,SG,SG,0,0,non_positive_amount
+57551,15464,2026-02-13 01:12:10,2426,health,pos,,IN,IN,1,0,missing_amount
+73619,11405,2026-02-24 22:16:02,2273,utilities,contactless,,IN,IN,1,0,missing_amount
+93636,13720,2026-03-11 22:02:38,1601,utilities,pos,,US,US,1,0,missing_amount
+66855,10587,2026-02-19 22:28:51,676,fuel,pos,,US,US,1,0,missing_amount
+28165,10754,2026-01-22 01:34:37,1601,health,pos,8212412.0,US,US,1,0,amount_outlier
+67986,14977,2026-02-20 17:11:56,327,dining,atm,,GB,GB,1,0,missing_amount
+63193,15687,2026-02-17 04:41:45,277,grocery,contactless,-67.0,IN,IN,1,0,non_positive_amount
+8361,11111,2026-01-07 06:06:54,2177,travel,ecommerce,,IN,IN,0,0,missing_amount
+20265,15515,2026-01-16 03:29:07,1068,,ecommerce,,IN,IN,0,0,missing_amount
+30239,11053,2026-01-23 14:43:30,2454,entertainment,pos,-355.0,IN,IN,1,0,non_positive_amount
+99636,15741,,1645,grocery,contactless,175.06,IN,IN,1,0,unparseable_timestamp
+61533,12998,2026-02-15 22:36:06,2638,utilities,pos,,DE,DE,1,0,missing_amount
+30751,10673,2026-01-23 23:55:35,2903,fuel,contactless,-444.0,IN,IN,1,0,non_positive_amount
+93990,13636,2026-03-12 04:16:54,2848,electronics,ecommerce,,GB,GB,0,0,missing_amount
+72568,14504,2026-02-24 01:57:17,2005,fuel,pos,,IN,IN,1,0,missing_amount
+23458,13412,2026-01-18 13:37:49,2537,travel,ecommerce,,IN,IN,0,0,missing_amount
+117508,15887,,1550,entertainment,ecommerce,711.76,IN,IN,0,0,unparseable_timestamp
+74038,13621,2026-02-25 05:29:52,1003,online_services,ecommerce,-275.0,GB,GB,0,0,non_positive_amount
+17600,13020,2026-01-14 02:15:07,2886,fuel,pos,-454.0,IN,IN,1,0,non_positive_amount
+21346,10944,2026-01-16 22:56:33,1438,online_services,ecommerce,-475.0,IN,IN,0,0,non_positive_amount
+43690,14224,2026-02-02 16:18:16,1031,electronics,pos,-494.0,IN,IN,1,0,non_positive_amount
+24644,12081,,126,fuel,ecommerce,506.5,IN,IN,0,0,unparseable_timestamp
+31391,11233,2026-01-24 11:32:33,1341,entertainment,pos,,IN,IN,1,0,missing_amount
+12601,11259,2026-01-10 09:17:07,989,online_services,pos,,IN,IN,1,0,missing_amount
+11910,15845,2026-01-09 21:27:04,2414,grocery,pos,,US,US,1,0,missing_amount
+18645,11389,2026-01-14 21:19:34,780,grocery,contactless,,GB,IN,1,0,missing_amount
+114337,13652,,2821,grocery,ecommerce,155.19,IN,IN,0,0,unparseable_timestamp
+4140,14462,2026-01-04 02:36:49,135,grocery,pos,,IN,IN,1,0,missing_amount
+1857,11675,2026-01-02 09:22:33,973,travel,pos,-163.0,IN,IN,1,0,non_positive_amount
+119392,11734,2026-03-31 04:53:16,1269,electronics,pos,,IN,IN,1,0,missing_amount
+16912,11874,,2822,grocery,ecommerce,98.47,DE,DE,0,0,unparseable_timestamp
+86945,12104,2026-03-06 21:47:56,630,dining,ecommerce,-91.0,SG,SG,0,0,non_positive_amount
+68989,12506,2026-02-21 10:27:45,1339,grocery,contactless,,IN,IN,1,0,missing_amount
+80013,11441,2026-03-01 15:43:45,2497,online_services,ecommerce,-249.0,GB,GB,0,0,non_positive_amount
+72956,11671,2026-02-24 09:28:39,1573,dining,pos,,SG,SG,1,0,missing_amount
+6900,15488,2026-01-06 04:02:10,1465,travel,pos,,IN,IN,1,0,missing_amount
+119669,10497,2026-03-31 10:08:45,1858,dining,ecommerce,,GB,GB,0,0,missing_amount
+31630,15230,2026-01-24 16:21:52,2343,fuel,pos,,IN,IN,1,0,missing_amount
+46692,14398,2026-02-04 21:56:37,2648,dining,pos,,IN,IN,1,0,missing_amount
+29514,15855,2026-01-23 01:09:21,2598,grocery,ecommerce,,IN,IN,0,0,missing_amount
+34468,12230,2026-01-26 18:48:38,1791,dining,contactless,-191.0,,IN,1,0,non_positive_amount
+60753,13457,2026-02-15 08:58:49,1289,entertainment,ecommerce,,DE,IN,0,1,missing_amount
+41124,11349,2026-01-31 18:32:28,2204,grocery,ecommerce,,IN,IN,0,0,missing_amount
+7138,12330,2026-01-06 08:36:35,2029,grocery,ecommerce,-112.0,IN,IN,0,0,non_positive_amount
+69292,13591,2026-02-21 16:34:26,1717,electronics,ecommerce,,US,US,0,0,missing_amount
+53168,10462,2026-02-09 18:51:48,725,online_services,contactless,,IN,IN,1,0,missing_amount
+82631,10425,2026-03-03 16:16:01,1123,fuel,pos,,IN,IN,1,0,missing_amount
+3451,11962,2026-01-03 13:35:46,2431,fuel,pos,,IN,IN,1,0,missing_amount
+60088,12892,2026-02-14 21:27:24,1503,dining,ecommerce,,IN,IN,0,0,missing_amount
+88642,15053,2026-03-08 04:44:07,2835,online_services,pos,-202.0,AE,SG,1,0,non_positive_amount
+90802,15472,2026-03-09 19:36:58,2928,dining,ecommerce,-478.0,IN,IN,0,0,non_positive_amount
+54680,13719,2026-02-10 22:18:19,1839,travel,pos,,,IN,1,0,missing_amount
+91436,10743,2026-03-10 08:07:38,2425,,ecommerce,,IN,IN,0,0,missing_amount
+112833,13607,,2539,travel,contactless,1003.29,US,US,1,0,unparseable_timestamp
+79193,14220,2026-03-01 00:52:05,2077,grocery,ecommerce,,IN,IN,0,0,missing_amount
+66460,11352,2026-02-19 15:24:12,1530,utilities,ecommerce,,IN,IN,0,0,missing_amount
+23310,11852,2026-01-18 10:57:17,2366,fuel,pos,-424.0,IN,IN,1,0,non_positive_amount
+103505,10189,,1205,online_services,pos,1747.11,IN,IN,1,0,unparseable_timestamp
+65868,15475,2026-02-19 05:05:19,1962,health,pos,,DE,DE,1,0,missing_amount
+51215,10436,2026-02-08 07:53:58,1763,utilities,pos,,US,US,1,0,missing_amount
+115876,13685,2026-03-28 16:24:39,2831,fuel,contactless,,IN,IN,1,0,missing_amount
+26483,13488,2026-01-20 19:31:27,1846,electronics,atm,,IN,IN,1,0,missing_amount
+100291,10818,2026-03-16 21:48:35,1239,grocery,contactless,,IN,IN,1,0,missing_amount
+111830,11956,2026-03-25 16:01:08,2881,fashion,pos,7945951.0,IN,IN,1,0,amount_outlier
+67495,15039,2026-02-20 08:57:36,594,electronics,contactless,,GB,GB,1,0,missing_amount
+80594,12150,,194,fashion,pos,225.35,IN,IN,1,0,unparseable_timestamp
+12703,10203,,1484,fashion,pos,262.51,US,US,1,0,unparseable_timestamp
+32061,15982,,1913,entertainment,pos,137.28,IN,IN,1,0,unparseable_timestamp
+8048,10471,,1394,travel,pos,2393.25,IN,IN,1,0,unparseable_timestamp
+21688,11140,2026-01-17 05:33:33,1309,grocery,ecommerce,-209.0,IN,IN,0,0,non_positive_amount
+7734,10111,2026-01-06 19:14:40,2770,dining,ecommerce,,IN,IN,0,0,missing_amount
+25404,15884,2026-01-20 00:09:03,856,travel,pos,,IN,IN,1,0,missing_amount
+51184,14661,2026-02-08 07:23:09,2813,health,pos,-146.0,IN,IN,1,0,non_positive_amount
+100734,12098,2026-03-17 06:04:02,384,fashion,pos,,IN,IN,1,0,missing_amount
+65603,13776,2026-02-18 23:53:22,626,dining,contactless,,US,US,1,0,missing_amount
+31672,11811,2026-01-24 17:14:50,1873,fuel,atm,-464.0,IN,IN,1,0,non_positive_amount
+47200,12311,2026-02-05 07:32:47,762,grocery,ecommerce,-202.0,IN,IN,0,0,non_positive_amount
+37181,15181,,1052,grocery,contactless,,DE,DE,1,0,missing_amount
+31890,10812,,2378,online_services,contactless,1007.99,IN,IN,1,0,unparseable_timestamp
+55147,13049,2026-02-11 06:24:35,1276,fashion,ecommerce,-432.0,IN,IN,0,0,non_positive_amount
+79432,15972,2026-03-01 05:10:26,1757,dining,ecommerce,,US,US,1,0,missing_amount
+62867,13057,2026-02-16 22:52:24,2155,travel,pos,,IN,IN,1,0,missing_amount
+29743,10087,2026-01-23 05:32:53,1887,entertainment,pos,,AE,AE,1,0,missing_amount
+29987,15193,2026-01-23 10:17:29,2135,dining,pos,,IN,IN,1,0,missing_amount
+99235,15295,2026-03-16 01:46:03,2132,travel,contactless,7256463.0,AE,IN,1,0,amount_outlier
+17228,14986,2026-01-13 19:39:11,2914,fuel,contactless,,IN,IN,1,0,missing_amount
+16361,12439,2026-01-13 03:24:07,176,grocery,pos,,US,US,1,0,missing_amount
+111253,13651,2026-03-25 05:10:58,1957,grocery,atm,,IN,IN,1,0,missing_amount
+21878,13756,2026-01-17 08:44:52,2830,grocery,pos,-319.0,IN,IN,1,0,non_positive_amount
+23849,10665,,1758,online_services,ecommerce,1474.91,IN,IN,0,0,unparseable_timestamp
+60184,10017,2026-02-14 23:01:33,2489,electronics,ecommerce,,IN,IN,0,0,missing_amount
+92473,15002,,69,health,ecommerce,421.14,IN,IN,1,0,unparseable_timestamp
+118490,11269,2026-03-30 13:26:18,2032,dining,pos,-86.0,IN,IN,1,0,non_positive_amount
+69666,15616,2026-02-21 23:51:56,594,entertainment,pos,,IN,IN,1,0,missing_amount
+74003,12628,2026-02-25 04:47:48,2705,travel,ecommerce,,IN,IN,0,0,missing_amount
+20670,10187,2026-01-16 10:39:29,1028,grocery,pos,-222.0,GB,GB,1,0,non_positive_amount
+58525,14494,2026-02-13 18:28:55,1516,entertainment,ecommerce,,IN,IN,0,0,missing_amount
+39340,12058,2026-01-30 11:07:16,1645,grocery,ecommerce,,US,US,0,0,missing_amount
+119973,15973,2026-03-31 15:13:09,1804,online_services,pos,-270.0,IN,IN,1,0,non_positive_amount
+67306,12438,2026-02-20 06:05:52,2757,fuel,ecommerce,,AE,AE,0,0,missing_amount
+60515,11726,2026-02-15 04:32:13,1278,fashion,contactless,-321.0,US,US,1,0,non_positive_amount
+66613,15321,2026-02-19 18:10:48,1297,entertainment,ecommerce,,IN,IN,0,0,missing_amount
+109974,15234,2026-03-24 06:00:02,444,entertainment,contactless,-430.0,IN,IN,1,0,non_positive_amount
+84005,12154,2026-03-04 17:23:18,1765,,pos,,IN,IN,1,0,missing_amount
+33786,13525,,2642,grocery,pos,97.86,IN,IN,1,0,unparseable_timestamp
+28803,12320,2026-01-22 13:30:48,2015,dining,ecommerce,,IN,IN,0,0,missing_amount
+71905,12090,,595,fuel,ecommerce,1428.75,IN,IN,0,0,unparseable_timestamp
+101894,10130,,1930,electronics,pos,296.65,GB,GB,1,0,unparseable_timestamp
+58052,11535,2026-02-13 09:59:31,1155,dining,pos,,AE,AE,1,0,missing_amount
+48428,14547,2026-02-06 04:40:12,748,fashion,pos,-308.0,DE,DE,1,0,non_positive_amount
+9601,10505,2026-01-08 04:02:52,419,electronics,pos,-114.0,IN,IN,1,0,non_positive_amount
+65360,15835,2026-02-18 19:47:02,370,fashion,pos,,IN,IN,1,0,missing_amount
+56073,13977,2026-02-11 23:13:18,1971,travel,contactless,,IN,IN,1,0,missing_amount
+67267,15599,2026-02-20 05:32:25,259,electronics,pos,,IN,IN,1,0,missing_amount
+49453,10754,2026-02-06 22:49:17,1460,fashion,ecommerce,-495.0,US,US,0,0,non_positive_amount
+32312,11442,2026-01-25 04:39:53,992,grocery,ecommerce,,IN,IN,0,0,missing_amount
+24827,11066,2026-01-19 13:55:22,2782,entertainment,pos,5328389.0,US,US,1,0,amount_outlier
+70866,12550,2026-02-22 20:32:06,2878,health,contactless,,IN,IN,1,0,missing_amount
+29856,15882,2026-01-23 07:46:10,251,fuel,pos,,US,US,1,0,missing_amount
+36458,12281,2026-01-28 06:57:12,2157,dining,pos,,AE,AE,1,0,missing_amount
+84456,10794,,1453,electronics,ecommerce,154.88,DE,DE,0,0,unparseable_timestamp
+76528,15021,2026-02-27 01:52:34,2333,entertainment,pos,-92.0,GB,GB,1,0,non_positive_amount
+70629,12444,2026-02-22 16:39:52,1896,online_services,pos,,AE,IN,1,0,missing_amount
+25,12486,2026-01-01 00:33:48,1617,travel,pos,,SG,SG,1,0,missing_amount
+105056,14854,,2653,online_services,ecommerce,146.99,SG,SG,1,0,unparseable_timestamp
+46662,11827,2026-02-04 21:19:48,1869,grocery,contactless,,IN,IN,1,0,missing_amount
+55683,15149,2026-02-11 16:24:38,327,health,pos,-16.0,SG,SG,1,0,non_positive_amount
+109734,10901,2026-03-24 02:17:22,653,electronics,ecommerce,-301.0,IN,IN,0,0,non_positive_amount
+36581,13649,2026-01-28 09:18:43,2499,utilities,ecommerce,-225.0,SG,SG,0,0,non_positive_amount
+46180,12668,,474,fuel,ecommerce,144.77,US,US,0,0,unparseable_timestamp
+104568,11544,2026-03-20 04:40:12,2389,dining,pos,8942225.0,IN,IN,1,0,amount_outlier
+71541,14855,,2035,online_services,contactless,34.6,IN,IN,1,0,unparseable_timestamp
+90961,10095,2026-03-09 22:44:16,1447,utilities,pos,,IN,IN,1,0,missing_amount
+6672,14245,2026-01-05 23:49:44,2635,dining,ecommerce,-83.0,US,US,0,0,non_positive_amount
+40245,10507,2026-01-31 02:41:14,1515,grocery,contactless,,DE,DE,1,0,missing_amount
+89901,13025,,1663,dining,pos,198.71,DE,DE,1,0,unparseable_timestamp
+7303,11893,2026-01-06 11:42:48,118,grocery,pos,-88.0,SG,IN,1,0,non_positive_amount
+33159,15681,2026-01-25 19:52:24,1028,utilities,pos,,IN,IN,1,0,missing_amount
+16800,14851,2026-01-13 11:45:48,1001,travel,pos,,IN,IN,1,0,missing_amount
+39759,13184,2026-01-30 18:13:56,682,dining,contactless,,IN,IN,1,0,missing_amount
+96925,14627,2026-03-14 08:19:44,2989,health,contactless,,IN,IN,1,0,missing_amount
+116729,14774,,1463,fashion,ecommerce,228.71,IN,IN,0,0,unparseable_timestamp
+9956,14937,2026-01-08 10:46:52,160,grocery,ecommerce,,US,US,0,0,missing_amount
+26495,15954,2026-01-20 19:44:05,74,utilities,contactless,,US,GB,1,0,missing_amount
+117052,15498,2026-03-29 12:26:44,1107,entertainment,ecommerce,-287.0,IN,IN,0,0,non_positive_amount
+96219,13841,2026-03-13 20:15:06,2847,fuel,pos,-150.0,SG,SG,1,0,non_positive_amount
+17993,15462,2026-01-14 09:23:32,1671,dining,ecommerce,,AE,AE,0,0,missing_amount
+8066,15891,2026-01-07 01:13:34,2702,,ecommerce,,IN,IN,0,1,missing_amount
+59705,15301,2026-02-14 14:52:26,2171,fuel,pos,-390.0,DE,DE,1,0,non_positive_amount
+49849,12012,,994,travel,pos,219.55,DE,IN,2,0,unparseable_timestamp
+50352,15381,2026-02-07 16:03:17,1446,fuel,ecommerce,-180.0,GB,GB,0,0,non_positive_amount
+93125,13458,2026-03-11 13:14:37,1014,health,atm,-68.0,US,US,1,0,non_positive_amount
+58764,13151,,1458,electronics,pos,1608.42,IN,IN,1,0,unparseable_timestamp
+25680,10461,2026-01-20 05:00:29,2690,dining,contactless,-377.0,US,US,1,0,non_positive_amount
+119145,11732,2026-03-31 00:41:04,1612,dining,pos,,,GB,1,0,missing_amount
+57069,11625,,1882,utilities,contactless,145.1,IN,IN,1,0,unparseable_timestamp
+91532,15002,,859,travel,pos,174.95,IN,IN,1,0,unparseable_timestamp
+61148,14349,2026-02-15 16:25:07,2096,dining,atm,-117.0,IN,IN,1,0,non_positive_amount
+54790,10061,2026-02-11 00:20:56,1868,dining,pos,8096596.0,IN,IN,1,0,amount_outlier
+78305,15706,2026-02-28 09:17:43,588,grocery,contactless,,GB,GB,1,0,missing_amount
+14206,15008,2026-01-11 12:54:50,163,fuel,pos,-446.0,IN,IN,1,0,non_positive_amount
+101342,10209,2026-03-17 17:52:34,250,dining,ecommerce,,IN,IN,0,0,missing_amount
+101191,11769,2026-03-17 14:50:50,1727,fuel,ecommerce,-84.0,IN,IN,0,0,non_positive_amount
+28687,12435,2026-01-22 11:09:53,775,grocery,pos,-204.0,US,US,1,0,non_positive_amount
+45723,15685,2026-02-04 04:11:56,2092,grocery,ecommerce,,IN,IN,0,0,missing_amount
+80317,14679,2026-03-01 21:21:13,138,fuel,pos,,IN,IN,1,0,missing_amount
+42084,12732,2026-02-01 12:39:11,893,entertainment,contactless,-3.0,IN,IN,1,0,non_positive_amount
+93476,13968,2026-03-11 18:50:40,593,utilities,pos,,IN,IN,1,0,missing_amount
+69296,11036,2026-02-21 16:40:10,2538,grocery,contactless,-127.0,IN,IN,1,0,non_positive_amount
+46728,11694,2026-02-04 22:47:19,814,health,contactless,,IN,IN,1,0,missing_amount
+45953,10008,,923,dining,pos,50.73,IN,IN,1,0,unparseable_timestamp
+8694,11803,2026-01-07 12:12:18,648,entertainment,pos,-223.0,AE,AE,1,0,non_positive_amount
+27177,12131,2026-01-21 06:58:37,473,fashion,contactless,,IN,IN,1,0,missing_amount
+96986,10928,,1103,grocery,contactless,1039.43,IN,IN,1,0,unparseable_timestamp
+9768,11335,2026-01-08 07:18:01,2573,dining,pos,,IN,IN,1,0,missing_amount
+29694,13705,2026-01-23 04:40:45,1034,grocery,atm,,IN,IN,1,0,missing_amount
+86238,11618,2026-03-06 08:39:17,1180,electronics,contactless,,US,US,1,0,missing_amount
+65584,14916,2026-02-18 23:33:38,416,electronics,contactless,,IN,IN,1,0,missing_amount
+18848,11289,2026-01-15 00:44:25,1303,health,pos,,AE,AE,1,0,missing_amount
+55499,15806,2026-02-11 13:14:27,602,utilities,pos,,IN,IN,1,0,missing_amount
+67264,14775,2026-02-20 05:29:21,277,entertainment,atm,,DE,DE,1,0,missing_amount
+45628,14384,2026-02-04 02:47:49,747,fuel,pos,,IN,IN,1,0,missing_amount
+9741,12136,,1541,dining,contactless,283.26,GB,GB,1,0,unparseable_timestamp
+80899,15447,2026-03-02 08:43:21,1121,fashion,ecommerce,,DE,DE,0,0,missing_amount
+65812,13286,2026-02-19 03:56:28,2885,fashion,ecommerce,,US,US,0,0,missing_amount
+195,14340,2026-01-01 04:02:17,2147,fashion,pos,,IN,IN,1,0,missing_amount
+78355,13923,2026-02-28 10:14:44,2821,grocery,pos,-142.0,IN,IN,1,0,non_positive_amount
+30073,15364,2026-01-23 11:57:41,1765,electronics,ecommerce,-369.0,US,US,0,0,non_positive_amount
+65162,10281,2026-02-18 16:30:04,487,online_services,pos,,US,US,1,0,missing_amount
+9301,13428,2026-01-07 22:48:06,1094,health,pos,,IN,IN,1,0,missing_amount
+73264,11225,2026-02-24 15:31:52,2740,fuel,contactless,-395.0,AE,AE,1,0,non_positive_amount
+86793,10010,2026-03-06 19:03:14,2212,online_services,pos,-483.0,IN,IN,1,0,non_positive_amount
+16348,10927,,264,travel,ecommerce,1041.32,IN,IN,0,1,unparseable_timestamp
+33764,13422,,331,dining,contactless,241.64,IN,IN,1,0,unparseable_timestamp
+75075,13338,2026-02-26 00:00:09,1423,utilities,ecommerce,-442.0,US,US,0,0,non_positive_amount
+73969,10187,,695,grocery,pos,3198.69,GB,GB,1,0,unparseable_timestamp
+27900,14667,,1918,dining,pos,287.53,SG,SG,1,0,unparseable_timestamp
+94527,11126,2026-03-12 13:59:04,2379,fuel,contactless,,IN,IN,1,0,missing_amount
+135,11405,2026-01-01 02:51:03,299,entertainment,pos,,IN,IN,1,0,missing_amount
+87651,14911,2026-03-07 10:22:55,2837,health,ecommerce,,IN,IN,0,0,missing_amount
+8951,15276,,297,entertainment,contactless,2705.88,IN,IN,1,0,unparseable_timestamp
+91174,10356,2026-03-10 03:08:03,2215,dining,contactless,-132.0,IN,IN,1,0,non_positive_amount
+40154,11731,2026-01-31 01:02:14,1855,online_services,ecommerce,,IN,IN,0,1,missing_amount
+38134,11950,2026-01-29 12:53:07,2768,entertainment,contactless,,IN,IN,1,0,missing_amount
+57649,11137,2026-02-13 02:58:41,521,fuel,contactless,-238.0,US,US,1,0,non_positive_amount
+36909,11257,2026-01-28 15:39:31,2730,fashion,ecommerce,,DE,DE,0,0,missing_amount
+109053,12092,2026-03-23 13:58:06,364,fuel,pos,,IN,IN,1,0,missing_amount
+50405,15742,2026-02-07 17:00:30,424,travel,pos,,DE,DE,1,0,missing_amount
+12462,13965,2026-01-10 06:38:06,199,travel,pos,-302.0,IN,IN,1,0,non_positive_amount
+44437,15900,,2515,health,ecommerce,,IN,IN,0,0,missing_amount
+35666,10763,2026-01-27 17:03:13,1994,grocery,ecommerce,-67.0,IN,IN,0,0,non_positive_amount
+16732,15512,,2098,online_services,pos,414.83,IN,IN,1,0,unparseable_timestamp
+3799,10484,2026-01-03 20:06:17,1177,online_services,pos,-458.0,IN,IN,1,0,non_positive_amount
+74123,12366,,928,travel,pos,862.36,IN,IN,1,0,unparseable_timestamp
+91028,12291,2026-03-10 00:02:43,2353,dining,contactless,,IN,IN,1,0,missing_amount
+42854,10051,,1754,health,pos,509.2,GB,GB,1,0,unparseable_timestamp
+74508,13374,2026-02-25 13:37:56,2645,dining,pos,,IN,IN,1,0,missing_amount
+73623,15642,2026-02-24 22:19:55,2837,electronics,ecommerce,,IN,IN,0,0,missing_amount
+82391,11276,2026-03-03 11:45:15,1721,utilities,pos,,AE,AE,1,0,missing_amount
+90230,15264,2026-03-09 08:29:28,1403,electronics,atm,,GB,GB,1,0,missing_amount
+84104,13085,2026-03-04 19:31:01,1485,fuel,ecommerce,,AE,AE,0,0,missing_amount
+94437,11692,2026-03-12 12:40:56,2443,utilities,ecommerce,,AE,AE,0,0,missing_amount
+74053,14254,2026-02-25 05:46:32,2554,health,contactless,,US,US,1,0,missing_amount
+61132,12645,2026-02-15 16:07:08,748,electronics,contactless,,IN,IN,1,0,missing_amount
+104680,14406,,2821,utilities,ecommerce,623.38,IN,IN,0,0,unparseable_timestamp
+28495,14784,2026-01-22 07:23:32,2727,fuel,ecommerce,,IN,IN,0,0,missing_amount
+116233,10982,2026-03-28 22:37:17,2432,entertainment,pos,,IN,IN,1,0,missing_amount
+45407,12351,,2643,utilities,pos,78.74,IN,IN,1,0,unparseable_timestamp
+100183,11743,2026-03-16 19:50:45,183,fuel,atm,,IN,IN,1,0,missing_amount
+55908,11717,2026-02-11 20:33:20,2801,grocery,ecommerce,-355.0,IN,IN,0,0,non_positive_amount
+27287,15517,2026-01-21 09:09:37,648,health,contactless,,IN,IN,1,0,missing_amount
+31719,15205,2026-01-24 18:05:37,1614,dining,contactless,,IN,IN,1,0,missing_amount
+25771,10616,2026-01-20 06:32:59,2324,grocery,pos,-112.0,IN,IN,1,0,non_positive_amount
+2996,12930,2026-01-03 05:11:52,1047,fuel,pos,,IN,IN,1,0,missing_amount
+97369,14677,2026-03-14 16:04:34,2392,entertainment,pos,,IN,IN,1,0,missing_amount
+67057,13766,2026-02-20 01:44:32,544,travel,ecommerce,,IN,IN,0,0,missing_amount
+89093,15941,2026-03-08 12:42:13,2177,fuel,pos,,IN,IN,1,0,missing_amount
+98946,10211,2026-03-15 20:47:58,1069,entertainment,pos,-462.0,GB,GB,1,0,non_positive_amount
+52157,11785,2026-02-08 23:59:42,723,dining,pos,5725363.0,IN,IN,1,0,amount_outlier
+112167,12327,2026-03-25 22:27:08,2834,fuel,contactless,-431.0,IN,IN,1,0,non_positive_amount
+107428,10287,2026-03-22 09:04:52,2257,grocery,contactless,,IN,IN,1,0,missing_amount
+14954,11661,2026-01-12 02:32:16,2833,grocery,pos,,IN,IN,1,0,missing_amount
+110324,11410,2026-03-24 12:28:23,1823,grocery,pos,,IN,IN,1,0,missing_amount
+118340,11482,2026-03-30 11:00:45,1062,health,pos,,IN,IN,1,0,missing_amount
+34095,15009,2026-01-26 12:07:50,681,utilities,pos,,AE,AE,1,0,missing_amount
+34764,15626,2026-01-27 00:31:03,405,health,contactless,,DE,DE,1,0,missing_amount
+87489,14692,,689,electronics,pos,252.86,IN,IN,1,0,unparseable_timestamp
+69109,13696,,1252,fuel,pos,226.85,IN,IN,1,0,unparseable_timestamp
+26656,11428,2026-01-20 22:27:39,1461,grocery,contactless,,IN,IN,1,0,missing_amount
+43417,10683,2026-02-02 11:46:32,957,dining,contactless,,,IN,1,0,missing_amount
+9716,14080,,57,fuel,contactless,660.85,DE,DE,1,0,unparseable_timestamp
+41598,10551,,2040,electronics,pos,939.55,IN,IN,1,0,unparseable_timestamp
+18703,13909,2026-01-14 22:08:54,2171,health,contactless,,US,US,1,0,missing_amount
+13653,13811,,1928,online_services,pos,71.87,US,US,1,0,unparseable_timestamp
+92613,10242,2026-03-11 03:47:04,2574,utilities,pos,-482.0,AE,AE,1,0,non_positive_amount
+50548,13055,2026-02-07 19:46:31,60,fashion,pos,,US,US,1,0,missing_amount
+118680,13744,2026-03-30 16:42:06,1501,fuel,contactless,-93.0,IN,IN,1,0,non_positive_amount
+7051,13247,2026-01-06 06:47:12,1851,fashion,pos,,IN,IN,1,0,missing_amount
+26334,15805,2026-01-20 16:42:08,1612,fashion,pos,,IN,IN,1,0,missing_amount
+49436,10341,2026-02-06 22:25:30,2040,fuel,contactless,,IN,IN,1,0,missing_amount
+110277,10327,,1104,electronics,pos,399.9,IN,IN,1,0,unparseable_timestamp
+118056,15425,2026-03-30 06:06:30,188,travel,ecommerce,,IN,IN,0,0,missing_amount
+20747,11567,2026-01-16 12:04:29,1426,grocery,pos,7030963.0,IN,IN,1,0,amount_outlier
+117562,10292,,229,fuel,pos,619.47,AE,AE,1,0,unparseable_timestamp
+32347,15712,2026-01-25 05:12:33,900,utilities,pos,,SG,SG,1,0,missing_amount
+65443,12202,2026-02-18 21:15:43,916,grocery,pos,,IN,IN,1,0,missing_amount
+19489,10123,2026-01-15 12:48:38,71,fuel,pos,-94.0,IN,IN,1,0,non_positive_amount
+41352,13518,2026-01-31 22:44:56,1937,entertainment,ecommerce,,,IN,0,0,missing_amount
+14600,15896,2026-01-11 20:13:32,2449,grocery,ecommerce,,IN,IN,0,0,missing_amount
+95910,10302,2026-03-13 14:57:39,588,fashion,ecommerce,,IN,IN,0,0,missing_amount
+63532,12023,2026-02-17 10:57:14,957,grocery,contactless,-167.0,AE,AE,1,0,non_positive_amount
+112271,11940,2026-03-26 00:22:16,808,dining,contactless,,IN,IN,1,0,missing_amount
+105595,15052,2026-03-20 23:58:05,2112,fuel,pos,,IN,IN,1,0,missing_amount
+47323,11362,2026-02-05 09:41:03,114,electronics,ecommerce,-388.0,IN,IN,0,0,non_positive_amount
+74429,12787,2026-02-25 12:17:02,747,online_services,ecommerce,,IN,IN,0,0,missing_amount
+11450,11821,2026-01-09 13:20:11,1963,grocery,pos,,IN,IN,1,0,missing_amount
+118219,13871,2026-03-30 08:59:23,1999,fuel,ecommerce,,US,US,0,0,missing_amount
+71295,11174,2026-02-23 04:43:17,341,travel,contactless,,SG,SG,1,0,missing_amount
+77484,14888,2026-02-27 19:00:51,1919,fuel,pos,,IN,IN,1,0,missing_amount
+102829,15065,2026-03-18 21:32:53,2970,utilities,contactless,,IN,IN,1,0,missing_amount
+34394,10766,,1141,electronics,pos,,IN,IN,1,0,missing_amount
+16342,12854,2026-01-13 02:59:05,1259,dining,pos,,IN,IN,1,0,missing_amount
+58248,13011,,2639,grocery,ecommerce,644.47,DE,IN,0,0,unparseable_timestamp
+110082,12364,2026-03-24 07:54:17,1463,fashion,atm,,US,US,1,0,missing_amount
+52584,14381,2026-02-09 08:25:02,2284,dining,pos,,IN,IN,1,0,missing_amount
+22212,13597,2026-01-17 14:47:30,356,travel,contactless,,IN,IN,1,0,missing_amount
+102024,10200,2026-03-18 06:49:09,1665,grocery,contactless,,GB,GB,1,0,missing_amount
+95026,14552,2026-03-12 23:11:19,1311,electronics,pos,-47.0,IN,IN,1,0,non_positive_amount
+108990,11841,2026-03-23 12:43:47,1289,grocery,pos,,IN,IN,1,0,missing_amount
+2997,12795,2026-01-03 05:12:33,2055,grocery,contactless,,IN,IN,1,0,missing_amount
+29317,13822,2026-01-22 22:04:18,189,fuel,pos,,GB,GB,1,0,missing_amount
+79746,14304,2026-03-01 10:50:23,930,dining,ecommerce,,IN,IN,0,0,missing_amount
+61218,15464,2026-02-15 17:21:54,1766,entertainment,contactless,-14.0,IN,IN,1,0,non_positive_amount
+17041,15271,2026-01-13 16:22:34,404,grocery,pos,,GB,GB,1,0,missing_amount
+102285,10519,2026-03-18 11:05:57,1241,online_services,contactless,-32.0,IN,IN,1,1,non_positive_amount
+108741,12121,2026-03-23 08:11:13,2856,travel,contactless,-273.0,IN,IN,1,0,non_positive_amount
+3034,13812,2026-01-03 05:58:09,522,electronics,pos,-51.0,IN,IN,1,0,non_positive_amount
+43162,13370,2026-02-02 07:37:09,2385,fashion,contactless,-481.0,US,US,1,0,non_positive_amount
+24794,15107,,1485,,atm,1053.52,IN,IN,1,0,unparseable_timestamp
+51837,14967,2026-02-08 18:36:11,1682,health,ecommerce,-332.0,GB,GB,0,0,non_positive_amount
+70507,13028,2026-02-22 14:21:26,2010,fuel,contactless,,DE,DE,1,0,missing_amount
+89121,13580,2026-03-08 13:09:37,450,grocery,contactless,-97.0,IN,IN,1,0,non_positive_amount
+108285,13444,2026-03-23 00:09:31,1560,online_services,ecommerce,-207.0,IN,IN,0,0,non_positive_amount
+118095,14414,2026-03-30 06:41:22,1189,dining,pos,,DE,DE,1,0,missing_amount
+15281,15159,,474,utilities,contactless,1870.19,IN,IN,1,0,unparseable_timestamp
+103560,11175,2026-03-19 10:39:04,321,travel,contactless,,US,US,1,0,missing_amount
+117526,10905,,1795,travel,pos,111.45,US,US,1,0,unparseable_timestamp
+52179,11326,2026-02-09 00:36:30,2031,entertainment,ecommerce,,IN,IN,0,0,missing_amount
+101632,15486,,1078,fuel,pos,4453.09,IN,IN,1,0,unparseable_timestamp
+51180,10732,2026-02-08 07:22:10,2744,fuel,pos,,IN,IN,1,0,missing_amount
+28640,13675,2026-01-22 10:11:09,701,health,pos,,IN,IN,1,0,missing_amount
+41536,12885,2026-02-01 02:17:59,902,fuel,ecommerce,-74.0,AE,AE,0,0,non_positive_amount
+51960,13423,2026-02-08 20:40:15,1373,grocery,pos,,IN,IN,1,0,missing_amount
+86782,11519,2026-03-06 18:46:13,2520,fuel,ecommerce,-54.0,IN,IN,0,0,non_positive_amount
+92791,12342,2026-03-11 07:03:56,1557,entertainment,ecommerce,,SG,SG,0,0,missing_amount
+81718,15629,2026-03-02 23:44:40,1597,grocery,pos,,IN,IN,1,0,missing_amount
+10622,11100,,1243,dining,ecommerce,58.46,IN,IN,0,0,unparseable_timestamp
+8509,15373,2026-01-07 09:01:41,1519,grocery,ecommerce,,IN,IN,0,0,missing_amount
+51181,10214,2026-02-08 07:22:13,1070,dining,atm,-89.0,IN,IN,1,0,non_positive_amount
+109184,14541,2026-03-23 16:30:12,902,fashion,ecommerce,-497.0,IN,IN,0,0,non_positive_amount
+37453,14074,,979,entertainment,contactless,539.82,SG,SG,1,0,unparseable_timestamp
+24835,11428,2026-01-19 14:00:03,520,travel,ecommerce,-345.0,IN,IN,0,0,non_positive_amount
+113237,13077,2026-03-26 17:40:50,2993,grocery,pos,-105.0,IN,IN,1,0,non_positive_amount
+21232,10760,2026-01-16 20:46:31,778,grocery,pos,-343.0,DE,DE,1,0,non_positive_amount
+106914,12503,2026-03-21 23:52:39,693,travel,pos,,AE,AE,1,0,missing_amount
+78047,15811,,2095,,pos,319.32,US,US,1,0,unparseable_timestamp
+2799,15913,2026-01-03 01:21:32,254,health,pos,,IN,IN,1,0,missing_amount
+9969,12618,2026-01-08 11:09:26,192,fuel,contactless,,IN,IN,1,0,missing_amount
+39393,10908,,1039,entertainment,ecommerce,70.6,IN,IN,0,0,unparseable_timestamp
+45432,11294,2026-02-03 23:31:29,1742,utilities,pos,,IN,IN,1,0,missing_amount
+87846,11967,2026-03-07 14:08:53,684,travel,pos,,US,US,1,0,missing_amount
+70661,11724,2026-02-22 17:21:37,765,grocery,ecommerce,-63.0,IN,IN,0,0,non_positive_amount
+79757,11216,2026-03-01 10:54:26,2830,entertainment,contactless,,IN,IN,1,0,missing_amount
+60054,14945,2026-02-14 20:59:22,2845,electronics,contactless,,IN,IN,1,0,missing_amount
+109237,12968,2026-03-23 17:26:56,2272,entertainment,ecommerce,-182.0,IN,IN,0,0,non_positive_amount
+107175,15658,,97,dining,ecommerce,3205.79,DE,DE,0,1,unparseable_timestamp
+38688,14384,2026-01-29 23:04:39,2285,dining,pos,,IN,IN,1,0,missing_amount
+2618,14011,2026-01-02 22:21:57,2813,dining,ecommerce,,IN,IN,0,0,missing_amount
+75694,12680,2026-02-26 11:14:07,1318,grocery,ecommerce,-121.0,SG,SG,0,0,non_positive_amount
+429,10160,2026-01-01 07:58:31,2369,grocery,contactless,,DE,DE,1,0,missing_amount
+1636,11441,2026-01-02 05:30:49,2764,entertainment,pos,,GB,GB,1,0,missing_amount
+27773,14054,2026-01-21 18:07:44,1725,fashion,ecommerce,,AE,AE,0,0,missing_amount
+83811,13008,2026-03-04 13:52:43,762,online_services,contactless,,US,US,1,0,missing_amount
+62059,13646,2026-02-16 08:34:59,327,dining,ecommerce,,IN,IN,0,0,missing_amount
+9963,11742,2026-01-08 11:01:49,1334,travel,ecommerce,-228.0,GB,GB,0,0,non_positive_amount
+64034,12271,,2687,fashion,pos,4104.97,IN,IN,1,0,unparseable_timestamp
+20776,14829,2026-01-16 12:33:47,2429,entertainment,ecommerce,,IN,IN,0,0,missing_amount
+6734,11838,2026-01-06 01:00:59,1187,electronics,ecommerce,,US,US,0,0,missing_amount
+12041,10273,2026-01-09 23:48:15,256,dining,contactless,-304.0,GB,GB,1,0,non_positive_amount
+36115,15261,2026-01-28 00:41:50,1353,entertainment,ecommerce,,IN,IN,0,0,missing_amount
+81659,11470,2026-03-02 22:24:09,925,travel,pos,,IN,IN,1,0,missing_amount
+5461,10819,2026-01-05 02:13:52,2381,grocery,ecommerce,,IN,IN,0,0,missing_amount
+104460,14035,2026-03-20 02:54:23,2967,dining,ecommerce,,IN,IN,0,0,missing_amount
+91335,12565,,2646,grocery,contactless,113.54,IN,AE,1,0,unparseable_timestamp
+18449,13648,2026-01-14 18:09:25,1321,fuel,pos,-269.0,IN,IN,1,0,non_positive_amount
+17206,12391,2026-01-13 19:10:50,2036,travel,contactless,,AE,AE,1,0,missing_amount
+87876,10815,2026-03-07 14:46:05,1010,online_services,ecommerce,-379.0,GB,GB,0,0,non_positive_amount
+78358,13068,2026-02-28 10:17:57,1385,fashion,atm,-168.0,AE,AE,1,0,non_positive_amount
+79007,12796,2026-02-28 22:04:42,2529,health,pos,-234.0,IN,IN,1,0,non_positive_amount
+86882,14003,2026-03-06 20:30:30,944,travel,ecommerce,-113.0,IN,IN,0,1,non_positive_amount
+95936,15012,2026-03-13 15:19:53,1878,utilities,pos,,IN,IN,1,0,missing_amount
+19759,14534,,928,grocery,contactless,794.58,AE,AE,1,0,unparseable_timestamp
+80812,14753,2026-03-02 06:55:16,2244,dining,pos,-434.0,SG,SG,1,0,non_positive_amount
+50639,15760,2026-02-07 21:12:00,2666,grocery,ecommerce,-68.0,US,US,0,0,non_positive_amount
+40643,11605,2026-01-31 09:59:17,395,grocery,ecommerce,,IN,IN,0,0,missing_amount
+23386,11581,,298,entertainment,pos,312.08,IN,IN,1,0,unparseable_timestamp
+105613,15631,2026-03-21 00:16:42,1304,entertainment,atm,,IN,IN,1,0,missing_amount
+47928,15861,2026-02-05 20:01:10,1679,dining,contactless,-419.0,IN,IN,1,0,non_positive_amount
+86627,15502,2026-03-06 16:09:10,2924,fuel,pos,,SG,SG,1,0,missing_amount
+78435,13010,2026-02-28 11:40:26,1134,dining,contactless,,IN,IN,1,0,missing_amount
+79087,14285,2026-02-28 23:20:11,2549,entertainment,contactless,,IN,IN,1,0,missing_amount
+13710,12371,2026-01-11 04:03:26,19,fashion,contactless,,IN,IN,1,0,missing_amount
+24678,15628,2026-01-19 11:28:24,201,entertainment,pos,-472.0,AE,IN,1,0,non_positive_amount
+112417,14791,,2113,utilities,contactless,823.51,SG,SG,1,0,unparseable_timestamp
+116955,12450,2026-03-29 10:56:07,908,fuel,pos,,GB,GB,1,0,missing_amount
+59145,13505,2026-02-14 05:24:24,121,fuel,ecommerce,,IN,IN,0,0,missing_amount
+34217,10193,2026-01-26 14:26:21,607,entertainment,pos,,IN,IN,1,0,missing_amount
+55349,12700,2026-02-11 10:00:28,269,electronics,pos,,IN,IN,1,0,missing_amount
+88736,13765,2026-03-08 06:21:10,955,fashion,pos,,US,US,1,0,missing_amount
+118284,12976,2026-03-30 10:00:45,1365,fashion,pos,,DE,IN,1,0,missing_amount
+42744,11148,2026-02-02 00:18:01,2276,travel,pos,,IN,IN,1,0,missing_amount
+96628,15961,2026-03-14 03:30:06,1214,grocery,ecommerce,,IN,IN,0,0,missing_amount
+84411,10360,2026-03-05 01:11:00,831,dining,pos,,US,US,1,0,missing_amount
+26574,13346,2026-01-20 21:04:51,546,grocery,pos,,IN,IN,1,0,missing_amount
+102141,10340,2026-03-18 08:55:23,1370,grocery,pos,,IN,IN,1,0,missing_amount
+113442,10587,2026-03-26 21:37:13,2794,dining,contactless,-347.0,US,US,1,0,non_positive_amount
+64448,15157,2026-02-18 03:34:28,2977,dining,ecommerce,,IN,IN,0,0,missing_amount
+1197,12538,,238,dining,pos,,IN,IN,1,0,missing_amount
+20703,14188,2026-01-16 11:12:15,1679,utilities,contactless,,IN,IN,1,0,missing_amount
+82902,13800,,787,dining,pos,199.46,IN,IN,1,0,unparseable_timestamp
+22711,11162,2026-01-17 23:59:48,2617,grocery,pos,-169.0,SG,SG,1,0,non_positive_amount
+16106,12450,2026-01-12 23:14:10,2043,fuel,contactless,-300.0,GB,GB,1,0,non_positive_amount
+71029,12225,2026-02-22 23:42:32,1595,electronics,ecommerce,-52.0,SG,SG,0,1,non_positive_amount
+13413,11304,2026-01-10 23:12:19,206,online_services,pos,-183.0,AE,AE,1,0,non_positive_amount
+64381,11100,2026-02-18 02:05:51,50,grocery,pos,,IN,IN,1,0,missing_amount
+32449,10116,,360,electronics,pos,960.62,IN,IN,1,0,unparseable_timestamp
+37337,14899,2026-01-28 23:15:08,2582,fashion,contactless,,IN,IN,1,0,missing_amount
+39135,12948,2026-01-30 07:16:47,240,utilities,ecommerce,,IN,IN,0,0,missing_amount
+115335,13643,2026-03-28 07:10:43,1380,health,pos,-35.0,IN,IN,1,0,non_positive_amount
+75263,10842,2026-02-26 03:39:04,1451,electronics,ecommerce,,AE,AE,0,0,missing_amount
+29555,10477,,2566,fashion,pos,126.65,AE,AE,1,0,unparseable_timestamp
+118759,14535,,2174,grocery,pos,1156.89,IN,IN,1,0,unparseable_timestamp
+62676,10593,2026-02-16 19:30:41,2244,travel,contactless,-447.0,IN,IN,1,0,non_positive_amount
+102149,12203,2026-03-18 09:04:00,192,entertainment,pos,,US,US,1,0,missing_amount
+78988,12540,2026-02-28 21:40:24,1210,online_services,pos,,IN,IN,1,0,missing_amount
+5574,15957,2026-01-05 04:20:39,505,online_services,pos,-449.0,IN,IN,1,0,non_positive_amount
+100682,10828,,2317,,ecommerce,318.2,DE,DE,0,0,unparseable_timestamp
+54880,14893,,648,fashion,pos,181.57,IN,IN,1,0,unparseable_timestamp
+3096,12410,2026-01-03 07:06:10,549,grocery,contactless,,IN,IN,1,0,missing_amount
+43855,10051,2026-02-02 19:25:57,734,grocery,ecommerce,-69.0,GB,GB,0,0,non_positive_amount
+683,10479,2026-01-01 12:13:44,814,utilities,pos,,IN,IN,1,0,missing_amount
+93268,15177,,2794,grocery,pos,1040.66,IN,IN,1,0,unparseable_timestamp
+112182,14947,2026-03-25 22:47:59,1487,electronics,pos,-385.0,IN,IN,1,0,non_positive_amount
+116639,11861,,2466,grocery,ecommerce,319.91,IN,IN,0,0,unparseable_timestamp
+27099,12273,,2843,fuel,ecommerce,159.91,AE,US,0,0,unparseable_timestamp
+47616,13655,2026-02-05 14:46:27,1488,fashion,ecommerce,,IN,IN,0,0,missing_amount
+39683,11936,2026-01-30 17:01:07,2535,grocery,atm,-96.0,IN,IN,1,0,non_positive_amount
+49808,12026,2026-02-07 05:36:37,1760,health,pos,-257.0,IN,IN,1,0,non_positive_amount
+101532,13009,2026-03-17 21:33:13,547,utilities,pos,-130.0,DE,DE,1,0,non_positive_amount
+79443,11827,,600,fashion,pos,283.15,IN,IN,1,0,unparseable_timestamp
+89876,13609,2026-03-09 02:25:45,303,fashion,ecommerce,,IN,IN,0,0,missing_amount
+85139,12081,2026-03-05 13:45:49,262,fashion,ecommerce,-323.0,IN,IN,0,0,non_positive_amount
+114093,15901,2026-03-27 09:26:23,1338,,pos,,IN,IN,1,0,missing_amount
+83259,10252,2026-03-04 04:08:23,100,utilities,contactless,,IN,IN,1,0,missing_amount
+14880,11603,2026-01-12 01:10:02,1451,health,pos,,IN,IN,1,0,missing_amount
+119489,13086,2026-03-31 06:44:32,1347,dining,atm,,IN,IN,1,0,missing_amount
+8296,11827,2026-01-07 05:05:01,1897,fuel,ecommerce,,IN,IN,0,0,missing_amount
+114630,12837,2026-03-27 19:10:26,2093,grocery,ecommerce,-309.0,IN,IN,0,0,non_positive_amount
+15136,11393,,2490,travel,pos,1155.29,IN,IN,1,0,unparseable_timestamp
+47663,12021,,2450,dining,ecommerce,645.85,IN,IN,0,0,unparseable_timestamp
+118007,13580,2026-03-30 05:16:26,2531,fashion,pos,,IN,IN,1,0,missing_amount
+93444,15716,,382,utilities,pos,1256.39,IN,IN,1,0,unparseable_timestamp
+113746,14037,2026-03-27 03:24:30,1621,online_services,pos,-201.0,IN,IN,1,0,non_positive_amount
+77124,12148,,2872,grocery,contactless,458.22,IN,IN,1,0,unparseable_timestamp
+114984,10797,2026-03-28 01:00:04,743,utilities,ecommerce,,IN,IN,0,0,missing_amount
+106282,15898,2026-03-21 12:33:32,591,grocery,ecommerce,-463.0,AE,AE,0,0,non_positive_amount
+69469,14323,2026-02-21 19:54:49,1915,entertainment,pos,-332.0,IN,IN,1,0,non_positive_amount
+80399,12918,2026-03-01 22:41:33,286,utilities,contactless,-7.0,GB,IN,1,0,non_positive_amount
+62137,11385,2026-02-16 10:14:14,819,fashion,ecommerce,,DE,DE,0,0,missing_amount
+104790,10530,2026-03-20 09:28:06,1613,dining,ecommerce,-269.0,AE,AE,0,0,non_positive_amount
+106121,14106,2026-03-21 09:27:51,661,electronics,ecommerce,,US,IN,0,0,missing_amount
+35055,14775,2026-01-27 06:03:52,1341,online_services,atm,,DE,DE,1,0,missing_amount
+61435,13675,2026-02-15 20:49:05,2730,fuel,contactless,,IN,IN,1,0,missing_amount
+95612,15669,2026-03-13 09:49:56,1274,dining,pos,,IN,IN,1,0,missing_amount
+21655,14557,,801,utilities,pos,258.59,IN,IN,1,0,unparseable_timestamp
+12692,14162,2026-01-10 10:53:35,2976,dining,ecommerce,,US,US,0,0,missing_amount
+75354,14233,2026-02-26 05:00:38,2488,fashion,contactless,,DE,DE,1,0,missing_amount
+75220,14739,,1423,grocery,ecommerce,798.11,IN,IN,0,0,unparseable_timestamp
+31415,14378,2026-01-24 11:49:49,1310,fashion,contactless,,IN,IN,1,0,missing_amount
+110748,14870,2026-03-24 19:51:44,1849,travel,contactless,-35.0,SG,SG,1,0,non_positive_amount
+114150,10166,2026-03-27 10:21:21,2268,grocery,contactless,,IN,IN,1,0,missing_amount
+51096,10362,2026-02-08 05:39:07,2774,travel,contactless,,IN,IN,1,0,missing_amount
+85800,12690,,1668,health,ecommerce,519.51,IN,IN,0,0,unparseable_timestamp
+98379,14732,2026-03-15 10:32:34,2917,electronics,contactless,,IN,IN,1,0,missing_amount
+64867,11599,2026-02-18 11:24:30,1151,entertainment,pos,,IN,IN,1,0,missing_amount
+64205,15864,2026-02-17 23:07:45,2378,grocery,pos,,IN,IN,1,0,missing_amount
+13010,12386,2026-01-10 16:26:11,981,utilities,atm,-46.0,DE,DE,1,0,non_positive_amount
+10241,11899,,1060,grocery,ecommerce,459.01,US,US,0,0,unparseable_timestamp
+92377,12188,2026-03-11 00:08:00,567,fashion,pos,,IN,IN,1,0,missing_amount
+16306,11120,2026-01-13 02:23:45,279,grocery,ecommerce,-121.0,IN,IN,0,0,non_positive_amount
+46452,15893,2026-02-04 17:19:06,1350,fuel,pos,6265062.0,IN,IN,1,0,amount_outlier
+86327,13886,2026-03-06 10:17:58,2486,fashion,ecommerce,,IN,IN,0,0,missing_amount
+98904,13682,2026-03-15 20:03:05,1216,grocery,pos,,IN,IN,1,0,missing_amount
+26250,14281,2026-01-20 15:20:18,2964,grocery,contactless,-242.0,IN,IN,1,0,non_positive_amount
+112009,11745,2026-03-25 19:03:01,2807,utilities,pos,-161.0,IN,IN,1,0,non_positive_amount
+20786,15056,2026-01-16 12:39:06,929,dining,ecommerce,-394.0,IN,IN,0,0,non_positive_amount
+103088,15735,2026-03-19 02:18:03,2471,dining,contactless,,IN,IN,1,0,missing_amount
+37230,14684,2026-01-28 21:21:31,2946,fuel,atm,,DE,DE,1,0,missing_amount
+75519,11951,2026-02-26 07:57:43,1603,fuel,pos,,US,US,1,0,missing_amount
+106146,15090,2026-03-21 09:48:33,1657,electronics,contactless,,AE,AE,1,0,missing_amount
+8547,11567,2026-01-07 09:43:20,1446,grocery,ecommerce,,IN,IN,0,0,missing_amount
+29134,13931,2026-01-22 19:10:41,306,grocery,pos,-438.0,,IN,1,0,non_positive_amount
+95037,11299,,1242,utilities,pos,893.73,AE,IN,1,0,unparseable_timestamp
+72992,15883,,447,fashion,ecommerce,348.78,IN,IN,0,0,unparseable_timestamp
+81582,14089,,1094,entertainment,contactless,474.31,IN,IN,1,0,unparseable_timestamp
+107533,10798,2026-03-22 10:53:27,2322,dining,pos,,GB,GB,1,0,missing_amount
+42306,14930,2026-02-01 16:58:02,2566,fashion,pos,,IN,IN,1,0,missing_amount
+77369,14379,2026-02-27 16:46:55,1973,utilities,ecommerce,,IN,IN,0,0,missing_amount
+21282,14218,2026-01-16 21:34:01,1949,grocery,pos,,IN,IN,1,0,missing_amount
+78308,10717,2026-02-28 09:17:58,2283,dining,ecommerce,,GB,SG,0,0,missing_amount
+38502,10016,2026-01-29 19:23:48,2235,grocery,contactless,-189.0,IN,IN,1,0,non_positive_amount
+56680,15973,2026-02-12 10:09:01,178,fashion,pos,-141.0,IN,IN,1,0,non_positive_amount
+47445,15277,2026-02-05 11:44:49,475,fashion,ecommerce,,AE,AE,0,0,missing_amount
+73422,12754,2026-02-24 18:36:05,2658,fashion,contactless,,IN,IN,1,0,missing_amount
+109291,11026,,2072,entertainment,pos,2977.37,IN,IN,1,0,unparseable_timestamp
+105316,10932,2026-03-20 18:53:22,1580,utilities,pos,,IN,IN,1,0,missing_amount
+44939,15971,2026-02-03 14:27:10,643,fuel,pos,-223.0,IN,IN,1,0,non_positive_amount
+92279,11276,2026-03-10 22:21:27,1544,online_services,ecommerce,-15.0,AE,AE,0,0,non_positive_amount
+37259,12909,,1571,health,contactless,1020.25,IN,IN,1,0,unparseable_timestamp
+7765,11450,,2311,grocery,pos,778.89,GB,GB,1,0,unparseable_timestamp
+102765,12487,,1657,utilities,contactless,83.57,IN,IN,1,0,unparseable_timestamp
+105020,13943,2026-03-20 13:30:56,1403,entertainment,ecommerce,,IN,IN,0,0,missing_amount
+49647,15059,2026-02-07 02:36:44,952,dining,ecommerce,,AE,AE,0,0,missing_amount
+22014,14977,2026-01-17 11:11:37,2334,online_services,atm,8385020.0,GB,GB,1,0,amount_outlier
+46682,10817,,2319,dining,ecommerce,1149.18,IN,IN,0,0,unparseable_timestamp
+68608,14067,2026-02-21 04:11:05,2100,travel,ecommerce,,US,US,0,0,missing_amount
+105654,13123,,2433,fashion,pos,853.92,IN,IN,1,0,unparseable_timestamp
+18975,13892,,444,dining,ecommerce,504.31,IN,IN,0,0,unparseable_timestamp
+87204,15617,2026-03-07 02:09:29,1282,dining,ecommerce,,IN,IN,0,0,missing_amount
+59951,13644,,2350,fashion,pos,154.71,AE,AE,1,0,unparseable_timestamp
+61206,14599,2026-02-15 17:13:28,1092,health,pos,,GB,GB,1,0,missing_amount
+40608,13235,2026-01-31 09:21:17,2392,grocery,pos,,,IN,1,0,missing_amount
+29595,10007,2026-01-23 02:44:37,1610,health,pos,-334.0,US,US,1,0,non_positive_amount
+94235,14383,,252,grocery,contactless,3875.18,IN,IN,1,0,unparseable_timestamp
+68670,13953,2026-02-21 05:13:24,2163,entertainment,contactless,-456.0,IN,IN,1,0,non_positive_amount
+57788,10646,2026-02-13 05:22:34,2834,grocery,ecommerce,-389.0,IN,IN,0,0,non_positive_amount
+55157,11827,2026-02-11 06:31:08,227,fuel,ecommerce,-341.0,IN,IN,0,0,non_positive_amount
+1511,15362,,1677,grocery,pos,111.42,IN,IN,1,0,unparseable_timestamp
+12010,11324,,685,dining,pos,1633.78,IN,IN,1,0,unparseable_timestamp
+55467,14610,,2703,entertainment,pos,350.06,GB,GB,1,0,unparseable_timestamp
+49497,14426,2026-02-06 23:41:51,2169,fuel,pos,-256.0,IN,IN,1,0,non_positive_amount
+32201,14648,,2377,electronics,ecommerce,2693.55,IN,IN,0,1,unparseable_timestamp
+102930,15456,,2246,fashion,pos,142.08,IN,IN,1,0,unparseable_timestamp
+57999,12486,,215,entertainment,ecommerce,399.14,SG,SG,0,0,unparseable_timestamp
+87079,11760,2026-03-07 00:13:35,2797,fuel,ecommerce,,GB,GB,0,0,missing_amount
+102402,13085,,952,grocery,contactless,290.25,AE,AE,1,0,unparseable_timestamp
+43173,15250,2026-02-02 07:46:09,2220,fuel,pos,,IN,IN,1,0,missing_amount
+101788,12776,2026-03-18 02:29:57,236,health,ecommerce,,IN,IN,0,0,missing_amount
+112981,13323,2026-03-26 13:30:58,2921,utilities,pos,,GB,GB,1,0,missing_amount
+48383,12317,2026-02-06 03:47:09,1957,dining,pos,-59.0,SG,SG,1,0,non_positive_amount
+70308,10895,2026-02-22 10:58:58,1021,fuel,ecommerce,-171.0,IN,IN,1,0,non_positive_amount
+8935,10689,,2941,fashion,ecommerce,548.16,IN,IN,0,0,unparseable_timestamp
+52591,10186,2026-02-09 08:30:20,2681,dining,pos,,IN,IN,1,0,missing_amount
+68895,14459,2026-02-21 08:49:10,2056,dining,pos,-301.0,IN,IN,1,0,non_positive_amount
+48179,11285,,2823,entertainment,atm,210.49,GB,GB,1,0,unparseable_timestamp
+90785,12626,2026-03-09 19:18:22,1847,online_services,ecommerce,,IN,IN,0,0,missing_amount
+11479,11288,2026-01-09 13:55:54,2060,health,contactless,,IN,IN,1,0,missing_amount
+34818,11542,2026-01-27 01:37:55,527,grocery,ecommerce,,IN,IN,0,0,missing_amount
+29009,14589,,182,online_services,ecommerce,241.96,IN,IN,0,0,unparseable_timestamp
+81622,15684,2026-03-02 21:46:59,1048,electronics,atm,-253.0,IN,IN,1,0,non_positive_amount
+92422,13168,2026-03-11 00:50:26,1738,fashion,ecommerce,-135.0,IN,IN,0,0,non_positive_amount
+103420,10680,,709,dining,contactless,969.05,IN,IN,1,0,unparseable_timestamp
+114185,12080,,980,fashion,pos,589.51,IN,IN,1,0,unparseable_timestamp
+49241,13075,2026-02-06 19:02:36,378,,contactless,,IN,IN,1,0,missing_amount
+26978,15548,2026-01-21 03:43:59,2693,utilities,contactless,,IN,IN,1,0,missing_amount
+89964,13645,2026-03-09 03:47:35,2919,travel,atm,,AE,AE,1,0,missing_amount
+20652,10036,2026-01-16 10:15:16,318,fashion,ecommerce,,IN,IN,0,0,missing_amount
+119359,15016,2026-03-31 04:08:40,2495,travel,pos,-302.0,IN,IN,1,0,non_positive_amount
+83987,12850,2026-03-04 17:03:18,2110,fashion,pos,-303.0,IN,IN,1,0,non_positive_amount
+76584,13375,2026-02-27 02:57:26,586,grocery,pos,-204.0,IN,IN,1,0,non_positive_amount
+91727,13209,,987,fashion,ecommerce,514.01,IN,IN,0,0,unparseable_timestamp
+86986,12123,2026-03-06 22:26:24,2224,fashion,pos,,IN,IN,1,0,missing_amount
+45285,10597,2026-02-03 20:37:08,2508,grocery,pos,-243.0,IN,IN,1,0,non_positive_amount
+80825,12453,,2364,fuel,pos,266.74,IN,IN,1,0,unparseable_timestamp
+53799,14066,2026-02-10 06:35:48,857,grocery,pos,-164.0,IN,IN,1,0,non_positive_amount
+40972,10791,2026-01-31 15:48:13,2969,dining,pos,-223.0,US,US,1,0,non_positive_amount
+46836,10510,2026-02-05 00:43:14,1451,fashion,pos,,US,US,1,0,missing_amount
+14876,11670,,2227,dining,ecommerce,204.91,IN,IN,0,0,unparseable_timestamp
+7384,11859,2026-01-06 13:03:18,2175,dining,contactless,,US,US,1,0,missing_amount
+22581,11430,,2261,dining,ecommerce,816.92,IN,IN,0,0,unparseable_timestamp
+106771,14204,,2553,utilities,ecommerce,1753.44,DE,DE,0,0,unparseable_timestamp
+51731,15107,2026-02-08 16:45:34,1815,dining,pos,,IN,IN,1,0,missing_amount
+75896,14767,2026-02-26 14:53:53,2694,dining,pos,,IN,IN,1,0,missing_amount
+35082,15238,2026-01-27 06:34:03,2673,health,contactless,,GB,GB,1,0,missing_amount
+101760,13265,2026-03-18 02:00:31,78,utilities,pos,-445.0,IN,IN,1,0,non_positive_amount
+82028,15863,2026-03-03 05:19:47,1076,utilities,contactless,,SG,SG,1,0,missing_amount
+93939,15027,2026-03-12 03:16:51,198,grocery,pos,,IN,IN,1,0,missing_amount
+103907,13356,2026-03-19 16:36:40,971,grocery,ecommerce,,IN,IN,0,0,missing_amount
+31689,10080,2026-01-24 17:30:03,1993,grocery,contactless,,IN,IN,1,0,missing_amount
+69316,11071,2026-02-21 17:05:50,2407,health,atm,,US,US,1,0,missing_amount
+30687,14385,2026-01-23 23:06:12,2819,fuel,contactless,,DE,DE,1,0,missing_amount
+5740,11654,2026-01-05 07:32:36,2808,utilities,contactless,,IN,IN,1,0,missing_amount
+76174,13386,2026-02-26 19:34:12,2447,fuel,pos,,IN,IN,1,0,missing_amount
+103541,15606,2026-03-19 10:22:50,618,utilities,ecommerce,,SG,SG,0,0,missing_amount
+90015,15124,2026-03-09 04:40:25,2775,utilities,pos,,IN,IN,1,0,missing_amount
+82599,13217,2026-03-03 15:46:15,860,online_services,atm,-207.0,SG,IN,1,0,non_positive_amount
+44046,14191,2026-02-02 22:44:39,1236,fashion,pos,,IN,IN,1,0,missing_amount
+36262,12991,2026-01-28 03:09:05,2541,entertainment,pos,,US,US,1,0,missing_amount
+24011,14954,2026-01-18 23:03:39,1308,travel,pos,-152.0,IN,IN,1,0,non_positive_amount
+60283,14133,2026-02-15 00:34:57,128,dining,ecommerce,,IN,IN,0,0,missing_amount
+111596,10145,2026-03-25 12:23:25,2537,health,pos,-264.0,GB,GB,1,0,non_positive_amount
+2796,12401,2026-01-03 01:19:01,2936,fashion,ecommerce,-101.0,IN,IN,0,0,non_positive_amount
+77634,11411,2026-02-27 21:48:36,1301,grocery,ecommerce,,IN,IN,0,0,missing_amount
+59019,11294,2026-02-14 03:20:26,1768,electronics,contactless,-293.0,IN,IN,1,0,non_positive_amount
+96179,13604,2026-03-13 19:24:45,1948,fuel,pos,,IN,IN,1,0,missing_amount
+87935,11693,2026-03-07 15:41:43,2959,online_services,contactless,-1.0,AE,AE,1,0,non_positive_amount
+6106,11301,,267,grocery,contactless,68.11,IN,IN,1,0,unparseable_timestamp
+41389,10743,,1555,fuel,pos,857.24,IN,IN,1,0,unparseable_timestamp
+61462,11960,2026-02-15 21:20:17,1036,travel,contactless,-60.0,IN,IN,1,0,non_positive_amount
+34432,12955,2026-01-26 18:08:46,1370,travel,pos,-466.0,IN,IN,1,0,non_positive_amount
+37581,12563,2026-01-29 03:55:13,2710,grocery,pos,-383.0,IN,IN,1,0,non_positive_amount
+15520,10755,2026-01-12 12:51:20,2532,utilities,ecommerce,-132.0,IN,IN,0,0,non_positive_amount
+82450,12042,2026-03-03 12:55:37,525,entertainment,contactless,-85.0,IN,IN,1,0,non_positive_amount
+24657,14669,2026-01-19 10:56:58,1198,grocery,contactless,-104.0,DE,DE,1,0,non_positive_amount
+98283,14026,,1473,utilities,pos,82.58,IN,IN,1,0,unparseable_timestamp
+84500,15785,2026-03-05 02:43:58,89,fashion,ecommerce,,SG,SG,0,0,missing_amount
+26014,14414,2026-01-20 11:08:09,2843,electronics,ecommerce,,DE,DE,0,0,missing_amount
+112926,10346,2026-03-26 12:41:30,2269,fashion,pos,-73.0,IN,IN,1,0,non_positive_amount
+105260,12719,,120,utilities,ecommerce,733.77,SG,SG,0,0,unparseable_timestamp
+55061,12857,2026-02-11 04:45:22,2745,dining,pos,-328.0,IN,IN,1,0,non_positive_amount
+41282,11579,2026-01-31 21:21:16,592,fashion,atm,,IN,IN,1,0,missing_amount
+8988,14607,2026-01-07 17:19:20,580,grocery,pos,-321.0,IN,IN,1,0,non_positive_amount
+46538,11472,2026-02-04 18:59:19,631,electronics,pos,,IN,IN,1,0,missing_amount
+47844,15461,,1177,fuel,pos,346.49,IN,IN,1,0,unparseable_timestamp
+10827,15954,,1420,entertainment,ecommerce,985.4,GB,GB,0,0,unparseable_timestamp
+270,14896,,2903,health,atm,1470.87,GB,GB,1,0,unparseable_timestamp
+76297,11531,2026-02-26 21:42:43,1928,dining,contactless,,SG,SG,1,0,missing_amount
+75431,11176,,91,online_services,pos,1355.61,US,US,1,0,unparseable_timestamp
+119934,14780,2026-03-31 14:42:46,2957,electronics,pos,,IN,IN,1,0,missing_amount
+60141,14615,2026-02-14 22:25:24,2910,grocery,pos,,IN,IN,1,0,missing_amount
+69096,10011,,1783,fuel,ecommerce,98.93,IN,IN,0,0,unparseable_timestamp
+39829,15841,2026-01-30 19:24:21,1761,dining,contactless,,IN,IN,1,0,missing_amount
+105656,12745,2026-03-21 01:07:38,2517,health,atm,-321.0,IN,IN,1,0,non_positive_amount
+82037,12341,2026-03-03 05:35:01,1070,grocery,contactless,-318.0,IN,IN,1,0,non_positive_amount
+117514,13667,2026-03-29 20:34:14,937,utilities,contactless,,IN,IN,1,0,missing_amount
+59040,14997,2026-02-14 03:53:09,1156,fuel,ecommerce,,US,US,0,0,missing_amount
+64829,13617,2026-02-18 10:39:17,2832,fashion,ecommerce,-455.0,IN,IN,0,0,non_positive_amount
+93683,11549,,1644,travel,contactless,764.44,IN,IN,1,0,unparseable_timestamp
+33979,13550,2026-01-26 10:09:31,737,fuel,contactless,,US,US,1,0,missing_amount
+30178,15516,2026-01-23 13:48:20,1846,entertainment,atm,,IN,IN,1,0,missing_amount
+113110,13695,2026-03-26 15:18:04,109,entertainment,ecommerce,8288022.0,IN,IN,0,0,amount_outlier
+36280,10033,2026-01-28 03:31:08,1202,grocery,pos,,DE,DE,1,0,missing_amount
+59202,12872,2026-02-14 06:12:58,340,,contactless,,IN,IN,1,0,missing_amount
+76403,12499,2026-02-26 23:37:38,428,electronics,pos,-31.0,DE,DE,1,0,non_positive_amount
+60919,13933,,76,,ecommerce,423.96,DE,DE,0,0,unparseable_timestamp
+105907,15256,,1143,fuel,pos,591.97,IN,IN,1,0,unparseable_timestamp
+5496,12442,2026-01-05 02:42:56,1748,grocery,ecommerce,,IN,IN,0,0,missing_amount
+89179,14009,2026-03-08 14:31:41,2889,fuel,pos,,GB,GB,1,0,missing_amount
+110355,15828,2026-03-24 13:03:04,115,fashion,pos,-467.0,IN,IN,1,0,non_positive_amount
+102733,15625,2026-03-18 19:39:14,1780,grocery,pos,,DE,DE,1,0,missing_amount
+54265,12583,2026-02-10 15:19:53,1795,dining,pos,-168.0,IN,IN,1,0,non_positive_amount
+47004,11775,2026-02-05 03:59:15,2998,grocery,ecommerce,,IN,IN,0,0,missing_amount
+97612,12654,2026-03-14 20:13:05,154,grocery,ecommerce,-193.0,DE,DE,1,0,non_positive_amount
+105471,13269,2026-03-20 21:26:00,2365,dining,pos,,SG,SG,1,0,missing_amount
+67204,13925,2026-02-20 04:18:31,1274,fashion,contactless,,IN,IN,1,0,missing_amount
+62691,14078,2026-02-16 19:45:15,2815,online_services,ecommerce,,IN,IN,0,0,missing_amount
+2977,12927,2026-01-03 04:48:27,1577,utilities,pos,,IN,IN,1,0,missing_amount
+90077,15248,2026-03-09 05:59:13,1131,entertainment,ecommerce,,AE,AE,0,0,missing_amount
+107431,12420,2026-03-22 09:08:02,2010,electronics,pos,-7.0,IN,IN,1,0,non_positive_amount
+16121,13855,2026-01-12 23:29:35,2054,fashion,contactless,8422995.0,AE,AE,1,0,amount_outlier
+30138,10844,,1237,entertainment,pos,194.96,IN,IN,1,0,unparseable_timestamp
+14261,11214,2026-01-11 14:07:45,1254,electronics,pos,,US,US,1,0,missing_amount
+10771,14669,2026-01-09 01:19:30,317,grocery,pos,,DE,DE,1,0,missing_amount
+105432,10511,2026-03-20 20:41:05,1989,health,ecommerce,,IN,IN,0,0,missing_amount
+90114,14956,,2994,health,pos,550.33,IN,IN,1,0,unparseable_timestamp
+49223,11211,2026-02-06 18:48:38,2316,entertainment,pos,8610160.0,,SG,1,0,amount_outlier
+99739,11437,,1180,grocery,ecommerce,140.03,IN,IN,0,0,unparseable_timestamp
+88134,15070,2026-03-07 19:33:17,903,grocery,pos,,IN,IN,1,0,missing_amount
+52327,13663,2026-02-09 03:33:09,865,fuel,ecommerce,,IN,IN,0,0,missing_amount
+60341,13799,2026-02-15 01:37:18,2065,electronics,ecommerce,,IN,IN,0,0,missing_amount
+40674,15369,2026-01-31 10:32:44,290,health,contactless,,GB,GB,1,0,missing_amount
+83162,15129,2026-03-04 02:28:13,660,fashion,pos,,IN,IN,1,0,missing_amount
+49489,13078,2026-02-06 23:36:05,2231,online_services,ecommerce,,US,US,0,1,missing_amount
+83426,11002,2026-03-04 07:00:08,2184,grocery,pos,,IN,IN,1,0,missing_amount
+70205,10640,2026-02-22 09:22:07,630,online_services,ecommerce,,IN,IN,0,0,missing_amount
+40547,11244,2026-01-31 08:24:01,2109,fuel,ecommerce,,IN,IN,0,0,missing_amount
+82331,14198,2026-03-03 10:32:36,1664,electronics,pos,-391.0,IN,IN,1,0,non_positive_amount
+19814,13608,2026-01-15 19:16:01,2821,fashion,ecommerce,-266.0,AE,IN,0,1,non_positive_amount
+68203,14661,2026-02-20 21:18:44,2143,fuel,ecommerce,-14.0,IN,IN,0,0,non_positive_amount
+8927,10093,,2914,fuel,contactless,682.45,SG,SG,1,0,unparseable_timestamp
+74953,14747,2026-02-25 21:44:37,1977,utilities,ecommerce,,IN,IN,0,0,missing_amount
+7012,12536,,827,travel,contactless,64.78,IN,IN,1,0,unparseable_timestamp
+62778,12441,2026-02-16 21:17:08,836,health,ecommerce,-394.0,DE,DE,0,0,non_positive_amount
+83133,12673,2026-03-04 01:56:01,504,electronics,pos,,IN,IN,1,0,missing_amount
+113608,15646,2026-03-27 00:53:43,2114,online_services,pos,,IN,IN,1,0,missing_amount
+103677,12861,2026-03-19 12:27:55,1219,utilities,ecommerce,,IN,IN,0,0,missing_amount
+50005,14423,2026-02-07 09:23:39,2586,,pos,,IN,IN,1,0,missing_amount
+33928,10305,,1273,fuel,pos,262.98,IN,IN,1,0,unparseable_timestamp
+26781,10853,,2069,grocery,pos,408.76,US,US,1,0,unparseable_timestamp
+78668,13139,2026-02-28 15:52:02,2866,electronics,ecommerce,,GB,GB,0,0,missing_amount
+29145,10625,2026-01-22 19:18:20,41,grocery,pos,,IN,IN,1,0,missing_amount
+50580,14747,2026-02-07 20:17:44,1449,grocery,ecommerce,,IN,IN,0,0,missing_amount
+40800,14495,,804,fashion,ecommerce,496.11,AE,AE,0,0,unparseable_timestamp
+43018,15348,2026-02-02 04:56:05,1956,grocery,ecommerce,-330.0,IN,IN,0,1,non_positive_amount
+99799,14957,2026-03-16 12:34:13,1180,online_services,contactless,,IN,IN,1,0,missing_amount
+41193,12208,2026-01-31 19:44:15,1525,fuel,contactless,-238.0,IN,IN,1,0,non_positive_amount
+108608,11276,2026-03-23 05:58:59,1123,fashion,pos,,AE,AE,1,0,missing_amount
+63800,11507,2026-02-17 16:10:35,1909,dining,ecommerce,,US,US,0,0,missing_amount
+95863,10343,2026-03-13 14:09:25,1634,grocery,pos,,AE,AE,1,0,missing_amount
+89827,15012,,647,utilities,pos,248.23,IN,IN,1,0,unparseable_timestamp
+6301,12180,2026-01-05 17:38:59,1579,dining,ecommerce,,IN,IN,0,0,missing_amount
+60718,13495,2026-02-15 08:22:12,2976,online_services,atm,-119.0,AE,AE,1,0,non_positive_amount
+47593,15869,2026-02-05 14:28:02,1682,fuel,pos,-33.0,US,US,1,0,non_positive_amount
+75518,14072,2026-02-26 07:57:17,314,entertainment,ecommerce,-24.0,IN,IN,0,0,non_positive_amount
+88995,10685,2026-03-08 11:14:53,1124,fuel,pos,-143.0,IN,IN,1,0,non_positive_amount
+24186,12412,2026-01-19 02:02:14,2321,grocery,pos,,IN,IN,1,0,missing_amount
+64983,11460,2026-02-18 13:19:40,2060,utilities,ecommerce,,IN,IN,0,0,missing_amount
+119079,15173,2026-03-30 23:36:08,2494,fuel,pos,,IN,IN,1,0,missing_amount
+4313,15573,2026-01-04 05:08:36,1847,health,pos,,IN,IN,1,0,missing_amount
+47700,15754,2026-02-05 16:12:29,280,travel,pos,,DE,DE,1,0,missing_amount
+43983,10808,,245,grocery,pos,313.73,IN,IN,1,0,unparseable_timestamp
+98789,12471,,587,fashion,pos,2829.91,IN,IN,1,0,unparseable_timestamp
+47848,14871,2026-02-05 18:27:39,1958,dining,contactless,,IN,IN,1,0,missing_amount
+58839,10840,2026-02-13 23:47:11,36,online_services,pos,-440.0,IN,IN,1,0,non_positive_amount
+18161,10741,2026-01-14 12:37:17,893,dining,pos,-101.0,IN,IN,1,0,non_positive_amount
+75448,15130,,1322,electronics,atm,786.78,IN,IN,1,0,unparseable_timestamp
+4219,15877,2026-01-04 03:43:23,600,utilities,ecommerce,,IN,IN,0,0,missing_amount
+33743,10193,2026-01-26 05:19:19,257,utilities,contactless,,IN,IN,1,0,missing_amount
+44761,11105,,1510,utilities,pos,1301.19,IN,IN,1,0,unparseable_timestamp
+20596,15646,,783,grocery,atm,844.17,IN,IN,1,0,unparseable_timestamp
+16191,10391,,2944,online_services,pos,583.82,US,US,1,0,unparseable_timestamp
+100407,14264,2026-03-17 00:03:10,1765,fuel,contactless,5479733.0,IN,IN,1,0,amount_outlier
+82254,13380,2026-03-03 09:00:49,1600,grocery,pos,-424.0,SG,SG,1,0,non_positive_amount
+30079,12061,,1230,electronics,ecommerce,315.07,IN,IN,0,0,unparseable_timestamp
+16002,13114,,1794,dining,atm,993.14,IN,IN,1,0,unparseable_timestamp
+50248,14463,2026-02-07 14:00:16,1232,dining,ecommerce,,IN,IN,0,0,missing_amount
+12766,15666,2026-01-10 12:03:51,2810,dining,contactless,-237.0,IN,IN,1,0,non_positive_amount
+62814,15555,2026-02-16 21:53:58,1302,fuel,contactless,,IN,IN,1,0,missing_amount
+108459,10255,2026-03-23 03:23:09,2852,health,pos,,IN,IN,1,0,missing_amount
+115372,11775,,1840,entertainment,ecommerce,348.86,,IN,0,0,unparseable_timestamp
+82129,12848,2026-03-03 07:04:08,2785,fuel,ecommerce,,IN,IN,0,0,missing_amount
+120323,10424,2026-03-31 21:51:32,2607,fuel,pos,-2.0,IN,IN,1,0,non_positive_amount
+115687,14542,2026-03-28 13:21:37,1406,,pos,-9.0,GB,GB,1,0,non_positive_amount
+41540,10926,2026-02-01 02:24:39,2227,fashion,pos,,IN,IN,1,0,missing_amount
+17450,12208,2026-01-13 23:40:14,1094,grocery,pos,,IN,IN,1,0,missing_amount
+68920,11263,,1119,entertainment,pos,166.27,DE,DE,1,0,unparseable_timestamp
+69959,11765,2026-02-22 04:46:22,1444,dining,ecommerce,,GB,IN,0,1,missing_amount
+111512,12741,2026-03-25 10:34:55,1147,health,contactless,,US,US,1,0,missing_amount
+17783,14811,2026-01-14 05:26:24,191,entertainment,pos,-101.0,AE,AE,1,0,non_positive_amount
+49985,14477,2026-02-07 08:59:59,537,grocery,pos,,IN,IN,1,0,missing_amount
+50422,10478,2026-02-07 17:15:06,6,grocery,pos,,GB,GB,1,0,missing_amount
+87103,12947,,2806,entertainment,pos,225.74,IN,IN,1,0,unparseable_timestamp
+95084,11594,2026-03-13 00:16:13,2163,utilities,pos,-335.0,IN,IN,1,0,non_positive_amount
+42838,13414,2026-02-02 01:55:01,45,dining,ecommerce,,IN,IN,0,0,missing_amount
+73102,15836,2026-02-24 12:19:05,995,grocery,ecommerce,,IN,IN,0,0,missing_amount
+65281,13978,2026-02-18 18:33:04,410,travel,atm,,IN,IN,1,0,missing_amount
+96069,13413,2026-03-13 17:14:22,2667,entertainment,pos,,IN,IN,1,0,missing_amount
+112422,12305,2026-03-26 03:13:51,980,travel,ecommerce,-114.0,IN,IN,0,0,non_positive_amount
+81233,14383,2026-03-02 15:01:47,1440,fuel,ecommerce,,IN,IN,0,0,missing_amount
+21436,15616,2026-01-17 00:46:54,2014,entertainment,pos,,IN,IN,1,0,missing_amount
+15846,15687,,2267,fuel,pos,438.14,IN,IN,1,0,unparseable_timestamp
+81647,14400,2026-03-02 22:12:38,2692,dining,ecommerce,,IN,IN,0,0,missing_amount
+44919,13097,2026-02-03 13:59:42,2889,entertainment,ecommerce,-430.0,IN,IN,0,0,non_positive_amount
+20907,14091,2026-01-16 14:59:34,189,,ecommerce,,IN,IN,0,0,missing_amount
+73480,10323,,655,fuel,pos,1221.62,IN,IN,1,0,unparseable_timestamp
+7478,13125,2026-01-06 15:00:00,1786,utilities,pos,,IN,IN,1,0,missing_amount
+93667,14890,,1301,health,ecommerce,220.12,IN,IN,0,0,unparseable_timestamp
+44664,10727,2026-02-03 09:34:57,226,grocery,contactless,,,SG,1,0,missing_amount
+5102,11329,2026-01-04 19:24:39,2142,grocery,ecommerce,-477.0,IN,IN,0,0,non_positive_amount
+54834,11752,2026-02-11 01:10:36,779,online_services,pos,,IN,IN,1,0,missing_amount
+89094,11451,2026-03-08 12:42:30,2036,fashion,pos,-387.0,IN,IN,1,0,non_positive_amount
+50417,15894,2026-02-07 17:08:06,856,travel,ecommerce,,IN,IN,0,0,missing_amount
+59999,14465,2026-02-14 19:48:20,1075,fashion,pos,6199809.0,IN,IN,1,0,amount_outlier
+95738,13059,2026-03-13 11:43:40,975,grocery,ecommerce,,AE,AE,0,0,missing_amount
+79787,13021,2026-03-01 11:15:30,994,grocery,contactless,,US,US,1,0,missing_amount
+101969,15523,2026-03-18 06:01:11,321,,contactless,,US,US,1,0,missing_amount
+25111,10422,,1313,grocery,ecommerce,188.49,US,US,0,0,unparseable_timestamp
+20445,15073,,2068,fuel,pos,600.42,IN,IN,1,0,unparseable_timestamp
+13678,15904,2026-01-11 03:23:16,1804,entertainment,pos,,IN,IN,1,0,missing_amount
+42732,14855,2026-02-02 00:03:32,2563,fashion,pos,-194.0,IN,IN,1,0,non_positive_amount
+75536,10280,2026-02-26 08:13:12,2261,entertainment,ecommerce,-451.0,IN,IN,0,0,non_positive_amount
+88238,10365,2026-03-07 21:19:30,862,health,ecommerce,-453.0,IN,IN,0,0,non_positive_amount
+119593,10616,2026-03-31 08:39:33,309,utilities,contactless,-105.0,IN,IN,1,0,non_positive_amount
+17567,14243,2026-01-14 01:48:11,482,electronics,contactless,,IN,IN,1,0,missing_amount
+112744,10785,2026-03-26 09:27:08,2583,health,contactless,-198.0,IN,IN,1,0,non_positive_amount
+50989,11590,2026-02-08 03:37:19,1405,online_services,pos,,AE,AE,1,0,missing_amount
+102517,10036,2026-03-18 15:35:51,65,grocery,pos,,IN,IN,1,0,missing_amount
+109455,15995,2026-03-23 20:47:33,2108,dining,pos,,IN,IN,1,0,missing_amount
+26046,14064,2026-01-20 11:43:43,2161,grocery,ecommerce,,SG,SG,0,0,missing_amount
+94405,13359,2026-03-12 12:08:31,2979,grocery,pos,,IN,IN,1,0,missing_amount
+62503,14059,2026-02-16 16:24:55,22,grocery,pos,-304.0,US,US,1,0,non_positive_amount
+107110,13169,2026-03-22 03:49:53,1249,electronics,pos,-440.0,IN,IN,1,0,non_positive_amount
+24568,12777,,2384,utilities,pos,1073.13,US,US,1,0,unparseable_timestamp
+40258,13330,2026-01-31 02:52:23,1537,online_services,pos,,IN,IN,1,0,missing_amount
+112589,11185,2026-03-26 06:11:10,2221,grocery,ecommerce,-55.0,IN,IN,0,0,non_positive_amount
+21338,10964,,310,grocery,pos,150.42,US,US,1,0,unparseable_timestamp
+73957,13048,2026-02-25 04:08:39,1635,utilities,ecommerce,,IN,IN,0,0,missing_amount
+108419,14181,2026-03-23 02:24:33,66,grocery,ecommerce,,IN,IN,0,0,missing_amount
+64583,13104,2026-02-18 05:56:38,2666,fuel,ecommerce,,IN,IN,0,0,missing_amount
+41730,13350,2026-02-01 05:56:58,2959,dining,contactless,,SG,SG,1,0,missing_amount
+105287,15043,2026-03-20 18:25:14,863,fuel,pos,-463.0,IN,IN,1,0,non_positive_amount
+8798,15698,2026-01-07 13:44:52,665,online_services,ecommerce,,DE,DE,0,0,missing_amount
+33222,12108,2026-01-25 20:44:42,680,grocery,ecommerce,-311.0,IN,IN,0,0,non_positive_amount
+49594,13993,2026-02-07 01:30:55,1085,fuel,pos,-160.0,IN,IN,1,0,non_positive_amount
+9592,11700,2026-01-08 03:53:54,2788,fuel,pos,-244.0,IN,IN,1,0,non_positive_amount
+120423,15462,2026-03-31 23:38:05,2849,grocery,ecommerce,,IN,AE,0,0,missing_amount
+31653,11081,2026-01-24 16:59:03,1171,grocery,pos,-382.0,IN,IN,1,0,non_positive_amount
+9766,14013,2026-01-08 07:15:49,275,grocery,ecommerce,,AE,AE,0,0,missing_amount
+39200,14763,2026-01-30 08:29:20,1803,travel,contactless,,IN,IN,1,0,missing_amount
+81797,11599,,1918,fuel,pos,479.12,IN,IN,1,0,unparseable_timestamp
+16850,12708,2026-01-13 12:34:26,155,travel,pos,,IN,IN,1,0,missing_amount
+73774,14298,,2052,entertainment,pos,286.03,IN,IN,1,0,unparseable_timestamp
+51878,10343,2026-02-08 19:16:13,146,travel,pos,,AE,AE,1,0,missing_amount
+38906,14403,2026-01-30 03:27:29,2384,grocery,pos,-300.0,US,US,1,0,non_positive_amount
+66701,15561,2026-02-19 19:48:45,2423,fashion,ecommerce,,DE,IN,0,0,missing_amount
+106945,10392,,1554,online_services,pos,464.71,IN,IN,1,0,unparseable_timestamp
+119290,12257,,695,fashion,ecommerce,3945.37,IN,IN,0,1,unparseable_timestamp
+58064,15017,2026-02-13 10:13:34,1379,fashion,pos,,DE,DE,1,0,missing_amount
+107865,15085,2026-03-22 16:44:44,1290,fashion,atm,,IN,IN,1,0,missing_amount
+118143,12925,2026-03-30 07:33:39,1247,,contactless,,IN,IN,1,0,missing_amount
+10307,13337,2026-01-08 17:04:10,1319,dining,ecommerce,,IN,IN,0,0,missing_amount
+57130,15352,2026-02-12 17:33:19,1180,dining,pos,,IN,IN,1,0,missing_amount
+81409,15433,2026-03-02 18:17:01,1148,utilities,contactless,-154.0,IN,IN,1,0,non_positive_amount
+92493,12093,2026-03-11 01:55:48,2242,,pos,,SG,SG,1,0,missing_amount
+81725,14268,,2885,fashion,pos,497.62,SG,SG,1,0,unparseable_timestamp
+31275,10325,2026-01-24 09:35:01,1285,grocery,pos,,IN,IN,1,0,missing_amount
+1208,12627,2026-01-01 20:47:25,2963,grocery,atm,-44.0,IN,IN,1,0,non_positive_amount
+68007,15107,2026-02-20 17:40:27,700,travel,pos,,IN,IN,1,0,missing_amount
+72447,13530,2026-02-23 23:59:19,1530,entertainment,ecommerce,-182.0,IN,IN,0,0,non_positive_amount
+105691,13158,,1632,fashion,pos,477.88,GB,GB,1,0,unparseable_timestamp
+54317,15186,,610,online_services,ecommerce,258.17,AE,AE,0,0,unparseable_timestamp
+71963,12148,2026-02-23 16:04:48,2123,grocery,ecommerce,,IN,IN,0,0,missing_amount
+81927,12117,2026-03-03 03:27:10,1504,travel,pos,,IN,IN,1,0,missing_amount
+31546,15598,2026-01-24 14:45:45,2694,health,contactless,,IN,IN,1,0,missing_amount
+7915,15243,2026-01-06 22:41:30,2081,grocery,ecommerce,,AE,AE,2,0,missing_amount
+102184,14827,2026-03-18 09:35:17,830,utilities,pos,,IN,IN,1,0,missing_amount
+84044,13327,,1454,entertainment,pos,353.28,IN,IN,1,0,unparseable_timestamp
+21259,14872,2026-01-16 21:17:15,153,entertainment,contactless,-67.0,DE,DE,1,0,non_positive_amount
+96878,11749,2026-03-14 07:41:02,117,grocery,ecommerce,-120.0,GB,GB,0,0,non_positive_amount
+70408,15804,,2529,dining,ecommerce,942.28,US,US,0,0,unparseable_timestamp
+3055,12020,2026-01-03 06:16:46,1132,electronics,contactless,,US,US,1,0,missing_amount
+55627,10873,2026-02-11 15:25:45,2822,grocery,ecommerce,,IN,IN,0,0,missing_amount
+7847,14960,2026-01-06 21:24:59,1757,entertainment,ecommerce,-64.0,IN,IN,0,0,non_positive_amount
+43672,10849,2026-02-02 16:00:09,1962,travel,atm,,IN,IN,1,0,missing_amount
+48881,15024,2026-02-06 12:23:03,2723,dining,contactless,,DE,DE,1,0,missing_amount
+28435,11317,2026-01-22 06:24:24,2650,grocery,ecommerce,,IN,IN,0,0,missing_amount
+84136,11497,2026-03-04 20:29:24,598,fuel,pos,,GB,GB,1,0,missing_amount
+55498,14882,2026-02-11 13:11:11,224,fuel,pos,,SG,SG,1,0,missing_amount
+83224,14361,2026-03-04 03:26:41,2182,fashion,pos,-357.0,IN,IN,1,0,non_positive_amount
+82350,14698,2026-03-03 10:54:52,2583,online_services,atm,-360.0,IN,IN,1,0,non_positive_amount
+57490,13700,2026-02-13 00:07:06,271,entertainment,pos,,IN,IN,1,0,missing_amount
+108387,13555,2026-03-23 01:57:19,1291,grocery,contactless,-273.0,IN,IN,1,0,non_positive_amount
+45658,15925,2026-02-04 03:07:46,237,grocery,pos,,IN,IN,1,0,missing_amount
+79835,14328,2026-03-01 12:12:32,597,dining,pos,,IN,IN,1,0,missing_amount
+111610,10813,2026-03-25 12:34:36,1937,fashion,pos,-104.0,AE,AE,1,0,non_positive_amount
+70573,13696,2026-02-22 15:33:48,1689,electronics,ecommerce,-387.0,IN,IN,0,0,non_positive_amount
+49634,10870,2026-02-07 02:19:17,2020,health,pos,-85.0,IN,IN,1,0,non_positive_amount
+88003,15003,,2207,fuel,pos,430.81,IN,IN,1,0,unparseable_timestamp
+118038,10507,2026-03-30 05:48:50,1775,fuel,contactless,,DE,DE,1,0,missing_amount
+102582,15631,2026-03-18 16:52:59,1278,online_services,pos,-123.0,IN,IN,1,0,non_positive_amount
+28459,11502,,275,grocery,pos,534.19,IN,IN,1,0,unparseable_timestamp
+63568,12292,2026-02-17 11:44:40,1232,online_services,pos,,GB,GB,1,0,missing_amount
+77863,15118,2026-02-28 01:43:57,1635,entertainment,pos,,IN,IN,1,0,missing_amount
+100510,14405,,1988,electronics,contactless,372.38,IN,IN,1,0,unparseable_timestamp
+57139,12814,,1613,fuel,ecommerce,261.15,IN,IN,0,0,unparseable_timestamp
+39540,13204,,2060,grocery,ecommerce,927.24,IN,IN,0,0,unparseable_timestamp
+26517,12367,2026-01-20 20:09:23,990,online_services,ecommerce,-277.0,IN,IN,0,0,non_positive_amount
+64789,15750,2026-02-18 09:50:37,710,entertainment,contactless,,AE,AE,1,0,missing_amount
+116601,15295,2026-03-29 04:48:01,1264,entertainment,pos,,IN,IN,1,0,missing_amount
+10125,14661,,893,online_services,ecommerce,4644.08,IN,IN,0,0,unparseable_timestamp
+95660,11113,2026-03-13 10:30:41,2231,electronics,pos,,IN,IN,1,0,missing_amount
+109004,11969,2026-03-23 13:02:39,2107,grocery,pos,,DE,DE,1,0,missing_amount
+86615,13795,2026-03-06 16:00:54,199,fuel,ecommerce,-439.0,IN,IN,0,0,non_positive_amount
+7421,13542,2026-01-06 13:44:47,1910,fuel,pos,,IN,IN,1,0,missing_amount
+74001,10752,2026-02-25 04:46:20,2445,fashion,contactless,,IN,IN,1,0,missing_amount
+48562,10540,2026-02-06 06:54:28,2677,health,pos,,IN,IN,1,0,missing_amount
+93272,10000,2026-03-11 15:28:27,2817,grocery,pos,,GB,GB,1,0,missing_amount
+27123,11331,2026-01-21 06:12:09,2971,entertainment,pos,,US,US,1,0,missing_amount
+95190,11863,,1426,grocery,contactless,523.91,IN,IN,1,0,unparseable_timestamp
+27544,14703,2026-01-21 14:00:36,1913,dining,pos,,IN,IN,1,0,missing_amount
+98951,10235,2026-03-15 20:51:44,1859,online_services,pos,-395.0,IN,IN,1,0,non_positive_amount
+8729,13223,2026-01-07 12:41:23,349,grocery,pos,,IN,IN,1,0,missing_amount
+87716,12227,2026-03-07 11:28:10,259,health,pos,,US,US,1,0,missing_amount
+53331,15568,,2840,health,pos,185.3,IN,IN,1,0,unparseable_timestamp
+88929,13639,2026-03-08 10:00:13,661,health,pos,,IN,IN,1,0,missing_amount
+77602,13222,,1688,entertainment,ecommerce,154.2,IN,IN,0,0,unparseable_timestamp
+39245,11958,2026-01-30 09:15:57,1725,dining,contactless,,IN,IN,1,0,missing_amount
+3086,15030,,1480,travel,pos,1335.68,IN,IN,1,0,unparseable_timestamp
+76345,11816,,1434,grocery,pos,9734.63,GB,IN,1,0,unparseable_timestamp
+39890,14049,2026-01-30 20:30:50,2342,grocery,contactless,,IN,IN,1,0,missing_amount
+21847,15571,2026-01-17 08:16:12,2203,utilities,contactless,,IN,IN,1,0,missing_amount
+76815,13643,2026-02-27 07:10:55,1387,grocery,pos,,IN,IN,1,0,missing_amount
+33452,13910,2026-01-26 00:32:19,1724,entertainment,ecommerce,,IN,IN,0,0,missing_amount
+116910,11190,2026-03-29 10:22:45,610,fashion,contactless,,IN,IN,1,0,missing_amount
+61698,12544,2026-02-16 01:28:08,729,fuel,pos,,IN,IN,1,0,missing_amount
+9738,10066,2026-01-08 06:37:02,376,travel,pos,,US,US,1,0,missing_amount
+18719,11273,2026-01-14 22:22:42,1015,fuel,atm,-141.0,IN,IN,1,0,non_positive_amount
+15940,14163,2026-01-12 20:04:03,438,dining,pos,,IN,IN,1,0,missing_amount
+42129,15229,2026-02-01 13:35:32,1121,dining,ecommerce,-476.0,IN,IN,0,0,non_positive_amount
+14063,12578,2026-01-11 10:27:33,1563,online_services,pos,-335.0,IN,IN,1,0,non_positive_amount
+106328,15715,2026-03-21 13:19:59,372,fuel,pos,-454.0,US,US,1,0,non_positive_amount
+20528,14889,2026-01-16 08:09:14,2153,dining,ecommerce,,IN,IN,0,0,missing_amount
+53050,12813,2026-02-09 16:56:28,1883,fashion,pos,,IN,IN,1,0,missing_amount
+67216,12711,2026-02-20 04:32:23,744,fuel,ecommerce,,,IN,0,0,missing_amount
+88947,11060,2026-03-08 10:16:51,1281,online_services,ecommerce,,IN,IN,0,1,missing_amount
+114728,10273,2026-03-27 20:50:30,1013,dining,pos,-224.0,GB,GB,1,0,non_positive_amount
+105460,15265,2026-03-20 21:14:57,1286,travel,contactless,,IN,IN,1,0,missing_amount
+33544,11764,2026-01-26 02:17:23,2568,fuel,ecommerce,,US,US,0,0,missing_amount
+22357,12361,2026-01-17 17:25:58,276,health,contactless,,IN,IN,1,0,missing_amount
+117647,15240,2026-03-29 22:49:04,859,fashion,pos,,IN,IN,1,0,missing_amount
+71827,15671,,2706,health,ecommerce,200.04,IN,IN,0,0,unparseable_timestamp
+16925,13954,2026-01-13 13:52:51,1528,travel,pos,,AE,AE,1,0,missing_amount
+86494,13671,2026-03-06 13:31:18,1750,utilities,pos,,IN,IN,1,0,missing_amount
+55704,14694,2026-02-11 16:53:40,2907,health,contactless,,IN,IN,1,0,missing_amount
+42087,12400,,2303,fuel,pos,403.56,IN,IN,1,0,unparseable_timestamp
+113589,10059,2026-03-27 00:32:08,1604,grocery,ecommerce,,IN,IN,0,0,missing_amount
+49211,11664,2026-02-06 18:32:48,2501,fashion,ecommerce,-382.0,US,US,0,0,non_positive_amount
+65928,15587,2026-02-19 06:09:49,583,fuel,ecommerce,7462724.0,AE,AE,0,0,amount_outlier
+91668,10782,2026-03-10 12:24:36,1087,entertainment,ecommerce,,US,US,0,0,missing_amount
+10117,14806,2026-01-08 13:31:08,2916,grocery,pos,,IN,IN,1,0,missing_amount
+56445,14796,2026-02-12 05:56:50,161,travel,contactless,,IN,IN,1,0,missing_amount
+66013,15871,,1471,grocery,atm,711.3,IN,IN,1,0,unparseable_timestamp
+119845,15323,,1607,utilities,ecommerce,131.68,AE,AE,0,0,unparseable_timestamp
+14818,10610,2026-01-12 00:04:55,564,travel,ecommerce,,US,US,0,1,missing_amount
+32918,12692,2026-01-25 15:17:57,2716,grocery,ecommerce,-451.0,GB,GB,0,0,non_positive_amount
+70282,13148,2026-02-22 10:37:48,1238,entertainment,pos,,IN,IN,1,0,missing_amount
+23674,11101,2026-01-18 17:22:18,490,fashion,pos,,IN,IN,1,0,missing_amount
+3927,10761,,2210,dining,ecommerce,369.26,DE,DE,0,0,unparseable_timestamp
+76682,13229,2026-02-27 04:41:21,2655,utilities,pos,-104.0,IN,IN,1,0,non_positive_amount
+69671,15733,,964,electronics,pos,2190.06,IN,IN,1,0,unparseable_timestamp
+72015,10211,2026-02-23 17:29:38,1360,,contactless,-351.0,,GB,1,0,non_positive_amount
+42232,11489,2026-02-01 15:41:39,886,grocery,contactless,,IN,IN,1,0,missing_amount
+65224,13802,2026-02-18 17:40:01,1830,dining,pos,-35.0,IN,IN,1,0,non_positive_amount
+66184,13155,,2262,dining,pos,748.12,IN,IN,1,0,unparseable_timestamp
+58212,15348,2026-02-13 13:14:37,1592,fuel,contactless,,IN,IN,1,0,missing_amount
+108733,13987,2026-03-23 08:02:59,366,dining,atm,,US,US,1,0,missing_amount
+64334,12950,2026-02-18 01:21:58,2561,grocery,contactless,-276.0,IN,IN,1,0,non_positive_amount
+94872,15052,2026-03-12 20:28:48,1286,dining,contactless,,IN,IN,1,0,missing_amount
+116000,15340,2026-03-28 18:33:14,2201,fuel,pos,,US,US,1,0,missing_amount
+23747,12329,2026-01-18 18:32:02,2674,grocery,ecommerce,,IN,IN,0,0,missing_amount
+107395,15332,2026-03-22 08:35:15,2170,grocery,atm,,US,US,1,0,missing_amount
+10406,12599,2026-01-08 18:52:21,2579,dining,ecommerce,,US,US,0,0,missing_amount
+1314,10293,2026-01-01 23:03:14,1351,grocery,ecommerce,-346.0,IN,IN,0,0,non_positive_amount
+69498,14699,2026-02-21 20:27:43,2480,health,pos,-383.0,IN,IN,1,0,non_positive_amount
+66948,14095,2026-02-19 23:55:51,2011,fashion,ecommerce,-176.0,IN,IN,0,1,non_positive_amount
+99221,13442,2026-03-16 01:36:15,1493,utilities,ecommerce,,IN,IN,0,0,missing_amount
+14046,12643,2026-01-11 10:12:38,2311,dining,ecommerce,,IN,IN,0,0,missing_amount
+103621,10253,2026-03-19 11:42:04,1965,health,pos,,DE,DE,1,0,missing_amount
+16692,15147,2026-01-13 09:27:51,90,fashion,ecommerce,,IN,IN,1,0,missing_amount
+96833,10640,2026-03-14 06:51:01,1638,online_services,pos,,IN,IN,1,0,missing_amount
+25449,10539,2026-01-20 00:44:34,1358,fashion,pos,,IN,IN,1,0,missing_amount
+76527,14279,2026-02-27 01:50:42,675,travel,pos,-171.0,IN,IN,1,0,non_positive_amount
+79324,10514,2026-03-01 03:10:38,2937,electronics,pos,,IN,IN,1,0,missing_amount
+87118,13902,2026-03-07 00:54:53,1295,fashion,ecommerce,,IN,IN,0,0,missing_amount
+84122,12941,2026-03-04 20:07:42,1388,grocery,pos,7014036.0,IN,IN,1,0,amount_outlier
+43975,12547,2026-02-02 21:25:16,2876,grocery,ecommerce,-158.0,IN,IN,0,0,non_positive_amount
+66259,10021,2026-02-19 11:52:11,2107,dining,contactless,-408.0,IN,IN,1,0,non_positive_amount
+79388,13197,2026-03-01 04:20:16,187,grocery,pos,-386.0,IN,IN,1,0,non_positive_amount
+28593,13091,,873,dining,pos,38.1,IN,IN,1,0,unparseable_timestamp
+82552,12977,2026-03-03 14:44:31,1918,online_services,ecommerce,-115.0,IN,IN,0,0,non_positive_amount
+44400,12396,2026-02-03 04:43:39,983,utilities,pos,,IN,IN,1,0,missing_amount
+113687,14250,,1949,travel,contactless,1338.03,IN,IN,1,0,unparseable_timestamp
+57706,14173,2026-02-13 03:57:44,1371,fashion,ecommerce,-424.0,IN,IN,0,0,non_positive_amount
+23946,14228,2026-01-18 22:00:28,1262,utilities,pos,,IN,IN,1,0,missing_amount
+23236,15013,2026-01-18 09:43:48,1155,fashion,ecommerce,-2.0,IN,IN,0,0,non_positive_amount
+17135,13858,2026-01-13 18:03:07,1491,dining,ecommerce,,US,US,0,0,missing_amount
+82944,14393,2026-03-03 22:09:31,1316,fuel,contactless,-95.0,IN,IN,1,0,non_positive_amount
+44811,14701,2026-02-03 11:56:35,1621,online_services,ecommerce,,IN,IN,0,0,missing_amount
+32240,13733,,2635,utilities,ecommerce,610.83,IN,IN,0,0,unparseable_timestamp
+56657,15171,2026-02-12 09:44:50,2222,grocery,pos,,IN,IN,1,0,missing_amount
+16260,15180,2026-01-13 01:33:34,534,grocery,ecommerce,-89.0,IN,IN,0,0,non_positive_amount
+35480,13598,2026-01-27 13:28:10,1402,grocery,ecommerce,5359509.0,US,US,0,0,amount_outlier
+107758,13246,,2506,grocery,pos,310.27,IN,IN,1,0,unparseable_timestamp
+102047,15803,2026-03-18 07:11:51,479,fuel,pos,,GB,GB,1,0,missing_amount
+99594,11746,2026-03-16 08:19:52,1317,grocery,contactless,-429.0,GB,GB,1,0,non_positive_amount
+52857,11556,,1306,online_services,pos,473.01,IN,IN,1,0,unparseable_timestamp
+92828,13642,2026-03-11 07:30:28,1681,dining,pos,,IN,IN,1,0,missing_amount
+86635,11796,2026-03-06 16:11:32,2451,entertainment,ecommerce,-205.0,IN,IN,0,0,non_positive_amount
+60347,15646,,2263,utilities,pos,71.41,IN,IN,1,0,unparseable_timestamp
+35294,13093,2026-01-27 10:17:40,2151,entertainment,pos,,AE,AE,1,0,missing_amount
+6571,12521,2026-01-05 21:54:55,998,utilities,ecommerce,,IN,IN,0,0,missing_amount
+106131,14039,2026-03-21 09:35:17,2829,grocery,pos,-392.0,IN,IN,1,0,non_positive_amount
+70314,10444,2026-02-22 11:06:14,336,dining,pos,,AE,AE,1,0,missing_amount
+15246,10784,2026-01-12 07:41:15,106,fuel,pos,7999341.0,IN,IN,1,0,amount_outlier
+89768,15516,2026-03-09 00:32:22,524,grocery,pos,-139.0,IN,IN,1,0,non_positive_amount
+67809,13193,2026-02-20 14:06:14,1311,electronics,pos,,AE,AE,1,0,missing_amount
+55313,13446,2026-02-11 09:13:59,552,grocery,ecommerce,,GB,GB,0,0,missing_amount
+67668,10020,,772,dining,ecommerce,213.9,IN,IN,0,0,unparseable_timestamp
+7449,11335,2026-01-06 14:26:02,1485,grocery,ecommerce,,IN,IN,0,0,missing_amount
+5707,15510,,942,online_services,pos,2261.22,SG,SG,1,0,unparseable_timestamp
+39979,15688,,180,entertainment,contactless,93.52,US,US,1,0,unparseable_timestamp
+70009,12323,,1762,fashion,pos,941.67,IN,IN,1,0,unparseable_timestamp
+74153,15462,2026-02-25 07:47:17,3,fuel,contactless,,AE,AE,1,0,missing_amount
+96286,12946,2026-03-13 21:34:03,753,utilities,pos,-89.0,IN,IN,1,0,non_positive_amount
+1392,10346,2026-01-02 00:30:08,1565,fashion,pos,-322.0,IN,IN,1,0,non_positive_amount
+52722,10236,2026-02-09 10:32:12,604,fashion,pos,-462.0,AE,AE,1,0,non_positive_amount
+62408,15871,,2018,dining,ecommerce,937.67,IN,IN,0,0,unparseable_timestamp
+71955,10690,2026-02-23 15:58:29,2941,fashion,ecommerce,,IN,IN,0,0,missing_amount
+105991,11947,,1933,utilities,contactless,1490.62,IN,IN,1,0,unparseable_timestamp
+31988,12391,2026-01-24 22:33:46,1481,health,pos,,AE,AE,1,0,missing_amount
+118404,11954,2026-03-30 12:01:45,2789,grocery,ecommerce,-343.0,US,IN,0,0,non_positive_amount
+21402,15288,,2144,fashion,pos,2712.18,IN,IN,1,0,unparseable_timestamp
+85079,15399,2026-03-05 12:43:56,1331,grocery,pos,-417.0,IN,IN,1,0,non_positive_amount
+69363,13404,2026-02-21 17:57:44,1414,fuel,pos,,GB,GB,1,0,missing_amount
+59475,11329,2026-02-14 10:49:38,2719,grocery,ecommerce,,IN,IN,0,0,missing_amount
+11884,13065,2026-01-09 21:04:36,744,utilities,contactless,7921384.0,US,US,1,0,amount_outlier
+88894,11573,2026-03-08 09:14:38,804,dining,pos,,US,US,1,0,missing_amount
+94612,14574,,2307,dining,contactless,710.51,US,US,1,0,unparseable_timestamp
+21037,12197,2026-01-16 17:24:46,2044,dining,contactless,,IN,IN,1,0,missing_amount
+13776,12779,,2088,entertainment,ecommerce,1564.1,SG,SG,0,0,unparseable_timestamp
+54528,10098,2026-02-10 19:52:09,2197,fashion,contactless,,IN,IN,1,0,missing_amount
+97734,11305,2026-03-14 22:06:53,2731,entertainment,pos,,IN,IN,1,0,missing_amount
+69644,14436,2026-02-21 23:15:02,2729,grocery,ecommerce,,US,US,0,0,missing_amount
+84624,10347,2026-03-05 05:15:33,2694,utilities,contactless,,US,US,1,0,missing_amount
+76984,11459,2026-02-27 10:06:40,2633,electronics,pos,,GB,GB,1,0,missing_amount
+59099,13452,2026-02-14 04:44:16,2279,dining,pos,,IN,IN,1,0,missing_amount
+69670,14543,2026-02-21 23:53:07,1658,entertainment,contactless,,US,US,1,0,missing_amount
+18050,12854,,618,grocery,pos,186.16,IN,IN,1,0,unparseable_timestamp
+115803,13931,2026-03-28 15:14:35,1458,health,contactless,,IN,IN,1,0,missing_amount
+89635,12191,2026-03-08 22:08:24,148,online_services,ecommerce,,US,US,0,0,missing_amount
+20183,11936,,283,travel,pos,568.52,IN,IN,1,0,unparseable_timestamp
+3727,12850,,2926,travel,pos,505.09,IN,IN,1,0,unparseable_timestamp
+119782,14046,2026-03-31 12:02:46,2643,dining,contactless,,IN,IN,1,0,missing_amount
+74653,14668,2026-02-25 15:41:47,461,electronics,pos,,GB,GB,1,0,missing_amount
+112504,15144,2026-03-26 04:42:25,1492,online_services,pos,,SG,SG,1,0,missing_amount
+66827,10610,2026-02-19 21:59:51,1536,online_services,pos,-426.0,AE,US,1,0,non_positive_amount
+101273,13667,2026-03-17 16:17:43,1928,fuel,atm,,IN,IN,1,0,missing_amount
+57364,15548,,1385,dining,atm,224.93,IN,IN,1,0,unparseable_timestamp
+1796,14328,,885,fuel,pos,259.59,IN,IN,1,0,unparseable_timestamp
+21796,13981,,2999,grocery,pos,520.29,AE,IN,1,0,unparseable_timestamp
+9581,11297,2026-01-08 03:46:48,342,health,pos,,SG,SG,1,0,missing_amount
+10783,13982,,2318,grocery,pos,230.76,AE,SG,1,0,unparseable_timestamp
+40746,11220,2026-01-31 11:33:07,2585,health,pos,-420.0,IN,IN,1,0,non_positive_amount
+91867,11317,2026-03-10 15:37:24,867,travel,contactless,,IN,IN,1,0,missing_amount
+119233,10743,2026-03-31 01:59:34,255,fuel,atm,,IN,IN,1,0,missing_amount
+30076,10723,2026-01-23 12:00:19,1706,grocery,pos,-5.0,GB,GB,1,0,non_positive_amount
+11458,10644,,1897,grocery,contactless,614.12,IN,IN,1,0,unparseable_timestamp
+101246,14142,,615,grocery,ecommerce,,IN,IN,0,0,missing_amount
+90434,11336,2026-03-09 12:35:09,1233,travel,pos,-190.0,IN,IN,1,0,non_positive_amount
+58366,11943,2026-02-13 15:54:20,620,fuel,pos,,IN,IN,1,0,missing_amount
+17342,13279,2026-01-13 21:31:41,2463,health,pos,,GB,IN,1,0,missing_amount
+74892,12060,2026-02-25 20:20:00,1788,grocery,pos,,DE,DE,1,0,missing_amount
+112213,13367,2026-03-25 23:25:39,2995,fuel,ecommerce,-243.0,IN,IN,0,1,non_positive_amount
+63465,14607,,1386,utilities,ecommerce,811.99,IN,IN,0,0,unparseable_timestamp
+40338,13802,2026-01-31 04:27:31,2829,,ecommerce,,IN,IN,0,0,missing_amount
+74613,10244,2026-02-25 15:12:06,1275,travel,ecommerce,-402.0,AE,AE,0,0,non_positive_amount
+49995,10973,2026-02-07 09:13:31,2790,fuel,pos,-451.0,DE,DE,1,0,non_positive_amount
+46218,15831,2026-02-04 12:54:58,144,electronics,pos,,IN,IN,1,0,missing_amount
+42494,10719,2026-02-01 19:57:23,791,dining,pos,,IN,IN,1,0,missing_amount
+37574,15374,,426,entertainment,pos,222.16,IN,IN,1,0,unparseable_timestamp
+90526,12115,2026-03-09 14:32:10,1298,dining,pos,,AE,AE,1,0,missing_amount
+67714,13175,2026-02-20 12:42:43,1788,grocery,ecommerce,,IN,IN,0,0,missing_amount
+966,13510,2026-01-01 16:54:43,842,entertainment,ecommerce,,US,US,0,0,missing_amount
+6567,10559,,380,dining,ecommerce,158.18,IN,IN,0,0,unparseable_timestamp
+1266,13619,2026-01-01 22:10:39,838,electronics,ecommerce,,IN,IN,0,0,missing_amount
+1723,15873,2026-01-02 06:51:54,2063,entertainment,pos,,SG,SG,1,0,missing_amount
+54331,11982,,2955,grocery,pos,397.67,IN,IN,1,0,unparseable_timestamp
+104237,11830,2026-03-19 22:15:07,937,fuel,pos,-358.0,IN,IN,1,0,non_positive_amount
+2468,15827,2026-01-02 20:04:58,329,grocery,ecommerce,,IN,IN,0,0,missing_amount
+87148,14286,2026-03-07 01:18:20,2938,grocery,pos,,IN,IN,1,0,missing_amount
+8745,11902,2026-01-07 12:55:10,14,health,contactless,,IN,IN,1,0,missing_amount
+19020,10411,,2820,entertainment,contactless,752.92,IN,IN,1,0,unparseable_timestamp
+10785,14130,,2710,fuel,ecommerce,1593.83,IN,IN,0,0,unparseable_timestamp
+40858,13219,2026-01-31 13:32:21,2281,grocery,contactless,,IN,IN,1,0,missing_amount
+13312,14816,2026-01-10 21:15:18,1574,grocery,contactless,-239.0,IN,IN,1,0,non_positive_amount
+15581,14614,2026-01-12 13:52:17,2856,travel,pos,-262.0,IN,IN,1,0,non_positive_amount
+93658,12297,,1337,dining,pos,458.58,IN,IN,1,0,unparseable_timestamp
+70349,11499,2026-02-22 11:38:37,1871,electronics,contactless,,SG,SG,1,0,missing_amount
+55834,15711,2026-02-11 19:16:11,1913,grocery,pos,,IN,IN,1,0,missing_amount
+59578,13493,2026-02-14 12:24:11,893,electronics,ecommerce,,IN,IN,0,0,missing_amount
+7713,15628,2026-01-06 18:55:28,652,online_services,pos,,IN,IN,1,0,missing_amount
+102125,14755,,2010,dining,contactless,1152.62,IN,IN,1,0,unparseable_timestamp
+6803,13199,2026-01-06 02:23:59,2758,health,pos,,SG,SG,1,0,missing_amount
+92968,15821,2026-03-11 10:11:04,2710,grocery,pos,,IN,IN,1,0,missing_amount
+250,14873,,2577,entertainment,ecommerce,2816.92,IN,IN,0,1,unparseable_timestamp
+119472,14850,,264,grocery,contactless,895.76,IN,IN,1,0,unparseable_timestamp
+108039,14691,2026-03-22 20:07:22,1625,fashion,pos,,IN,IN,1,0,missing_amount
+87163,11939,2026-03-07 01:33:09,160,entertainment,pos,-445.0,IN,IN,1,0,non_positive_amount
+20626,10456,2026-01-16 09:50:56,2397,utilities,ecommerce,,IN,IN,0,0,missing_amount
+86653,10644,2026-03-06 16:26:24,1111,fuel,contactless,,IN,IN,1,0,missing_amount
+97004,13394,2026-03-14 09:55:30,2148,health,atm,,IN,IN,1,0,missing_amount
+20800,15921,2026-01-16 12:53:41,1293,electronics,pos,,US,US,1,0,missing_amount
+58032,12570,2026-02-13 09:40:47,1514,health,contactless,,DE,DE,1,0,missing_amount
+3136,10330,2026-01-03 07:49:26,841,dining,contactless,-409.0,US,US,1,0,non_positive_amount
+8979,13301,2026-01-07 17:02:18,1932,dining,ecommerce,-435.0,IN,IN,0,0,non_positive_amount
+13001,11037,2026-01-10 16:16:24,1824,entertainment,pos,-345.0,DE,DE,1,0,non_positive_amount
+57129,12886,2026-02-12 17:32:58,1299,grocery,pos,-421.0,IN,IN,1,0,non_positive_amount
+2638,10566,2026-01-02 22:45:18,524,dining,pos,-481.0,IN,IN,1,0,non_positive_amount
+114366,14541,,2938,grocery,ecommerce,1760.81,IN,IN,0,0,unparseable_timestamp
+104094,15996,2026-03-19 19:53:08,311,electronics,ecommerce,-341.0,IN,IN,0,0,non_positive_amount
+90324,15280,2026-03-09 10:23:24,1828,electronics,contactless,-417.0,IN,IN,1,0,non_positive_amount
+28224,15648,,1167,health,ecommerce,116.25,IN,GB,1,0,unparseable_timestamp
+58697,11993,2026-02-13 21:21:48,1148,utilities,pos,,IN,IN,1,0,missing_amount
+15156,13864,,434,utilities,pos,2514.3,US,US,1,0,unparseable_timestamp
+40667,12399,2026-01-31 10:25:46,2625,electronics,contactless,-118.0,GB,GB,2,0,non_positive_amount
+66612,13635,2026-02-19 18:10:47,716,electronics,ecommerce,-78.0,IN,IN,0,0,non_positive_amount
+99904,10482,2026-03-16 14:33:34,2786,fuel,pos,-191.0,IN,IN,1,0,non_positive_amount
+22635,13733,2026-01-17 22:36:45,608,utilities,pos,,IN,IN,1,0,missing_amount
+35856,12863,2026-01-27 20:20:45,2107,fuel,pos,,US,US,1,0,missing_amount
+15580,15029,2026-01-12 13:44:40,1826,utilities,pos,,IN,IN,1,0,missing_amount
+4729,14528,2026-01-04 12:56:43,2439,fashion,pos,,DE,DE,1,0,missing_amount
+8923,10202,2026-01-07 16:08:10,2252,dining,pos,,IN,IN,1,0,missing_amount
+107356,13974,2026-03-22 07:55:00,2393,grocery,pos,,AE,AE,1,0,missing_amount
+61600,12965,2026-02-15 23:47:13,1531,dining,pos,,IN,IN,1,0,missing_amount
+31597,15938,,2397,entertainment,pos,157.4,IN,IN,1,0,unparseable_timestamp
+113270,10548,2026-03-26 18:16:14,712,entertainment,ecommerce,,AE,AE,0,0,missing_amount
+90130,13796,2026-03-09 06:45:00,2151,grocery,ecommerce,,AE,AE,0,0,missing_amount
+72828,11062,2026-02-24 06:54:46,2760,online_services,contactless,,IN,IN,1,0,missing_amount
+82027,15407,2026-03-03 05:18:22,2071,dining,pos,,IN,IN,1,0,missing_amount
+16733,10908,2026-01-13 10:22:53,2341,fuel,pos,,IN,IN,1,0,missing_amount
+75312,12861,,884,online_services,pos,705.03,IN,IN,1,0,unparseable_timestamp
+60199,12364,2026-02-14 23:15:12,1624,dining,ecommerce,-448.0,US,US,0,0,non_positive_amount
+11784,14487,2026-01-09 19:34:18,130,travel,ecommerce,-200.0,SG,SG,0,0,non_positive_amount
+51348,14334,2026-02-08 09:57:13,100,fashion,pos,,IN,IN,1,0,missing_amount
+88679,10364,2026-03-08 05:21:52,2030,utilities,atm,-486.0,IN,IN,1,0,non_positive_amount
+63706,11504,2026-02-17 14:09:46,1065,grocery,contactless,-101.0,US,US,1,0,non_positive_amount
+28865,15753,2026-01-22 14:26:40,767,grocery,contactless,,IN,IN,1,0,missing_amount
+16490,14792,,446,dining,pos,58.21,GB,GB,1,0,unparseable_timestamp
+106727,15582,,202,dining,pos,857.01,IN,IN,1,0,unparseable_timestamp
+37038,13477,,699,online_services,pos,72.99,GB,GB,1,0,unparseable_timestamp
+22757,10577,2026-01-18 00:42:51,2669,entertainment,ecommerce,-390.0,IN,IN,0,0,non_positive_amount
+45546,10442,2026-02-04 01:11:57,2381,dining,pos,,IN,IN,1,0,missing_amount
+62754,12622,2026-02-16 21:00:07,581,grocery,pos,,IN,IN,1,0,missing_amount
+64068,14398,2026-02-17 20:45:53,2534,grocery,ecommerce,,IN,IN,0,0,missing_amount
+41649,14361,2026-02-01 04:13:46,1314,electronics,ecommerce,,IN,IN,0,0,missing_amount
+33964,14251,,2062,grocery,pos,258.13,IN,IN,1,0,unparseable_timestamp
+86765,14374,2026-03-06 18:27:56,1177,dining,contactless,,IN,IN,2,0,missing_amount
+101251,15866,2026-03-17 15:55:37,542,grocery,contactless,,IN,IN,1,0,missing_amount
+75435,11737,2026-02-26 06:27:17,2916,entertainment,contactless,,IN,IN,1,0,missing_amount
+45888,11961,2026-02-04 07:16:16,150,online_services,pos,,IN,IN,1,0,missing_amount
+31442,14159,2026-01-24 12:23:39,2880,fuel,ecommerce,,SG,SG,0,0,missing_amount
+20438,13498,2026-01-16 06:32:17,1923,electronics,ecommerce,,AE,AE,0,0,missing_amount
+98343,12507,2026-03-15 09:52:20,2860,dining,contactless,-141.0,IN,IN,1,0,non_positive_amount
+4713,10461,2026-01-04 12:32:39,804,electronics,ecommerce,-367.0,US,US,0,0,non_positive_amount
+112740,11225,2026-03-26 09:21:49,1119,grocery,contactless,,AE,AE,1,0,missing_amount
+57593,10199,2026-02-13 02:04:13,1329,utilities,pos,-207.0,US,US,1,0,non_positive_amount
+110111,12609,2026-03-24 08:24:09,476,dining,contactless,,IN,IN,1,0,missing_amount
+78054,13544,2026-02-28 05:07:57,2762,grocery,contactless,,DE,DE,1,0,missing_amount
+94752,11521,2026-03-12 17:50:30,627,dining,pos,,IN,IN,1,0,missing_amount
+108150,15894,2026-03-22 21:43:40,2706,electronics,pos,,IN,IN,1,0,missing_amount
+15546,15443,2026-01-12 13:14:28,2259,grocery,ecommerce,8945086.0,IN,IN,0,0,amount_outlier
+53290,15764,,1005,online_services,ecommerce,2325.02,IN,IN,0,0,unparseable_timestamp
+47280,14993,2026-02-05 08:47:08,2524,dining,pos,-359.0,IN,IN,1,0,non_positive_amount
+41333,11449,2026-01-31 22:23:28,1808,grocery,pos,-494.0,IN,IN,1,0,non_positive_amount
+102381,10370,2026-03-18 12:57:47,1114,dining,pos,,IN,IN,1,0,missing_amount
+12588,10868,2026-01-10 08:56:48,55,grocery,contactless,,IN,IN,1,0,missing_amount
+8141,11471,2026-01-07 02:28:00,261,dining,contactless,-308.0,IN,IN,1,0,non_positive_amount
+93137,13112,2026-03-11 13:26:22,1784,online_services,pos,,GB,GB,1,0,missing_amount
+76069,13243,,1808,travel,ecommerce,208.31,IN,IN,0,0,unparseable_timestamp
+45474,10807,2026-02-04 00:04:00,2663,utilities,pos,-114.0,IN,IN,1,0,non_positive_amount
+107303,15295,2026-03-22 07:03:00,77,fuel,pos,,IN,IN,1,0,missing_amount
+38781,15567,2026-01-30 00:59:53,1726,travel,pos,-147.0,IN,IN,1,0,non_positive_amount
+36044,13215,2026-01-27 23:36:23,1965,dining,pos,,IN,IN,1,0,missing_amount
+29306,12862,,2962,grocery,atm,892.26,IN,IN,1,0,unparseable_timestamp
+108802,14791,2026-03-23 09:14:21,1887,grocery,atm,-355.0,SG,SG,1,0,non_positive_amount
+110205,11649,2026-03-24 10:03:26,1314,online_services,pos,,IN,IN,1,0,missing_amount
+26374,11566,2026-01-20 17:26:22,2236,fashion,contactless,-493.0,IN,IN,1,0,non_positive_amount
+3638,14985,2026-01-03 17:00:56,1283,dining,ecommerce,-228.0,GB,GB,0,0,non_positive_amount
+60461,12717,2026-02-15 03:39:04,1926,dining,atm,-490.0,IN,IN,1,0,non_positive_amount
+82984,12144,2026-03-03 22:50:58,307,dining,pos,,IN,IN,1,0,missing_amount
+39896,12913,2026-01-30 20:38:06,2196,travel,pos,,AE,AE,1,0,missing_amount
+15247,14872,2026-01-12 07:41:58,564,grocery,contactless,-18.0,DE,DE,1,0,non_positive_amount
+115611,15991,2026-03-28 12:04:32,423,fuel,ecommerce,,IN,IN,0,0,missing_amount
+107043,15816,2026-03-22 02:24:20,2960,fuel,contactless,-440.0,IN,IN,1,0,non_positive_amount
+77373,10239,2026-02-27 16:52:07,1262,grocery,ecommerce,,IN,IN,0,0,missing_amount
+98155,14136,2026-03-15 06:30:13,1407,entertainment,ecommerce,,IN,IN,0,0,missing_amount
+35281,10469,2026-01-27 10:05:52,506,grocery,atm,,IN,IN,1,0,missing_amount
+110668,13321,,259,fashion,ecommerce,3108.03,IN,IN,0,0,unparseable_timestamp
+70399,12211,2026-02-22 12:28:12,324,dining,contactless,-205.0,IN,IN,1,0,non_positive_amount
+113319,12769,2026-03-26 19:08:29,1034,electronics,pos,,IN,IN,1,0,missing_amount
+3364,10550,,389,fashion,pos,284.66,IN,IN,1,0,unparseable_timestamp
+21425,13488,2026-01-17 00:39:47,564,online_services,ecommerce,,IN,IN,0,0,missing_amount
+46548,15095,2026-02-04 19:08:11,397,online_services,pos,-464.0,AE,AE,1,0,non_positive_amount
+44963,14139,2026-02-03 14:48:56,66,grocery,ecommerce,,US,US,0,0,missing_amount
+98090,12135,,1085,travel,pos,389.25,US,US,1,0,unparseable_timestamp
+46193,15510,,2155,fashion,atm,553.57,SG,SG,1,0,unparseable_timestamp
+94887,10365,2026-03-12 20:43:22,506,health,pos,,IN,IN,1,0,missing_amount
+59609,13393,2026-02-14 13:08:12,2677,electronics,pos,,IN,IN,1,0,missing_amount
+94422,10036,2026-03-12 12:28:49,2199,grocery,contactless,,IN,IN,1,0,missing_amount
+86051,11211,2026-03-06 05:15:21,131,entertainment,pos,,SG,SG,1,0,missing_amount
+68033,12663,2026-02-20 18:12:47,1522,travel,contactless,-251.0,IN,IN,1,0,non_positive_amount
+30408,13428,2026-01-23 18:09:49,727,health,atm,,IN,IN,1,0,missing_amount
+30697,11250,2026-01-23 23:13:00,2253,grocery,pos,,GB,IN,1,0,missing_amount
+9256,12965,2026-01-07 22:02:28,2269,travel,contactless,,SG,IN,1,0,missing_amount
+42631,12274,2026-02-01 22:19:52,268,fuel,pos,,IN,IN,1,0,missing_amount
+12262,10038,2026-01-10 03:21:50,1698,travel,pos,,US,US,1,0,missing_amount
+11020,10294,2026-01-09 05:21:15,557,electronics,pos,,US,US,1,0,missing_amount
+59416,15968,2026-02-14 09:51:16,1622,dining,ecommerce,,IN,IN,0,0,missing_amount
+56203,15495,2026-02-12 01:43:35,1171,grocery,pos,,IN,IN,1,0,missing_amount
+79641,12090,,207,fashion,ecommerce,1091.44,IN,IN,0,0,unparseable_timestamp
+62633,14742,2026-02-16 18:40:00,443,travel,ecommerce,,DE,DE,0,0,missing_amount
+8217,12314,2026-01-07 03:47:20,1118,fuel,contactless,,DE,DE,1,0,missing_amount
+70747,13824,2026-02-22 18:35:13,1911,grocery,pos,,US,US,1,0,missing_amount
+7697,15202,2026-01-06 18:40:49,858,grocery,pos,-46.0,US,US,1,0,non_positive_amount
+114918,11733,2026-03-27 23:51:06,1256,health,pos,,IN,IN,1,0,missing_amount
+86334,13651,2026-03-06 10:35:18,219,grocery,ecommerce,,IN,IN,0,0,missing_amount
+59312,12413,2026-02-14 08:09:37,1338,grocery,ecommerce,-148.0,US,US,0,0,non_positive_amount
+117373,10569,2026-03-29 18:17:55,2087,utilities,contactless,,IN,IN,1,0,missing_amount
+88965,10554,2026-03-08 10:40:01,2894,grocery,ecommerce,,IN,IN,0,0,missing_amount
+23816,14478,2026-01-18 19:51:33,1723,online_services,pos,,IN,IN,1,0,missing_amount
+6538,15234,2026-01-05 21:29:04,2915,fuel,pos,-316.0,IN,IN,1,0,non_positive_amount
+51092,12719,2026-02-08 05:30:59,1165,dining,pos,-242.0,SG,SG,1,0,non_positive_amount
+86212,11757,,762,dining,ecommerce,420.87,IN,IN,0,0,unparseable_timestamp
+26285,15875,2026-01-20 15:58:51,56,entertainment,ecommerce,,IN,IN,0,0,missing_amount
+43560,15373,2026-02-02 14:06:09,1957,grocery,pos,,IN,IN,1,0,missing_amount
+86297,11707,2026-03-06 09:41:43,2130,grocery,contactless,,IN,IN,1,0,missing_amount
+90650,13747,,430,grocery,pos,361.28,IN,IN,1,0,unparseable_timestamp
+85583,15117,2026-03-05 21:31:38,1590,online_services,pos,,US,US,1,0,missing_amount
+19909,12045,2026-01-15 21:01:29,2665,grocery,pos,,IN,IN,1,0,missing_amount
+74604,10190,2026-02-25 15:05:37,1312,electronics,ecommerce,,IN,IN,0,0,missing_amount
+80456,15851,,424,grocery,pos,303.03,IN,IN,1,0,unparseable_timestamp
+5401,12809,2026-01-05 01:01:35,1219,health,pos,,IN,IN,1,0,missing_amount
+65379,15686,2026-02-18 20:06:02,2450,grocery,contactless,-154.0,US,US,1,0,non_positive_amount
+2868,14341,2026-01-03 02:38:39,2861,fuel,pos,,US,US,1,0,missing_amount
+113736,13991,2026-03-27 03:14:23,183,fuel,pos,-491.0,IN,IN,1,0,non_positive_amount
+58238,11278,2026-02-13 13:46:07,979,electronics,pos,-435.0,IN,IN,1,0,non_positive_amount
+109673,13048,,1182,grocery,pos,187.85,IN,IN,1,0,unparseable_timestamp
+118296,11255,,473,fashion,ecommerce,145.06,IN,IN,0,0,unparseable_timestamp
+3827,14826,2026-01-03 20:26:58,1520,fuel,ecommerce,7879261.0,IN,IN,0,0,amount_outlier
+27581,15456,2026-01-21 14:42:47,256,grocery,ecommerce,,IN,IN,0,0,missing_amount
+86232,15540,2026-03-06 08:34:18,1756,electronics,contactless,,IN,IN,1,0,missing_amount
+34204,14680,,2426,travel,contactless,358.55,IN,IN,1,0,unparseable_timestamp
+36605,14105,,2926,fashion,ecommerce,1891.47,IN,IN,0,0,unparseable_timestamp
+72861,12669,2026-02-24 07:27:14,2634,grocery,ecommerce,,IN,IN,0,0,missing_amount
+19560,10233,2026-01-15 14:08:58,1172,dining,pos,-24.0,IN,IN,1,0,non_positive_amount
+93794,11555,,2469,fuel,contactless,565.61,IN,IN,1,0,unparseable_timestamp
+46810,14785,2026-02-05 00:25:42,353,fuel,ecommerce,,,IN,0,0,missing_amount
+18405,13821,2026-01-14 17:08:57,1457,grocery,pos,,GB,GB,1,0,missing_amount
+28373,11361,2026-01-22 05:24:20,143,health,pos,,IN,IN,1,0,missing_amount
+119919,15780,2026-03-31 14:31:16,2709,dining,contactless,-175.0,DE,DE,1,0,non_positive_amount
+88296,15295,2026-03-07 22:24:22,255,fashion,atm,,IN,IN,1,0,missing_amount
+105601,10821,2026-03-21 00:05:40,543,grocery,contactless,-116.0,IN,IN,1,0,non_positive_amount
+86465,14534,2026-03-06 13:00:15,1475,utilities,pos,-207.0,US,AE,1,0,non_positive_amount
+3941,12237,2026-01-03 22:38:37,1524,travel,ecommerce,,IN,IN,0,0,missing_amount
+25053,10608,2026-01-19 17:49:57,1745,dining,pos,,IN,IN,1,0,missing_amount
+65080,12550,2026-02-18 14:56:38,1000,entertainment,pos,,IN,IN,1,0,missing_amount
+78887,12929,2026-02-28 19:55:21,1529,fuel,pos,-66.0,US,US,1,0,non_positive_amount
+88472,14976,2026-03-08 01:45:23,1056,dining,ecommerce,,GB,GB,0,0,missing_amount
+117490,13501,2026-03-29 20:10:08,1794,utilities,contactless,-255.0,IN,IN,1,0,non_positive_amount
+91347,10044,2026-03-10 06:21:05,1846,health,pos,-488.0,IN,IN,1,0,non_positive_amount
+42968,13857,2026-02-02 04:00:16,2661,health,contactless,,IN,IN,1,0,missing_amount
+61038,11033,2026-02-15 14:17:26,811,dining,contactless,-183.0,IN,IN,1,0,non_positive_amount
+49051,11493,2026-02-06 15:34:39,2450,health,pos,-477.0,IN,IN,1,0,non_positive_amount
+10515,13526,2026-01-08 20:34:34,2361,fuel,contactless,-299.0,US,US,1,0,non_positive_amount
+57609,15667,2026-02-13 02:19:27,70,grocery,ecommerce,,IN,IN,0,0,missing_amount
+48944,12973,2026-02-06 13:31:51,2971,health,contactless,-7.0,US,US,1,0,non_positive_amount
+50143,10536,2026-02-07 11:51:54,177,grocery,ecommerce,,IN,IN,0,0,missing_amount
+116966,11038,2026-03-29 11:04:12,1788,online_services,ecommerce,,AE,AE,0,0,missing_amount
+60094,11458,,2918,utilities,pos,1571.49,US,US,1,0,unparseable_timestamp
+58923,10592,2026-02-14 01:26:48,1920,health,ecommerce,-306.0,SG,SG,0,0,non_positive_amount
+109741,15293,2026-03-24 02:22:13,1238,fashion,pos,,IN,IN,1,0,missing_amount
+55577,12311,2026-02-11 14:34:19,634,fuel,pos,,IN,IN,1,0,missing_amount
+75300,12134,,1024,fashion,contactless,1232.87,IN,IN,1,0,unparseable_timestamp
+23762,11065,2026-01-18 18:49:48,2785,fuel,pos,,IN,IN,1,0,missing_amount
+88427,14755,2026-03-08 00:55:04,371,grocery,ecommerce,,IN,IN,0,0,missing_amount
+74069,14249,,1364,grocery,pos,1405.05,IN,IN,1,0,unparseable_timestamp
+56372,13848,2026-02-12 04:51:51,2902,fuel,pos,-408.0,IN,IN,1,0,non_positive_amount
+45562,12682,,2340,electronics,pos,842.69,IN,IN,1,0,unparseable_timestamp
+28414,10403,2026-01-22 06:01:13,2990,health,ecommerce,-213.0,DE,DE,0,0,non_positive_amount
+99472,10869,,1811,grocery,ecommerce,1377.35,IN,IN,0,0,unparseable_timestamp
+76956,10775,2026-02-27 09:38:14,267,entertainment,pos,,IN,IN,1,0,missing_amount
+40179,12512,2026-01-31 01:31:44,2865,online_services,pos,,IN,IN,1,0,missing_amount
+84430,10433,2026-03-05 01:33:31,8,grocery,pos,-58.0,IN,IN,1,0,non_positive_amount
+19037,12155,2026-01-15 04:29:36,2774,fuel,ecommerce,-107.0,IN,IN,0,1,non_positive_amount
+116870,14156,,2142,health,ecommerce,1082.29,DE,DE,0,0,unparseable_timestamp
+78456,15420,2026-02-28 11:58:08,376,dining,contactless,5745599.0,IN,IN,1,0,amount_outlier
+75516,12456,,605,dining,contactless,1231.27,IN,IN,1,0,unparseable_timestamp
+8404,15693,2026-01-07 06:51:03,2695,dining,pos,,AE,IN,1,0,missing_amount
+75253,13610,2026-02-26 03:22:15,56,fashion,pos,-71.0,IN,IN,1,0,non_positive_amount
+100437,13341,,916,dining,pos,589.34,IN,IN,1,0,unparseable_timestamp
+104840,14819,2026-03-20 10:18:26,40,entertainment,ecommerce,,IN,DE,0,0,missing_amount
+1862,10833,2026-01-02 09:25:51,483,dining,contactless,,IN,IN,1,0,missing_amount
+15367,15987,2026-01-12 09:59:37,1702,utilities,contactless,,US,US,1,0,missing_amount
+30748,11623,2026-01-23 23:53:52,1567,grocery,pos,7647058.0,DE,DE,1,0,amount_outlier
+110539,10662,2026-03-24 16:07:48,982,travel,ecommerce,,IN,IN,0,0,missing_amount
+26759,10437,2026-01-21 00:05:36,2402,health,atm,-264.0,IN,IN,1,0,non_positive_amount
+15518,15901,2026-01-12 12:47:08,1293,online_services,pos,-354.0,IN,IN,1,0,non_positive_amount
+26280,15244,,2489,fuel,ecommerce,1097.73,US,IN,0,0,unparseable_timestamp
+30641,14776,2026-01-23 22:12:03,2137,dining,atm,,IN,IN,1,0,missing_amount
+56028,14741,2026-02-11 22:20:47,224,grocery,pos,,IN,IN,1,0,missing_amount
+119771,15843,2026-03-31 11:47:10,2948,fuel,ecommerce,,GB,GB,0,0,missing_amount
+103594,14617,,253,grocery,pos,6327.5,US,US,1,0,unparseable_timestamp
+41628,12708,2026-02-01 03:52:24,2930,electronics,pos,-241.0,IN,IN,1,0,non_positive_amount
+22164,15638,2026-01-17 13:56:53,458,fashion,pos,,IN,IN,1,0,missing_amount
+13729,14320,,1813,online_services,ecommerce,95.91,IN,IN,0,0,unparseable_timestamp
+16935,12357,,2246,fuel,pos,1911.54,IN,IN,1,0,unparseable_timestamp
+78784,11769,2026-02-28 17:59:46,2279,grocery,ecommerce,8671228.0,GB,IN,0,0,amount_outlier
+42322,11928,,1773,fuel,contactless,1878.57,DE,DE,1,0,unparseable_timestamp
+24004,10531,2026-01-18 22:59:27,1013,fashion,pos,,IN,IN,1,0,missing_amount
+96246,14207,2026-03-13 20:40:50,2401,grocery,pos,,GB,GB,1,0,missing_amount
+86112,15030,2026-03-06 06:13:13,1846,utilities,ecommerce,,IN,IN,0,0,missing_amount
+101255,13932,2026-03-17 16:00:03,153,electronics,pos,,IN,IN,1,0,missing_amount
+109938,14009,2026-03-24 05:27:03,1504,dining,contactless,,GB,GB,1,0,missing_amount
+5925,10763,,2533,grocery,atm,297.14,IN,IN,1,0,unparseable_timestamp
+30631,14125,,2344,utilities,contactless,904.06,IN,IN,1,0,unparseable_timestamp
+70222,11719,,728,health,contactless,235.11,IN,IN,1,0,unparseable_timestamp
+63287,14950,2026-02-17 06:31:07,2472,travel,pos,-351.0,IN,IN,1,0,non_positive_amount
+66983,15033,,2439,electronics,contactless,273.72,IN,IN,1,0,unparseable_timestamp
+116285,13806,2026-03-28 23:35:59,2886,grocery,ecommerce,-470.0,IN,IN,0,0,non_positive_amount
+70861,13174,2026-02-22 20:22:56,1290,electronics,pos,,IN,IN,1,0,missing_amount
+40303,10299,2026-01-31 03:40:10,1345,entertainment,contactless,-400.0,IN,IN,1,0,non_positive_amount
+36952,13133,2026-01-28 16:26:15,1986,grocery,ecommerce,,IN,IN,0,0,missing_amount
+23199,11868,2026-01-18 08:59:49,2337,grocery,pos,-227.0,IN,IN,1,0,non_positive_amount
+1866,11465,2026-01-02 09:29:39,2585,grocery,ecommerce,,SG,SG,0,0,missing_amount
+108050,15614,,389,utilities,pos,56.88,IN,IN,1,0,unparseable_timestamp
+70074,10887,2026-02-22 06:51:51,1850,grocery,pos,,AE,AE,1,0,missing_amount
+41293,11209,2026-01-31 21:32:18,2259,fuel,ecommerce,-37.0,IN,IN,0,0,non_positive_amount
+54292,14146,2026-02-10 15:46:33,709,grocery,contactless,,IN,IN,1,0,missing_amount
+67563,12487,2026-02-20 09:59:20,1078,grocery,pos,,IN,IN,1,0,missing_amount
+91249,11526,2026-03-10 04:30:21,2901,fuel,pos,,IN,IN,1,0,missing_amount
+80272,12034,2026-03-01 20:18:04,1628,dining,contactless,-14.0,IN,IN,1,0,non_positive_amount
+62210,13664,2026-02-16 11:16:57,980,utilities,contactless,-4.0,SG,SG,1,0,non_positive_amount
+58864,13955,2026-02-14 00:14:12,865,fuel,contactless,-159.0,GB,GB,1,0,non_positive_amount
+35250,10540,2026-01-27 09:32:02,956,online_services,contactless,,IN,IN,1,0,missing_amount
+92738,10760,2026-03-11 06:10:59,1886,entertainment,contactless,6644626.0,DE,DE,1,0,amount_outlier
+49179,15324,2026-02-06 17:49:08,315,travel,pos,,US,US,1,0,missing_amount
+117238,14766,,1327,entertainment,pos,324.57,IN,IN,1,0,unparseable_timestamp
+14915,11059,,2448,health,pos,261.51,US,US,1,0,unparseable_timestamp
+24019,11701,2026-01-18 23:12:10,1226,grocery,contactless,-235.0,SG,IN,1,0,non_positive_amount
+99987,12087,2026-03-16 16:00:12,463,travel,pos,,GB,GB,1,0,missing_amount
+101565,14204,2026-03-17 22:10:35,629,fashion,pos,,DE,DE,1,0,missing_amount
+115494,13753,2026-03-28 10:12:01,1899,dining,ecommerce,-82.0,IN,IN,0,0,non_positive_amount
+83781,15998,2026-03-04 13:18:15,535,dining,pos,,US,US,1,0,missing_amount
+32471,14286,2026-01-25 07:29:57,705,grocery,pos,,IN,IN,1,0,missing_amount
+22695,11968,2026-01-17 23:45:34,1248,entertainment,contactless,,IN,IN,1,0,missing_amount
+10428,10103,2026-01-08 19:08:57,179,health,pos,,IN,IN,1,0,missing_amount
+20414,14754,2026-01-16 06:01:42,1969,entertainment,contactless,-455.0,US,US,1,0,non_positive_amount
+82535,15893,2026-03-03 14:20:45,2493,fuel,pos,,IN,IN,1,0,missing_amount
+111300,12911,,1209,grocery,pos,200.95,SG,SG,1,0,unparseable_timestamp
+105571,10629,2026-03-20 23:28:00,1955,dining,pos,,IN,IN,1,0,missing_amount
+110516,10417,2026-03-24 15:41:30,294,grocery,atm,,SG,SG,1,0,missing_amount
+77007,13848,2026-02-27 10:23:41,2994,electronics,pos,,IN,IN,1,0,missing_amount
+112666,14453,2026-03-26 07:37:19,632,online_services,atm,,IN,IN,1,0,missing_amount
+119190,13694,2026-03-31 01:20:46,1104,grocery,contactless,,GB,GB,1,0,missing_amount
+27943,10382,2026-01-21 21:11:58,2855,health,pos,-270.0,IN,IN,1,0,non_positive_amount
+116892,12927,2026-03-29 10:08:27,2516,online_services,ecommerce,,,IN,0,0,missing_amount
+119259,13524,2026-03-31 02:23:04,2882,utilities,ecommerce,-44.0,IN,IN,0,0,non_positive_amount
+19520,15368,2026-01-15 13:31:49,1690,fashion,pos,-486.0,IN,IN,1,0,non_positive_amount
+45907,14856,2026-02-04 07:30:54,1082,entertainment,ecommerce,,IN,IN,0,0,missing_amount
+53999,11325,2026-02-10 10:33:59,829,electronics,ecommerce,-374.0,IN,IN,0,0,non_positive_amount
+11411,15397,2026-01-09 12:25:12,1495,electronics,pos,,IN,IN,1,0,missing_amount
+66813,15509,2026-02-19 21:41:37,36,,pos,,IN,IN,1,0,missing_amount
+98496,15101,2026-03-15 12:46:56,1205,fashion,ecommerce,-345.0,IN,IN,0,0,non_positive_amount
+89461,11968,,581,electronics,pos,184.53,IN,IN,1,0,unparseable_timestamp
+65071,14576,2026-02-18 14:48:38,1300,online_services,pos,,IN,IN,1,0,missing_amount
+73792,15407,,2384,,pos,194.85,IN,IN,1,0,unparseable_timestamp
+33450,12954,2026-01-26 00:31:01,1125,electronics,pos,,US,US,1,0,missing_amount
+61033,12527,2026-02-15 14:13:27,1549,dining,pos,,SG,SG,1,0,missing_amount
+71327,11543,2026-02-23 05:07:31,157,fuel,pos,,AE,US,1,0,missing_amount
+8932,13722,2026-01-07 16:14:59,1329,grocery,contactless,,IN,IN,1,0,missing_amount
+64572,10924,2026-02-18 05:43:00,1774,entertainment,contactless,,IN,IN,1,0,missing_amount
+46231,15647,2026-02-04 13:10:14,600,online_services,contactless,-240.0,IN,IN,1,0,non_positive_amount
+91259,14671,2026-03-10 04:40:14,1887,dining,contactless,-449.0,IN,IN,1,0,non_positive_amount
+59163,15936,2026-02-14 05:35:01,2608,utilities,ecommerce,,SG,SG,0,0,missing_amount
+71920,13940,2026-02-23 15:27:35,1827,grocery,pos,,IN,IN,1,0,missing_amount
+4808,13803,2026-01-04 14:27:49,1173,travel,pos,-31.0,AE,AE,1,0,non_positive_amount
+92712,15605,2026-03-11 05:34:00,2975,fuel,ecommerce,,IN,IN,0,0,missing_amount
+83335,13204,2026-03-04 05:36:25,2513,health,contactless,,IN,IN,1,0,missing_amount
+59904,15450,2026-02-14 18:06:41,2716,fashion,contactless,,SG,SG,1,0,missing_amount
+44803,13162,2026-02-03 11:48:57,518,utilities,pos,,IN,IN,1,0,missing_amount
+8406,11005,2026-01-07 06:53:30,2573,dining,pos,-3.0,IN,IN,1,0,non_positive_amount
+112349,15334,2026-03-26 02:05:24,545,online_services,ecommerce,-57.0,IN,IN,0,1,non_positive_amount
+71429,13649,2026-02-23 06:53:38,2585,travel,pos,,SG,SG,1,0,missing_amount
+73370,14135,,1088,fuel,ecommerce,130.4,,SG,0,0,unparseable_timestamp
+95856,15762,2026-03-13 14:01:50,39,fashion,pos,-242.0,IN,IN,1,0,non_positive_amount
+17941,10771,2026-01-14 08:26:35,1018,travel,ecommerce,-385.0,IN,IN,0,0,non_positive_amount
+109458,14137,2026-03-23 20:51:52,745,fuel,contactless,-481.0,US,US,1,0,non_positive_amount
+43095,13213,2026-02-02 06:19:00,2888,entertainment,contactless,,DE,DE,1,0,missing_amount
+57616,11917,2026-02-13 02:26:34,247,grocery,pos,-87.0,IN,IN,1,0,non_positive_amount
+23010,14471,2026-01-18 05:23:24,1343,fuel,ecommerce,,IN,IN,0,0,missing_amount
+119028,10939,2026-03-30 22:44:16,56,fuel,pos,8910582.0,GB,GB,1,0,amount_outlier
+36071,14264,2026-01-28 00:03:49,1727,entertainment,pos,,IN,IN,1,0,missing_amount
+64344,12720,2026-02-18 01:38:33,530,fuel,pos,8023505.0,US,US,1,0,amount_outlier
+52246,15256,2026-02-09 01:55:10,44,electronics,pos,-206.0,IN,IN,1,0,non_positive_amount
+2882,10040,2026-01-03 02:51:45,193,dining,pos,,IN,IN,1,0,missing_amount
+29803,10530,,492,online_services,pos,173.23,AE,AE,1,0,unparseable_timestamp
+102912,11189,2026-03-18 23:16:04,514,grocery,contactless,-91.0,IN,IN,1,0,non_positive_amount
+10738,11686,2026-01-09 00:40:11,131,electronics,pos,-334.0,IN,IN,1,0,non_positive_amount
+84720,13997,2026-03-05 06:26:13,1134,fashion,pos,-55.0,IN,IN,1,0,non_positive_amount
+93378,12439,2026-03-11 17:02:19,680,health,pos,5352581.0,US,US,1,0,amount_outlier
+53923,13784,2026-02-10 08:59:07,1621,electronics,contactless,-413.0,SG,SG,1,0,non_positive_amount
+11150,13440,2026-01-09 07:47:15,813,dining,contactless,,IN,IN,1,0,missing_amount
+109653,11856,2026-03-24 00:51:46,2986,electronics,pos,,IN,IN,1,0,missing_amount
+24188,12539,2026-01-19 02:05:01,100,fashion,contactless,,GB,US,1,0,missing_amount
+96667,11426,,2148,fashion,ecommerce,320.05,IN,IN,0,0,unparseable_timestamp
+30890,14988,2026-01-24 02:19:38,158,health,pos,7115827.0,IN,IN,1,0,amount_outlier
+37624,11847,2026-01-29 04:28:50,2685,entertainment,ecommerce,-352.0,IN,IN,0,0,non_positive_amount
+119634,13843,2026-03-31 09:23:00,1397,fuel,contactless,,IN,IN,1,0,missing_amount
+108112,10914,2026-03-22 21:14:45,778,dining,pos,,IN,IN,1,0,missing_amount
+11097,11602,2026-01-09 06:50:41,1400,electronics,contactless,,IN,IN,1,0,missing_amount
+89228,11290,,1587,fuel,pos,304.34,IN,IN,1,0,unparseable_timestamp
+104360,11196,2026-03-20 00:59:29,1889,grocery,ecommerce,,IN,IN,0,0,missing_amount
+77854,13833,2026-02-28 01:35:22,1389,grocery,pos,,IN,IN,1,0,missing_amount
+1438,12207,2026-01-02 01:33:42,178,fashion,atm,,IN,IN,1,0,missing_amount
+48720,11852,2026-02-06 09:51:14,1873,dining,pos,,IN,IN,1,0,missing_amount
+74265,10433,2026-02-25 09:45:38,2070,entertainment,pos,,IN,IN,1,0,missing_amount
+114710,12642,2026-03-27 20:28:29,1505,online_services,pos,,IN,IN,1,0,missing_amount
+53888,14122,2026-02-10 08:18:54,2792,travel,ecommerce,,US,US,0,0,missing_amount
+66816,15751,2026-02-19 21:46:26,773,entertainment,pos,,IN,IN,1,0,missing_amount
+87868,15967,2026-03-07 14:34:15,2279,dining,ecommerce,,IN,IN,0,0,missing_amount
+94466,11160,2026-03-12 13:04:38,1770,fashion,pos,,IN,IN,1,0,missing_amount
+71432,13278,2026-02-23 06:59:35,1993,grocery,pos,,IN,IN,1,0,missing_amount
+17243,15041,2026-01-13 19:54:53,1407,grocery,contactless,-159.0,IN,IN,1,0,non_positive_amount
+2095,11751,2026-01-02 13:28:18,733,grocery,pos,,SG,SG,1,0,missing_amount
+66395,10194,2026-02-19 14:13:41,1043,utilities,pos,-26.0,IN,IN,1,0,non_positive_amount
+10554,15482,,746,utilities,ecommerce,84.27,IN,IN,0,0,unparseable_timestamp
+18911,13943,2026-01-15 01:55:55,2369,travel,contactless,-103.0,IN,IN,1,0,non_positive_amount
+107686,15675,2026-03-22 13:34:45,2247,dining,pos,-438.0,GB,IN,1,0,non_positive_amount
+76115,12908,2026-02-26 18:29:05,225,fuel,contactless,,IN,IN,1,0,missing_amount
+71888,12563,2026-02-23 14:55:22,2730,dining,pos,-414.0,IN,IN,1,0,non_positive_amount
+51045,12016,2026-02-08 04:46:11,1359,dining,contactless,,IN,IN,2,0,missing_amount
+26005,12260,2026-01-20 10:51:58,1664,grocery,contactless,,IN,IN,1,0,missing_amount
+18071,12194,2026-01-14 10:57:03,2140,entertainment,ecommerce,-433.0,US,US,0,0,non_positive_amount
+65546,13022,2026-02-18 22:47:11,46,dining,ecommerce,-162.0,IN,IN,0,0,non_positive_amount
+16615,15190,2026-01-13 07:55:20,56,grocery,ecommerce,,AE,AE,0,0,missing_amount
+34688,14977,2026-01-26 23:00:40,1827,fashion,ecommerce,,GB,GB,0,0,missing_amount
+29549,12376,2026-01-23 01:53:09,1983,online_services,pos,-479.0,US,US,1,0,non_positive_amount
+57393,11724,2026-02-12 22:39:30,80,grocery,atm,,IN,IN,1,0,missing_amount
+96626,10199,2026-03-14 03:29:58,1862,grocery,pos,-201.0,US,US,1,0,non_positive_amount
+34129,11905,2026-01-26 13:01:06,163,health,pos,,IN,IN,1,0,missing_amount
+104202,14556,,2593,grocery,contactless,4490.27,IN,IN,1,0,unparseable_timestamp
+99117,15476,2026-03-15 23:52:39,526,fuel,ecommerce,-419.0,IN,IN,0,0,non_positive_amount
+80651,11317,2026-03-02 03:50:58,948,fashion,pos,,IN,IN,1,0,missing_amount
+17341,15479,2026-01-13 21:31:20,2003,fuel,ecommerce,-365.0,US,US,0,0,non_positive_amount
+39366,14242,2026-01-30 11:43:11,1940,dining,atm,-210.0,IN,IN,1,0,non_positive_amount
+19402,10605,,1606,grocery,contactless,316.97,IN,IN,1,0,unparseable_timestamp
+42438,14379,2026-02-01 19:02:45,902,fashion,pos,,IN,IN,1,0,missing_amount
+40936,12560,2026-01-31 15:06:34,230,grocery,contactless,,AE,AE,1,0,missing_amount
+595,12722,2026-01-01 10:48:24,2897,utilities,pos,,IN,IN,1,0,missing_amount
+39041,12074,2026-01-30 05:55:59,275,online_services,contactless,,IN,IN,1,0,missing_amount
+114840,12766,2026-03-27 22:34:48,2299,health,ecommerce,,DE,DE,0,0,missing_amount
+8938,13158,2026-01-07 16:18:58,1013,fuel,contactless,-367.0,GB,GB,1,0,non_positive_amount
+110839,15201,2026-03-24 21:30:33,690,online_services,pos,-301.0,IN,IN,1,0,non_positive_amount
+104877,14382,2026-03-20 10:56:12,2019,utilities,contactless,-108.0,IN,IN,1,0,non_positive_amount
+108759,13062,,1708,grocery,contactless,105.33,IN,IN,1,0,unparseable_timestamp
+19086,10088,2026-01-15 05:26:07,1566,grocery,ecommerce,-190.0,AE,AE,0,0,non_positive_amount
+71047,15295,2026-02-23 00:04:42,915,grocery,pos,,IN,IN,1,0,missing_amount
+42254,13081,2026-02-01 15:59:20,2149,entertainment,pos,-283.0,IN,IN,1,0,non_positive_amount
+10031,11312,2026-01-08 12:16:55,215,online_services,pos,,IN,IN,1,0,missing_amount
+77012,10468,2026-02-27 10:29:52,2193,fashion,contactless,,IN,IN,1,0,missing_amount
+92784,15314,2026-03-11 06:57:10,1665,fuel,pos,,IN,IN,1,0,missing_amount
+104140,14646,2026-03-19 20:44:05,1231,entertainment,pos,-148.0,US,IN,1,0,non_positive_amount
+24581,12835,2026-01-19 09:32:37,2456,online_services,pos,-405.0,IN,IN,1,0,non_positive_amount
+19268,11278,2026-01-15 08:55:15,1434,health,pos,,IN,IN,1,0,missing_amount
+110583,10525,2026-03-24 16:59:57,356,fashion,pos,-88.0,IN,IN,1,0,non_positive_amount
+46025,11372,,2201,fuel,pos,93.49,IN,IN,1,0,unparseable_timestamp
+71850,11197,,832,online_services,ecommerce,307.87,,IN,0,0,unparseable_timestamp
+11408,10121,,1036,fuel,pos,393.93,IN,IN,1,0,unparseable_timestamp
+80257,11170,2026-03-01 19:54:09,1808,dining,pos,,IN,IN,1,0,missing_amount
+76977,10831,2026-02-27 09:59:36,674,health,pos,,IN,IN,1,0,missing_amount
+13385,11622,2026-01-10 22:43:49,2751,dining,pos,,US,US,1,0,missing_amount
+88468,13709,2026-03-08 01:41:20,1692,grocery,contactless,-456.0,IN,IN,1,0,non_positive_amount
+53282,11561,2026-02-09 21:06:39,699,grocery,pos,,US,US,1,0,missing_amount
+28577,10863,,2605,utilities,contactless,244.23,IN,IN,1,0,unparseable_timestamp
+6880,14699,,381,fuel,contactless,931.64,IN,IN,1,0,unparseable_timestamp
+72386,13131,2026-02-23 23:00:41,2353,grocery,ecommerce,8283747.0,IN,IN,0,0,amount_outlier
+67341,10228,2026-02-20 06:35:19,1501,entertainment,pos,-128.0,DE,DE,1,0,non_positive_amount
+21304,14912,2026-01-16 22:00:12,2878,utilities,pos,,IN,IN,1,0,missing_amount
+21375,13012,,46,grocery,ecommerce,934.0,IN,IN,0,0,unparseable_timestamp
+59594,13310,,2566,health,ecommerce,239.9,GB,GB,0,0,unparseable_timestamp
+63325,12168,2026-02-17 07:14:24,2385,fuel,pos,,AE,AE,1,0,missing_amount
+74251,15514,2026-02-25 09:34:25,438,travel,ecommerce,,US,US,0,0,missing_amount
+34343,10702,2026-01-26 16:43:39,308,fuel,ecommerce,-489.0,IN,IN,0,0,non_positive_amount
+3418,14204,,708,travel,pos,576.06,DE,DE,1,0,unparseable_timestamp
+74775,13171,,831,health,ecommerce,194.72,IN,IN,0,0,unparseable_timestamp
+50534,13100,2026-02-07 19:30:14,961,utilities,pos,,IN,IN,1,0,missing_amount
+92288,10189,2026-03-10 22:34:06,2092,utilities,pos,-428.0,IN,IN,1,0,non_positive_amount
+95730,11688,,2036,fashion,contactless,895.27,IN,IN,1,0,unparseable_timestamp
+111193,12880,2026-03-25 04:09:48,932,entertainment,ecommerce,,,IN,0,0,missing_amount
+116557,13839,2026-03-29 04:10:51,1180,dining,ecommerce,,IN,IN,0,0,missing_amount
+75460,10196,2026-02-26 06:46:13,2703,,pos,-485.0,IN,IN,1,0,non_positive_amount
+10973,10736,2026-01-09 04:36:25,1947,grocery,atm,,IN,IN,1,0,missing_amount
+27459,10803,2026-01-21 12:20:51,388,online_services,pos,,GB,GB,1,0,missing_amount
+73468,13965,2026-02-24 19:32:31,2524,dining,ecommerce,,IN,IN,0,0,missing_amount
+103799,11499,2026-03-19 14:40:34,1757,dining,pos,-336.0,SG,SG,1,0,non_positive_amount
+118729,10093,2026-03-30 17:42:24,2432,dining,contactless,-28.0,SG,SG,1,0,non_positive_amount
+112140,15200,2026-03-25 21:49:41,547,utilities,pos,,IN,IN,1,0,missing_amount
+102435,15125,2026-03-18 14:00:56,2059,,pos,-382.0,IN,IN,1,0,non_positive_amount
+119186,10487,2026-03-31 01:18:33,991,dining,ecommerce,-434.0,IN,IN,0,0,non_positive_amount
+24582,11723,,1604,travel,contactless,572.29,IN,IN,1,0,unparseable_timestamp
+39232,15251,2026-01-30 09:04:03,2180,electronics,atm,-224.0,IN,IN,1,0,non_positive_amount
+9012,12847,2026-01-07 17:40:35,1535,fuel,ecommerce,,AE,AE,0,0,missing_amount
+72260,15721,2026-02-23 20:59:01,534,dining,pos,,IN,IN,1,0,missing_amount
+40317,12862,2026-01-31 03:58:11,916,fuel,contactless,,IN,IN,1,0,missing_amount
+47646,13688,2026-02-05 15:17:33,1326,dining,ecommerce,,IN,IN,0,0,missing_amount
+38474,10246,2026-01-29 18:52:29,2765,dining,ecommerce,,IN,IN,0,0,missing_amount
+11242,10688,2026-01-09 09:20:02,1509,grocery,pos,,IN,IN,1,0,missing_amount
+75504,15841,2026-02-26 07:41:33,251,fashion,ecommerce,,IN,IN,0,0,missing_amount
+94131,13821,2026-03-12 07:05:40,48,utilities,atm,-375.0,GB,GB,1,0,non_positive_amount
+72968,10859,,1302,grocery,ecommerce,60.75,,IN,0,0,unparseable_timestamp
+106249,11611,2026-03-21 11:51:35,812,fuel,contactless,,GB,GB,1,0,missing_amount
+10169,11862,2026-01-08 14:32:16,252,fashion,contactless,,IN,IN,1,0,missing_amount
+16802,10292,2026-01-13 11:47:06,129,dining,pos,,AE,AE,1,0,missing_amount
+86564,11646,,2415,travel,pos,590.02,IN,IN,1,0,unparseable_timestamp
+62641,11207,2026-02-16 18:49:35,1917,fashion,pos,,IN,IN,1,0,missing_amount
+25295,15273,2026-01-19 22:10:40,2971,travel,ecommerce,,SG,SG,0,0,missing_amount
+85202,15322,2026-03-05 14:50:37,535,fuel,ecommerce,,AE,AE,0,0,missing_amount
+25075,14969,2026-01-19 18:14:44,198,fuel,ecommerce,-444.0,IN,IN,0,0,non_positive_amount
+110395,12801,2026-03-24 13:40:51,2646,grocery,pos,,IN,IN,1,0,missing_amount
+898,10364,,1938,fuel,pos,907.57,IN,IN,1,0,unparseable_timestamp
+60647,12827,2026-02-15 07:00:14,460,electronics,pos,,IN,IN,1,0,missing_amount
+52039,14776,2026-02-08 21:54:49,1178,health,pos,,,IN,1,0,missing_amount
+96662,14997,2026-03-14 04:02:44,959,electronics,contactless,,US,US,1,0,missing_amount
+37608,13546,2026-01-29 04:19:41,1606,entertainment,ecommerce,8476822.0,AE,AE,0,0,amount_outlier
+20617,13268,,2943,online_services,contactless,478.98,DE,DE,1,0,unparseable_timestamp
+41175,10585,2026-01-31 19:24:30,128,fashion,pos,,IN,IN,1,0,missing_amount
+11595,11260,2026-01-09 16:00:53,951,fuel,contactless,-108.0,IN,IN,1,0,non_positive_amount
+16721,13411,2026-01-13 09:59:40,487,dining,pos,,IN,IN,1,0,missing_amount
+111172,14006,2026-03-25 03:42:24,1591,fuel,contactless,,IN,IN,1,0,missing_amount
+30566,10238,2026-01-23 20:43:50,1242,online_services,pos,,IN,IN,1,0,missing_amount
+109993,10085,2026-03-24 06:15:36,1442,entertainment,pos,,IN,IN,1,0,missing_amount
+84171,10559,2026-03-04 21:00:21,6,health,pos,-366.0,IN,IN,1,0,non_positive_amount
+33945,15029,2026-01-26 09:25:20,140,dining,pos,,IN,IN,1,0,missing_amount
+64968,14489,2026-02-18 13:02:36,2320,electronics,pos,,IN,IN,1,0,missing_amount
+28445,10891,2026-01-22 06:33:58,1102,grocery,ecommerce,-418.0,IN,IN,0,0,non_positive_amount
+79085,11306,2026-02-28 23:18:39,1310,dining,contactless,,IN,IN,1,0,missing_amount
+108452,11309,2026-03-23 03:11:36,1546,dining,pos,,,IN,1,0,missing_amount
+52411,14228,2026-02-09 05:29:33,2006,grocery,pos,,IN,IN,1,0,missing_amount
+54430,14132,2026-02-10 18:02:38,324,health,ecommerce,,IN,IN,0,0,missing_amount
+83655,11083,,2211,fashion,pos,418.6,IN,IN,1,0,unparseable_timestamp
+47482,13981,2026-02-05 12:28:16,2770,electronics,contactless,,IN,IN,1,0,missing_amount
+49301,13334,2026-02-06 19:47:30,2207,utilities,pos,,US,US,1,0,missing_amount
+43535,12338,2026-02-02 13:42:42,2742,travel,pos,5503436.0,IN,IN,1,0,amount_outlier
+40120,12036,2026-01-31 00:28:00,1803,grocery,pos,-439.0,IN,IN,1,0,non_positive_amount
+62891,10080,2026-02-16 23:26:47,2919,fashion,pos,-31.0,IN,IN,1,0,non_positive_amount
+101941,15577,2026-03-18 05:29:55,781,grocery,pos,,IN,IN,1,0,missing_amount
+12227,13958,2026-01-10 02:48:10,1765,online_services,pos,,IN,IN,1,0,missing_amount
+16074,15187,2026-01-12 22:41:51,2441,travel,atm,,IN,IN,1,0,missing_amount
+106368,15942,2026-03-21 14:02:07,984,online_services,pos,,IN,IN,1,0,missing_amount
+18513,13982,2026-01-14 19:11:58,514,utilities,ecommerce,,SG,SG,0,0,missing_amount
+56874,15882,2026-02-12 13:20:22,485,dining,contactless,,US,US,1,0,missing_amount
+82699,14570,2026-03-03 17:30:55,334,utilities,pos,,IN,IN,1,0,missing_amount
+23436,12905,2026-01-18 13:09:34,1600,health,ecommerce,,IN,IN,0,0,missing_amount
+119428,11166,2026-03-31 05:28:10,1249,entertainment,pos,,IN,IN,1,0,missing_amount
+1331,12150,,2672,fuel,contactless,351.31,IN,IN,1,0,unparseable_timestamp
+66480,11393,2026-02-19 15:47:32,179,dining,contactless,-43.0,US,IN,1,0,non_positive_amount
+85185,11982,2026-03-05 14:32:17,2237,health,ecommerce,,IN,IN,0,0,missing_amount
+42455,15623,2026-02-01 19:14:35,2317,travel,ecommerce,-25.0,IN,IN,0,0,non_positive_amount
+80888,13925,2026-03-02 08:34:50,2504,entertainment,pos,-217.0,IN,IN,1,0,non_positive_amount
+86643,12379,2026-03-06 16:19:31,783,utilities,ecommerce,-458.0,IN,IN,0,0,non_positive_amount
+76727,14125,,111,fuel,ecommerce,1284.32,IN,IN,0,0,unparseable_timestamp
+113711,15665,2026-03-27 02:50:48,975,grocery,ecommerce,,DE,DE,0,0,missing_amount
+89956,13670,2026-03-09 03:39:32,926,fashion,ecommerce,,AE,IN,0,1,missing_amount
+33496,13864,2026-01-26 01:27:18,642,travel,pos,-270.0,US,US,1,0,non_positive_amount
+5688,13102,2026-01-05 06:29:19,2285,online_services,pos,,IN,IN,1,0,missing_amount
+58744,13224,2026-02-13 22:10:37,124,,ecommerce,,IN,IN,0,0,missing_amount
+106055,15268,2026-03-21 08:23:29,2402,travel,ecommerce,-424.0,IN,IN,0,0,non_positive_amount
+64969,10859,2026-02-18 13:04:02,645,fashion,pos,,IN,IN,1,0,missing_amount
+112963,14601,2026-03-26 13:18:48,1641,travel,pos,-480.0,IN,IN,1,0,non_positive_amount
+53666,13692,2026-02-10 04:14:37,1101,electronics,pos,5896878.0,IN,IN,1,0,amount_outlier
+94139,10054,2026-03-12 07:15:45,1468,health,ecommerce,,GB,GB,0,0,missing_amount
+57764,14899,2026-02-13 04:56:31,2154,entertainment,pos,,IN,IN,1,0,missing_amount
+50163,10033,2026-02-07 12:19:42,1831,health,ecommerce,-3.0,DE,DE,0,0,non_positive_amount
+72049,15058,2026-02-23 17:52:46,679,entertainment,pos,,GB,GB,1,0,missing_amount
+24491,11469,,565,health,contactless,438.79,IN,IN,1,0,unparseable_timestamp
+73135,10871,2026-02-24 12:52:11,2923,grocery,ecommerce,-50.0,IN,IN,0,0,non_positive_amount
+91919,15621,2026-03-10 16:35:03,1445,travel,pos,,SG,SG,1,0,missing_amount
+1297,10018,2026-01-01 22:50:37,80,fashion,contactless,,AE,IN,1,0,missing_amount
+43701,10867,,2771,grocery,ecommerce,38.12,IN,IN,0,0,unparseable_timestamp
+59277,13087,2026-02-14 07:38:45,53,fashion,pos,,US,US,1,0,missing_amount
+81343,11485,2026-03-02 17:01:28,2626,electronics,ecommerce,,US,US,0,0,missing_amount
+88762,11162,2026-03-08 06:45:57,2145,utilities,pos,,,SG,1,0,missing_amount
+82623,15459,2026-03-03 16:08:48,2956,fuel,pos,,IN,IN,1,0,missing_amount
+48529,14710,2026-02-06 06:26:05,2766,dining,ecommerce,,IN,IN,0,0,missing_amount
+13446,11108,,2071,fashion,pos,548.85,DE,DE,1,0,unparseable_timestamp
+91165,15495,2026-03-10 02:54:36,1975,entertainment,ecommerce,,IN,IN,0,0,missing_amount
+14257,13126,2026-01-11 14:04:44,268,utilities,pos,-427.0,GB,GB,1,0,non_positive_amount
+36915,14128,,479,online_services,pos,406.42,IN,IN,1,0,unparseable_timestamp
+53283,13786,,429,health,pos,226.09,IN,IN,1,0,unparseable_timestamp
+81916,14163,,1084,health,contactless,295.68,IN,IN,1,0,unparseable_timestamp
+4390,11772,2026-01-04 06:39:48,1541,utilities,pos,,US,US,1,0,missing_amount
+82326,12812,2026-03-03 10:24:11,494,electronics,pos,,IN,IN,1,0,missing_amount
+56537,14382,,717,travel,ecommerce,585.97,IN,IN,0,0,unparseable_timestamp
+48566,14496,2026-02-06 06:57:48,575,fashion,contactless,-184.0,IN,IN,1,0,non_positive_amount
+24630,12636,,2756,,ecommerce,1332.81,IN,IN,0,0,unparseable_timestamp
+90521,15604,2026-03-09 14:25:38,2994,fuel,contactless,,GB,GB,1,0,missing_amount
+57052,12822,,817,entertainment,pos,584.86,GB,GB,1,0,unparseable_timestamp
+111933,11461,,2221,fashion,atm,108.93,US,US,1,0,unparseable_timestamp
+106178,14446,2026-03-21 10:36:48,2078,entertainment,contactless,,IN,IN,1,0,missing_amount
+97277,11177,,2986,grocery,pos,663.78,AE,AE,1,0,unparseable_timestamp
+58467,15937,2026-02-13 17:36:13,437,health,ecommerce,,SG,IN,0,0,missing_amount
+76105,15146,2026-02-26 18:22:41,721,grocery,contactless,,IN,IN,1,0,missing_amount
+34240,14667,2026-01-26 14:54:14,811,electronics,ecommerce,,SG,SG,0,0,missing_amount
+93953,14211,,1394,electronics,contactless,1040.29,DE,DE,1,0,unparseable_timestamp
+24320,10558,2026-01-19 04:40:34,2959,entertainment,pos,,US,US,1,1,missing_amount
+53917,11186,,1565,fashion,ecommerce,133.6,IN,IN,0,0,unparseable_timestamp
+57068,12872,2026-02-12 16:31:57,1422,grocery,contactless,,IN,IN,1,0,missing_amount
+63639,10624,2026-02-17 12:54:25,2785,fuel,ecommerce,,US,US,0,0,missing_amount
+51831,15902,2026-02-08 18:33:36,2547,electronics,ecommerce,,US,US,0,0,missing_amount
+52981,15032,2026-02-09 15:35:42,1257,online_services,pos,-236.0,GB,GB,1,0,non_positive_amount
+64920,15843,2026-02-18 12:14:58,990,travel,pos,-470.0,GB,GB,1,0,non_positive_amount
+16628,11952,,1755,utilities,contactless,279.96,SG,SG,1,0,unparseable_timestamp
+109953,15658,2026-03-24 05:42:19,2810,entertainment,pos,,DE,DE,1,0,missing_amount
+31824,13556,2026-01-24 19:51:14,2813,online_services,pos,,US,US,1,0,missing_amount
+39058,14446,2026-01-30 06:10:12,780,online_services,ecommerce,,IN,IN,0,0,missing_amount
+70462,13837,2026-02-22 13:28:31,1768,health,pos,-120.0,IN,IN,1,0,non_positive_amount
+106086,14765,2026-03-21 08:57:43,1126,electronics,ecommerce,-44.0,IN,IN,0,0,non_positive_amount
+19324,15574,2026-01-15 10:01:32,1580,dining,ecommerce,,IN,IN,0,0,missing_amount
+45529,15497,2026-02-04 00:56:37,1847,fashion,pos,,US,US,1,0,missing_amount
+34503,12289,2026-01-26 19:30:54,1853,online_services,contactless,,SG,SG,1,0,missing_amount
+54957,11889,2026-02-11 03:01:06,198,electronics,pos,,US,US,1,0,missing_amount
+119393,15756,2026-03-31 04:54:21,1620,dining,ecommerce,,IN,IN,0,0,missing_amount
+42264,11885,2026-02-01 16:10:49,1764,dining,contactless,,IN,IN,1,0,missing_amount
+23134,14612,,1378,travel,atm,616.15,,IN,1,0,unparseable_timestamp
+25975,13246,2026-01-20 10:03:43,147,fuel,pos,-451.0,IN,IN,1,0,non_positive_amount
+6009,10131,2026-01-05 12:40:24,1990,fuel,pos,-325.0,IN,IN,1,0,non_positive_amount
+40215,10847,2026-01-31 02:16:18,2837,fuel,pos,-124.0,IN,IN,1,0,non_positive_amount
+40193,12538,2026-01-31 01:43:32,2199,fuel,pos,,IN,IN,1,0,missing_amount
+88034,12018,2026-03-07 17:47:42,1452,electronics,contactless,-244.0,US,US,1,0,non_positive_amount
+81187,15681,2026-03-02 14:08:51,2275,grocery,pos,,IN,IN,1,0,missing_amount
+12837,10376,2026-01-10 13:15:56,1502,health,pos,-7.0,IN,IN,1,0,non_positive_amount
+41357,15747,2026-01-31 22:46:22,856,grocery,pos,-90.0,IN,IN,1,0,non_positive_amount
+17820,11629,2026-01-14 06:17:40,2089,grocery,contactless,6860265.0,IN,IN,1,0,amount_outlier
+38929,15244,2026-01-30 03:54:34,1662,utilities,pos,,IN,IN,1,0,missing_amount
+91441,11335,2026-03-10 08:18:05,1770,dining,pos,-82.0,IN,IN,1,0,non_positive_amount
+14912,15447,2026-01-12 01:39:47,2974,grocery,atm,,DE,DE,1,0,missing_amount
+2774,10979,2026-01-03 00:59:01,2865,grocery,ecommerce,-376.0,IN,IN,0,0,non_positive_amount
+71297,14960,2026-02-23 04:45:37,2602,dining,pos,,IN,IN,1,0,missing_amount
+39735,11784,2026-01-30 17:46:00,1559,fuel,pos,,US,US,1,0,missing_amount
+82504,13046,2026-03-03 13:52:45,2328,electronics,contactless,,IN,IN,1,0,missing_amount
+63972,10891,2026-02-17 19:06:40,1181,electronics,ecommerce,,IN,IN,0,0,missing_amount
+110599,14863,2026-03-24 17:12:41,1057,fuel,pos,,IN,IN,1,0,missing_amount
+32791,14857,2026-01-25 12:57:20,520,fashion,pos,-220.0,IN,IN,1,0,non_positive_amount
+6021,14870,,2215,grocery,pos,,SG,SG,1,0,missing_amount
+64537,13930,2026-02-18 05:02:29,904,utilities,pos,,US,US,1,0,missing_amount
+27210,14683,2026-01-21 07:30:28,128,health,ecommerce,,IN,IN,0,0,missing_amount
+14625,12360,2026-01-11 20:42:54,2209,entertainment,ecommerce,,GB,GB,0,0,missing_amount
+117708,12312,2026-03-30 00:04:17,1231,fashion,pos,,IN,IN,1,0,missing_amount
+58491,12467,,2896,dining,pos,626.57,IN,IN,1,0,unparseable_timestamp
+80410,14092,2026-03-01 22:55:59,2091,fashion,ecommerce,-1.0,DE,DE,0,0,non_positive_amount
+30172,12881,,47,grocery,ecommerce,243.62,IN,IN,0,0,unparseable_timestamp
+114801,14956,2026-03-27 22:06:29,2678,entertainment,ecommerce,,AE,IN,0,0,missing_amount
+94914,13743,2026-03-12 21:11:02,1617,dining,atm,,IN,IN,1,0,missing_amount
+57528,11732,2026-02-13 00:48:17,946,grocery,ecommerce,,GB,GB,0,0,missing_amount
+34310,14255,2026-01-26 16:05:35,1082,grocery,ecommerce,,IN,IN,0,1,missing_amount
+109884,13130,2026-03-24 04:36:05,1148,fuel,ecommerce,-189.0,US,US,0,0,non_positive_amount
+53015,10002,2026-02-09 16:10:41,934,dining,contactless,,AE,AE,1,0,missing_amount
+76004,15930,2026-02-26 17:03:35,2447,travel,atm,,US,US,1,0,missing_amount
+104825,10893,,2090,fashion,ecommerce,810.61,IN,IN,0,0,unparseable_timestamp
+21157,11612,,47,utilities,contactless,1790.85,IN,IN,1,0,unparseable_timestamp
+46734,12519,,2048,dining,ecommerce,1164.95,IN,IN,0,0,unparseable_timestamp
+118385,12494,2026-03-30 11:42:35,1680,health,ecommerce,,IN,IN,0,0,missing_amount
+118033,12723,2026-03-30 05:44:20,165,grocery,contactless,-420.0,DE,DE,1,0,non_positive_amount
+59052,14939,2026-02-14 04:07:19,715,fashion,ecommerce,,IN,IN,0,0,missing_amount
+45794,11663,,1413,fuel,pos,399.93,GB,GB,1,0,unparseable_timestamp
+19893,13051,2026-01-15 20:50:44,80,grocery,ecommerce,-131.0,IN,IN,0,0,non_positive_amount
+99026,14729,,205,dining,pos,317.16,IN,AE,1,0,unparseable_timestamp
+34192,14555,2026-01-26 14:07:00,2120,grocery,contactless,-128.0,GB,GB,1,0,non_positive_amount
+27627,13593,2026-01-21 15:25:12,309,dining,contactless,,,IN,1,0,missing_amount
+78861,15740,,288,grocery,pos,539.66,IN,IN,1,0,unparseable_timestamp
+86944,11496,2026-03-06 21:45:01,458,,atm,-168.0,IN,IN,1,0,non_positive_amount
+109575,11971,,739,online_services,ecommerce,837.59,IN,IN,0,0,unparseable_timestamp
+84631,13336,,1536,electronics,pos,182.97,IN,IN,1,0,unparseable_timestamp
+85734,11877,,152,travel,contactless,1773.38,IN,IN,1,0,unparseable_timestamp
+9507,11117,2026-01-08 02:34:32,2421,online_services,pos,,IN,IN,1,0,missing_amount
+62935,12459,2026-02-17 00:07:08,2993,electronics,pos,,US,US,1,0,missing_amount
+71832,15348,2026-02-23 13:50:07,1752,entertainment,pos,-154.0,IN,IN,1,0,non_positive_amount
+64716,15428,2026-02-18 08:26:38,795,utilities,contactless,-14.0,SG,AE,1,0,non_positive_amount
+53950,14877,2026-02-10 09:27:04,1560,fashion,pos,-83.0,US,US,1,0,non_positive_amount
+105115,15737,2026-03-20 15:17:54,2554,health,pos,,GB,GB,1,0,missing_amount
+58012,15184,2026-02-13 09:20:02,595,grocery,pos,,IN,IN,1,0,missing_amount
+7567,12525,,2090,dining,pos,51.51,US,US,1,0,unparseable_timestamp
+21041,11165,2026-01-16 17:29:05,294,dining,pos,-167.0,US,US,1,0,non_positive_amount
+40270,13732,2026-01-31 03:01:03,1173,electronics,pos,,GB,GB,1,0,missing_amount
+43816,13143,2026-02-02 18:43:13,2450,dining,contactless,,IN,IN,1,0,missing_amount
+73171,14212,2026-02-24 13:27:07,2894,online_services,contactless,,SG,SG,1,0,missing_amount
+46140,13805,,1489,grocery,contactless,127.26,SG,SG,1,0,unparseable_timestamp
+19908,14136,,442,entertainment,pos,56.31,IN,IN,1,0,unparseable_timestamp
+56935,10102,2026-02-12 14:21:31,1515,utilities,contactless,,IN,IN,1,0,missing_amount
+9492,14763,2026-01-08 02:18:38,1223,utilities,ecommerce,,IN,IN,0,0,missing_amount
+23876,11331,,2351,online_services,ecommerce,691.48,US,US,0,1,unparseable_timestamp
+67453,14624,,459,grocery,pos,688.61,IN,IN,1,0,unparseable_timestamp
+45107,11202,2026-02-03 17:19:16,254,fuel,ecommerce,-442.0,IN,IN,0,0,non_positive_amount
+99786,14016,2026-03-16 12:18:55,741,online_services,pos,,GB,GB,1,0,missing_amount
+36004,12163,2026-01-27 22:55:49,2596,grocery,ecommerce,-142.0,IN,IN,0,0,non_positive_amount
+42533,10647,2026-02-01 20:37:24,1895,travel,contactless,,IN,IN,1,0,missing_amount
+77659,10102,2026-02-27 22:11:33,969,grocery,pos,-82.0,IN,IN,1,0,non_positive_amount
+43748,11663,2026-02-02 17:18:13,1112,grocery,ecommerce,,GB,GB,0,0,missing_amount
+37298,15714,2026-01-28 22:35:03,1845,,pos,,IN,IN,1,0,missing_amount
+39345,15590,2026-01-30 11:09:26,1606,fuel,pos,,IN,IN,1,0,missing_amount
+79524,15924,2026-03-01 06:47:23,1392,grocery,ecommerce,,SG,SG,0,0,missing_amount
+32691,13745,2026-01-25 11:11:20,1757,entertainment,pos,-205.0,DE,DE,1,0,non_positive_amount
+40612,15534,2026-01-31 09:26:29,1061,travel,contactless,-473.0,IN,IN,1,0,non_positive_amount
+3054,10823,2026-01-03 06:15:58,2396,dining,pos,,IN,IN,1,0,missing_amount
+61430,13513,2026-02-15 20:46:22,1693,grocery,pos,-489.0,IN,IN,1,0,non_positive_amount
+4739,10981,2026-01-04 13:11:00,1469,fuel,contactless,-264.0,,DE,1,0,non_positive_amount
+49592,14441,2026-02-07 01:29:23,2318,entertainment,pos,-8.0,IN,IN,1,0,non_positive_amount
+33841,10254,2026-01-26 07:26:39,2082,online_services,ecommerce,,IN,IN,0,0,missing_amount
+52219,15521,2026-02-09 01:17:14,1465,utilities,ecommerce,-29.0,IN,IN,0,1,non_positive_amount
+68980,13664,,1026,travel,pos,385.78,SG,SG,1,0,unparseable_timestamp
+54267,11656,2026-02-10 15:20:56,608,grocery,ecommerce,,IN,IN,0,0,missing_amount
+117628,12213,2026-03-29 22:28:23,2831,fuel,pos,-419.0,US,US,1,0,non_positive_amount
+116745,11149,2026-03-29 07:27:05,366,grocery,pos,,IN,IN,1,0,missing_amount
+21125,15793,2026-01-16 19:03:01,395,dining,contactless,-282.0,IN,IN,1,0,non_positive_amount
+2115,13667,2026-01-02 13:50:51,2337,travel,pos,,IN,IN,1,0,missing_amount
+93555,15271,,1679,fashion,ecommerce,350.26,GB,GB,0,0,unparseable_timestamp
+93714,14065,,1133,fashion,pos,386.34,IN,IN,1,0,unparseable_timestamp
+101170,15830,2026-03-17 14:20:04,2085,utilities,pos,-305.0,IN,IN,1,0,non_positive_amount
+61873,15803,2026-02-16 04:58:30,788,dining,pos,-107.0,GB,GB,1,0,non_positive_amount
+110270,14409,2026-03-24 11:14:58,730,,pos,-437.0,IN,IN,1,0,non_positive_amount
+3596,14808,2026-01-03 16:19:53,2215,grocery,pos,-167.0,SG,SG,1,0,non_positive_amount
+53608,11799,2026-02-10 03:03:44,2445,online_services,ecommerce,,AE,AE,0,0,missing_amount
+67180,15227,2026-02-20 03:52:27,2864,,pos,,US,US,1,0,missing_amount
+77131,14454,,1542,travel,contactless,511.03,GB,GB,1,0,unparseable_timestamp
+15757,15081,2026-01-12 16:41:25,565,dining,contactless,,IN,IN,1,0,missing_amount
+60439,11272,2026-02-15 03:19:14,18,dining,contactless,,US,US,1,0,missing_amount
+272,12951,2026-01-01 05:14:27,349,dining,pos,,US,US,1,0,missing_amount
+34342,15143,,2142,online_services,pos,2057.9,IN,IN,1,0,unparseable_timestamp
+10208,12422,2026-01-08 15:06:57,2634,,pos,,SG,SG,1,0,missing_amount
+88859,15318,2026-03-08 08:36:18,2636,fashion,ecommerce,,IN,IN,0,0,missing_amount
+75533,14983,2026-02-26 08:11:47,2202,fuel,pos,,IN,IN,1,0,missing_amount
+56769,11721,,838,grocery,pos,382.29,IN,IN,1,0,unparseable_timestamp
+13554,14614,2026-01-11 01:27:53,1463,fashion,contactless,,IN,IN,1,0,missing_amount
+89398,10668,2026-03-08 18:16:41,2096,grocery,contactless,,SG,SG,1,0,missing_amount
+46790,12625,2026-02-05 00:00:47,2611,entertainment,ecommerce,-459.0,DE,DE,0,0,non_positive_amount
+110230,13569,2026-03-24 10:21:51,1629,fuel,pos,6590637.0,IN,IN,1,0,amount_outlier
+71259,11776,2026-02-23 04:04:13,189,travel,contactless,-105.0,US,US,1,0,non_positive_amount
+72270,11196,2026-02-23 21:08:07,50,entertainment,ecommerce,,IN,IN,0,0,missing_amount
+101440,12222,2026-03-17 19:27:22,208,health,contactless,-430.0,IN,IN,1,0,non_positive_amount
+119030,11127,2026-03-30 22:45:41,2454,grocery,pos,-195.0,IN,IN,1,0,non_positive_amount
+119326,13054,,2023,online_services,pos,4039.82,IN,IN,1,0,unparseable_timestamp
+2441,14119,2026-01-02 19:42:59,2214,grocery,atm,-401.0,DE,DE,1,0,non_positive_amount
+14886,14721,,1733,fashion,pos,286.34,IN,IN,1,0,unparseable_timestamp
+120278,10126,,2484,,pos,233.72,SG,SG,1,0,unparseable_timestamp
+69949,12646,2026-02-22 04:38:15,2622,online_services,contactless,,IN,IN,1,0,missing_amount
+24493,11136,2026-01-19 07:51:43,213,entertainment,pos,-284.0,IN,IN,1,0,non_positive_amount
+93035,13951,,141,electronics,ecommerce,1657.65,IN,IN,0,0,unparseable_timestamp
+88940,13969,2026-03-08 10:10:27,441,entertainment,pos,-227.0,IN,IN,1,0,non_positive_amount
+101331,11531,2026-03-17 17:38:07,23,fashion,pos,-296.0,US,SG,1,0,non_positive_amount
+103805,11304,,740,utilities,pos,325.48,AE,AE,1,0,unparseable_timestamp
+54908,12314,2026-02-11 02:12:45,233,health,contactless,,DE,DE,1,0,missing_amount
+66670,12804,,1148,fuel,ecommerce,284.23,IN,IN,0,0,unparseable_timestamp
+86733,12110,,2202,health,ecommerce,1088.07,IN,IN,0,0,unparseable_timestamp
+19601,15099,2026-01-15 15:02:03,86,online_services,contactless,-354.0,IN,IN,1,0,non_positive_amount
+7382,10476,2026-01-06 13:00:38,53,online_services,contactless,,IN,IN,1,0,missing_amount
+52772,15353,2026-02-09 11:34:57,806,dining,pos,,US,US,1,0,missing_amount
+22028,15758,2026-01-17 11:23:59,2493,online_services,ecommerce,,IN,IN,0,0,missing_amount
+39469,12554,,524,online_services,pos,1706.94,IN,IN,1,0,unparseable_timestamp
+107216,10046,,642,online_services,pos,482.81,IN,IN,1,0,unparseable_timestamp
+80379,11929,,2923,grocery,contactless,174.41,IN,IN,1,0,unparseable_timestamp
+65874,15005,2026-02-19 05:09:48,1267,utilities,contactless,,DE,DE,1,0,missing_amount
+110635,11593,2026-03-24 17:42:24,219,fuel,contactless,,IN,IN,1,0,missing_amount
+104415,10932,2026-03-20 01:57:47,658,fashion,ecommerce,-337.0,IN,IN,0,0,non_positive_amount
+82047,11772,2026-03-03 05:42:03,1279,utilities,contactless,,US,US,1,0,missing_amount
+12147,15507,2026-01-10 01:47:37,2481,grocery,contactless,,IN,IN,1,0,missing_amount
+15708,12113,2026-01-12 15:49:37,2068,dining,pos,,DE,DE,1,0,missing_amount
+78362,12723,2026-02-28 10:19:27,514,grocery,pos,,DE,DE,1,0,missing_amount
+117217,15748,2026-03-29 15:12:48,1540,travel,pos,,IN,IN,1,0,missing_amount
+94521,14063,2026-03-12 13:50:46,2886,health,pos,,IN,IN,1,0,missing_amount
+82490,14904,2026-03-03 13:37:53,2477,health,pos,,IN,IN,1,0,missing_amount
+108280,11589,,2040,fuel,ecommerce,145.16,IN,IN,0,0,unparseable_timestamp
+102662,10562,2026-03-18 18:32:10,1239,grocery,pos,,IN,IN,1,0,missing_amount
+67592,10154,,1627,dining,contactless,636.96,IN,IN,1,0,unparseable_timestamp
+83573,15266,2026-03-04 09:39:30,682,fuel,ecommerce,-198.0,IN,IN,0,0,non_positive_amount
+41750,10146,2026-02-01 06:21:27,1409,dining,contactless,,SG,SG,1,0,missing_amount
+90662,12322,,2830,dining,contactless,199.04,GB,GB,1,0,unparseable_timestamp
+68267,10369,2026-02-20 22:15:08,1686,online_services,pos,,,IN,1,0,missing_amount
+66035,15609,2026-02-19 07:59:55,535,dining,pos,,US,US,1,0,missing_amount
+112664,14190,2026-03-26 07:31:35,514,online_services,atm,8594121.0,IN,IN,1,0,amount_outlier
+93301,12008,2026-03-11 16:00:27,2846,travel,pos,,SG,SG,1,0,missing_amount
+20426,14793,2026-01-16 06:11:50,1660,online_services,pos,,SG,SG,1,0,missing_amount
+43556,12504,2026-02-02 14:01:58,2565,dining,atm,,GB,IN,1,0,missing_amount
+81112,11751,2026-03-02 12:43:28,1874,fashion,pos,,SG,SG,1,0,missing_amount
+107086,13418,2026-03-22 03:16:21,2099,fuel,contactless,-240.0,AE,AE,1,0,non_positive_amount
+72234,14337,2026-02-23 20:41:25,1299,grocery,ecommerce,,IN,IN,0,0,missing_amount
+19999,15627,2026-01-15 22:28:43,1642,fuel,ecommerce,,,IN,0,0,missing_amount
+62291,10824,2026-02-16 12:48:32,643,fuel,contactless,,IN,IN,1,0,missing_amount
+36782,13383,2026-01-28 13:12:28,191,utilities,pos,,IN,IN,1,0,missing_amount
+12747,11853,2026-01-10 11:44:30,1619,travel,atm,-191.0,IN,IN,1,0,non_positive_amount
+39292,15787,2026-01-30 10:01:31,1280,grocery,ecommerce,-283.0,IN,IN,1,0,non_positive_amount
+34841,11789,2026-01-27 01:57:07,59,health,atm,-366.0,IN,IN,1,0,non_positive_amount
+43819,11222,2026-02-02 18:47:20,1005,dining,pos,,IN,IN,1,0,missing_amount
+11443,11387,2026-01-09 13:14:12,1810,online_services,contactless,-489.0,IN,IN,1,0,non_positive_amount
+27896,10333,2026-01-21 20:32:39,2255,electronics,ecommerce,,IN,IN,0,0,missing_amount
+7307,10725,2026-01-06 11:48:34,497,fuel,ecommerce,,IN,IN,0,0,missing_amount
+85835,11118,2026-03-06 01:32:11,21,dining,ecommerce,,SG,SG,0,0,missing_amount
+67734,11783,,1481,fashion,ecommerce,364.02,US,US,0,0,unparseable_timestamp
+102943,13290,2026-03-18 23:48:32,2542,fashion,contactless,,IN,IN,1,0,missing_amount
+74033,14899,2026-02-25 05:19:59,874,grocery,pos,,IN,IN,1,0,missing_amount
+114792,13128,2026-03-27 21:59:26,778,utilities,ecommerce,,IN,US,0,0,missing_amount
+73795,12683,2026-02-25 01:38:37,1641,electronics,ecommerce,-451.0,GB,GB,0,1,non_positive_amount
+31583,12943,,2655,online_services,pos,672.34,IN,IN,1,0,unparseable_timestamp
+79242,13026,2026-03-01 01:44:01,1829,fashion,pos,-344.0,IN,IN,1,0,non_positive_amount
+77710,14237,2026-02-27 23:11:23,2261,grocery,pos,,SG,SG,1,0,missing_amount
+117080,10388,,1149,online_services,pos,647.62,IN,IN,1,0,unparseable_timestamp
+94547,15416,2026-03-12 14:20:36,2316,fuel,contactless,,GB,GB,1,0,missing_amount
+18275,13129,,1262,online_services,pos,707.93,IN,IN,1,0,unparseable_timestamp
+110273,12525,2026-03-24 11:19:28,2728,grocery,ecommerce,,US,US,0,0,missing_amount
+32746,11126,,1755,online_services,ecommerce,359.42,IN,IN,0,0,unparseable_timestamp
+22440,15623,2026-01-17 18:57:11,296,fashion,pos,-21.0,IN,IN,1,0,non_positive_amount
+40380,13508,,1565,dining,pos,252.26,IN,IN,1,0,unparseable_timestamp
+1542,15978,2026-01-02 03:46:01,965,health,ecommerce,7125340.0,IN,IN,0,0,amount_outlier
+119819,13233,2026-03-31 12:37:41,2659,electronics,ecommerce,,SG,SG,0,0,missing_amount
+82875,15398,2026-03-03 20:48:06,596,entertainment,pos,,IN,IN,1,0,missing_amount
+59604,14881,,2049,grocery,contactless,316.44,AE,AE,1,0,unparseable_timestamp
+11238,10937,2026-01-09 09:14:35,84,fuel,ecommerce,,IN,IN,0,0,missing_amount
+70388,15141,2026-02-22 12:15:52,740,fashion,pos,,IN,IN,1,0,missing_amount
+107151,11955,2026-03-22 04:38:43,2787,fuel,pos,,IN,IN,1,0,missing_amount
+83269,12377,,661,online_services,pos,155.03,IN,IN,1,0,unparseable_timestamp
+85605,15527,2026-03-05 21:52:15,1408,fuel,contactless,,SG,SG,1,0,missing_amount
+87580,12069,2026-03-07 09:05:43,520,fuel,pos,-290.0,SG,SG,1,0,non_positive_amount
+49934,10104,,2830,dining,pos,108.6,IN,IN,1,0,unparseable_timestamp
+63798,14002,2026-02-17 16:09:41,622,fashion,pos,-276.0,IN,IN,1,0,non_positive_amount
+98699,13802,,2140,travel,contactless,128.91,IN,IN,1,0,unparseable_timestamp
+96910,12044,2026-03-14 08:07:56,2416,electronics,contactless,,IN,IN,1,0,missing_amount
+82243,14371,2026-03-03 08:50:22,332,grocery,pos,8742016.0,US,US,1,0,amount_outlier
+79357,15176,2026-03-01 03:40:47,1540,grocery,pos,,IN,IN,1,0,missing_amount
+78622,10018,2026-02-28 14:54:53,1981,utilities,ecommerce,,IN,IN,0,0,missing_amount
+38494,13854,2026-01-29 19:15:39,353,fuel,contactless,-143.0,IN,IN,1,0,non_positive_amount
+22308,15612,,2274,online_services,contactless,242.12,GB,IN,1,0,unparseable_timestamp
+31496,13598,2026-01-24 13:30:01,2398,travel,contactless,,US,US,1,0,missing_amount
+11156,15836,2026-01-09 07:51:45,2495,utilities,ecommerce,-202.0,IN,IN,0,0,non_positive_amount
+86628,15517,2026-03-06 16:09:45,653,fuel,pos,-315.0,IN,IN,1,0,non_positive_amount
+56342,15932,2026-02-12 04:22:14,49,electronics,pos,-241.0,IN,IN,1,0,non_positive_amount
+95855,13443,2026-03-13 14:00:34,862,utilities,ecommerce,,IN,IN,0,0,missing_amount
+62378,12117,2026-02-16 14:24:31,2662,electronics,contactless,,IN,IN,1,0,missing_amount
+52798,13923,,2188,electronics,pos,98.22,IN,IN,1,0,unparseable_timestamp
+77448,15682,2026-02-27 18:12:22,440,,pos,,IN,IN,1,0,missing_amount
+103518,11363,2026-03-19 10:01:34,1185,fashion,pos,,IN,IN,1,0,missing_amount
+72802,10154,2026-02-24 06:31:47,1551,fuel,pos,,IN,IN,1,0,missing_amount
+75844,14648,2026-02-26 13:45:59,2779,utilities,pos,,IN,IN,1,0,missing_amount
+60799,12816,,2248,fuel,ecommerce,244.62,IN,IN,0,0,unparseable_timestamp
+98514,15892,2026-03-15 13:01:11,2580,online_services,pos,-152.0,IN,IN,1,0,non_positive_amount
+107550,11299,,783,grocery,pos,1392.07,IN,IN,1,0,unparseable_timestamp
+14125,12298,2026-01-11 11:22:08,78,fashion,contactless,,IN,IN,1,0,missing_amount
+77409,13611,2026-02-27 17:36:06,1805,fashion,ecommerce,,SG,SG,0,0,missing_amount
+59584,13704,,2256,health,ecommerce,2302.41,US,US,0,0,unparseable_timestamp
+112248,11642,2026-03-25 23:55:49,2597,fuel,contactless,,IN,IN,1,0,missing_amount
+32439,14623,,2245,dining,contactless,2276.82,IN,IN,1,0,unparseable_timestamp
+77059,14758,2026-02-27 11:23:24,2389,grocery,ecommerce,-256.0,IN,IN,0,0,non_positive_amount
+18443,13784,2026-01-14 17:58:22,2375,health,pos,-392.0,SG,SG,1,0,non_positive_amount
+52398,15379,,1512,electronics,ecommerce,597.79,IN,IN,0,0,unparseable_timestamp
+27844,13254,2026-01-21 19:48:08,2422,fashion,pos,-302.0,US,US,1,0,non_positive_amount
+78230,13992,,18,fashion,contactless,229.63,IN,IN,1,0,unparseable_timestamp
+74671,12438,2026-02-25 15:58:20,2203,grocery,contactless,,US,AE,1,0,missing_amount
+79658,15355,2026-03-01 09:25:20,1343,entertainment,ecommerce,,IN,IN,0,0,missing_amount
+103164,13857,2026-03-19 03:31:45,1463,grocery,pos,,IN,IN,1,0,missing_amount

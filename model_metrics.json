@@ -1,0 +1,42 @@
+{
+  "logistic_regression": {
+    "roc_auc": 0.933,
+    "pr_auc": 0.4715,
+    "threshold": 0.68,
+    "precision": 0.122,
+    "recall": 0.7958,
+    "false_decline_rate_pct": 9.371,
+    "fraud_amount_caught_pct": 80.4,
+    "cost_with_model": 143982,
+    "cost_no_model": 456584,
+    "cost_reduction_pct": 68.5
+  },
+  "gradient_boosting": {
+    "roc_auc": 0.9326,
+    "pr_auc": 0.5063,
+    "threshold": 0.39,
+    "precision": 0.0913,
+    "recall": 0.8717,
+    "false_decline_rate_pct": 14.196,
+    "fraud_amount_caught_pct": 91.0,
+    "cost_with_model": 123849,
+    "cost_no_model": 456584,
+    "cost_reduction_pct": 72.9
+  },
+  "_meta": {
+    "features_with_drift_psi_gt_0.2": [],
+    "rows_total": 118600,
+    "train_rows": 71160,
+    "val_rows": 23720,
+    "test_rows": 23720,
+    "fraud_rate_pct_test": 1.61,
+    "false_decline_cost": 25.0,
+    "top_features": [
+      "secs_since_prev",
+      "card_present",
+      "is_night",
+      "is_foreign",
+      "log_amount"
+    ]
+  }
+}

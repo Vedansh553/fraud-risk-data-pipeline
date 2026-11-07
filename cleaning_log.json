@@ -1,0 +1,14 @@
+{
+  "raw_rows": 121884,
+  "duplicates_removed": 1445,
+  "quarantined_rows": 1839,
+  "quarantine_breakdown": {
+    "missing_amount": 963,
+    "non_positive_amount": 481,
+    "unparseable_timestamp": 355,
+    "amount_outlier": 40
+  },
+  "category_imputed_unknown": 2374,
+  "country_imputed_from_home": 1767,
+  "clean_rows": 118600
+}

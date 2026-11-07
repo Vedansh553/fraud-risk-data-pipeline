@@ -1,0 +1,25 @@
+stage,rule_id,dimension,column,rule,failed_rows,pass_rate_pct
+before_cleaning,C1,Completeness,merchant_category,merchant_category is not null,2439,97.999
+before_cleaning,C2,Completeness,country,country is not null,1813,98.513
+before_cleaning,C3,Completeness,amount,amount is not null,977,99.198
+before_cleaning,U1,Uniqueness,transaction_id,transaction_id is unique,1445,98.814
+before_cleaning,V1,Validity,amount,amount is greater than 0,489,99.599
+before_cleaning,V2,Validity,amount,"amount is not above 1,000,000 (outlier cap)",40,99.967
+before_cleaning,V3,Validity,transaction_ts,transaction_ts is a parseable timestamp,364,99.701
+before_cleaning,V4,Validity,card_present,card_present is 0 or 1,240,99.803
+before_cleaning,V5,Validity,merchant_category,merchant_category is in approved list (incl. governed 'unknown' sentinel),3575,97.067
+before_cleaning,V6,Validity,channel,channel is in approved list,2437,98.001
+before_cleaning,V7,Validity,country,country is a valid ISO-2 code,1231,98.99
+before_cleaning,K1,Consistency,card_present,ecommerce transactions are never card-present,366,99.7
+after_cleaning,C1,Completeness,merchant_category,merchant_category is not null,0,100.0
+after_cleaning,C2,Completeness,country,country is not null,0,100.0
+after_cleaning,C3,Completeness,amount,amount is not null,0,100.0
+after_cleaning,U1,Uniqueness,transaction_id,transaction_id is unique,0,100.0
+after_cleaning,V1,Validity,amount,amount is greater than 0,0,100.0
+after_cleaning,V2,Validity,amount,"amount is not above 1,000,000 (outlier cap)",0,100.0
+after_cleaning,V3,Validity,transaction_ts,transaction_ts is a parseable timestamp,0,100.0
+after_cleaning,V4,Validity,card_present,card_present is 0 or 1,0,100.0
+after_cleaning,V5,Validity,merchant_category,merchant_category is in approved list (incl. governed 'unknown' sentinel),0,100.0
+after_cleaning,V6,Validity,channel,channel is in approved list,0,100.0
+after_cleaning,V7,Validity,country,country is a valid ISO-2 code,0,100.0
+after_cleaning,K1,Consistency,card_present,ecommerce transactions are never card-present,0,100.0
