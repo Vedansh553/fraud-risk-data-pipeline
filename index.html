@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fraud Risk Command Center | Vedansh</title>
+<meta name="description" content="Live dashboard for a fraud risk data pipeline: data quality, fraud patterns, cost-aware model, drift monitoring.">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{--bg:#0b1220;--card:#121c33;--bd:#1f2d4d;--tx:#e6edf7;--mu:#8ba3c7;--ac:#38bdf8}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,#10305a 0,#0b1220 60%);color:var(--tx);font-family:Inter,"Segoe UI",system-ui,sans-serif}
+.wrap{max-width:1200px;margin:0 auto;padding:22px 18px 40px}
+.hero{background:linear-gradient(120deg,#0f2747,#13396b 45%,#0e7490);border:1px solid rgba(56,189,248,.25);border-radius:16px;padding:24px 28px;animation:up .7s both}
+.hero h1{margin:0;font-size:1.9rem;background:linear-gradient(90deg,#fff,#7dd3fc);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero p{margin:.4rem 0 0;color:#a8c4e6}.dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#34d399;margin-right:8px;animation:pulse 1.8s infinite}
+.btn{display:inline-block;margin:14px 10px 0 0;padding:8px 16px;border-radius:9px;background:rgba(255,255,255,.1);color:#fff;text-decoration:none;font-size:.9rem;border:1px solid rgba(255,255,255,.2);transition:.2s}
+.btn:hover{background:rgba(56,189,248,.35);transform:translateY(-2px)}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:14px 0}
+.kpi{background:linear-gradient(145deg,#121c33,#0f1a30);border:1px solid var(--bd);border-radius:14px;padding:16px 18px;animation:up .6s both;transition:.25s}
+.kpi:nth-child(2){animation-delay:.1s}.kpi:nth-child(3){animation-delay:.2s}.kpi:nth-child(4){animation-delay:.3s}
+.kpi:hover{transform:translateY(-4px);border-color:var(--ac)}.kpi .l{color:var(--mu);font-size:.75rem;text-transform:uppercase;letter-spacing:.06em}.kpi .v{font-size:1.9rem;font-weight:700;margin-top:4px}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+.card{grid-column:span 6;background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px 18px;opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s,border-color .25s}
+.card.in{opacity:1;transform:none}.card:hover{border-color:#2b4a7d}.wide{grid-column:span 12}.third{grid-column:span 4}
+h2{margin:0 0 10px;color:#7dd3fc;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase}
+.box{position:relative;height:300px}.sub{color:var(--mu);font-size:.82rem;margin-top:8px}
+.heat{display:grid;grid-template-columns:90px repeat(24,1fr);gap:2px;font-size:.62rem;color:var(--mu)}
+.heat div{height:34px;border-radius:3px;display:flex;align-items:center;justify-content:center}
+.heat .c{animation:fade .8s both}.heat .h{height:auto}
+.sim{display:grid;grid-template-columns:1fr 2fr;gap:20px}.sim label{display:block;color:var(--mu);font-size:.82rem;margin:12px 0 4px}
+input[type=range]{width:100%;accent-color:var(--ac)}.m{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.m div{background:#0e1730;border:1px solid var(--bd);border-radius:10px;padding:10px}.m b{display:block;font-size:1.3rem}.m span{color:var(--mu);font-size:.72rem;text-transform:uppercase}
+table{width:100%;border-collapse:collapse;font-size:.88rem}td,th{padding:7px 6px;border-bottom:1px solid var(--bd);text-align:right}th:first-child,td:first-child{text-align:left}th{color:var(--mu);font-weight:600}
+footer{margin-top:22px;color:var(--mu);font-size:.82rem;text-align:center}footer a{color:var(--ac)}
+@keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}@keyframes fade{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:none}}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 rgba(52,211,153,0)}50%{box-shadow:0 0 14px rgba(52,211,153,.8)}}
+@media(max-width:860px){.kpis{grid-template-columns:1fr 1fr}.card,.third{grid-column:span 12}.sim{grid-template-columns:1fr}.heat{font-size:.5rem}}
+</style></head><body><div class="wrap">
+<div class="hero"><h1>Fraud Risk Command Center</h1>
+<p><span class="dot"></span>Data quality, fraud patterns, cost-aware model and drift monitoring on synthetic card-transaction data</p>
+<a class="btn" href="https://github.com/Vedansh553/fraud-risk-data-pipeline" target="_blank" rel="noopener">View code on GitHub</a>
+<a class="btn" href="#sim">Try the threshold simulator</a></div>
+<div class="kpis" id="kpis"></div>
+<div class="grid">
+<div class="card wide" id="trend"><h2>Daily fraud rate with 7-day average</h2><div class="box"><canvas id="c_trend"></canvas></div></div>
+<div class="card" id="cat"><h2>Fraud rate by merchant category (%)</h2><div class="box"><canvas id="c_cat"></canvas></div></div>
+<div class="card" id="geo"><h2>Domestic versus foreign, by channel (%)</h2><div class="box"><canvas id="c_geo"></canvas></div></div>
+<div class="card wide" id="heat"><h2>When does fraud happen? Fraud rate by hour and channel (%)</h2><div class="heat" id="heatgrid"></div><div class="sub">Darker blue is low, red is high. Night hours and e-commerce stand out.</div></div>
+<div class="card wide" id="sim"><h2>Threshold simulator: trade fraud loss against customer friction</h2><div class="sim"><div>
+<label>Cost of declining a good transaction: <b id="cfv"></b></label><input type="range" id="cf" min="1" max="200" value="25">
+<label>Decline threshold (fraud score): <b id="thv"></b></label><input type="range" id="th" min="1" max="99" value="40">
+<div class="m"><div><span>Fraud caught</span><b id="m1"></b></div><div><span>Precision</span><b id="m2"></b></div><div><span>Good txns declined</span><b id="m3"></b></div><div><span>Cost vs approve-all</span><b id="m4"></b></div></div></div>
+<div class="box" style="height:320px"><canvas id="c_cost"></canvas></div></div>
+<div class="sub">Held-out test set (gradient boosting). Moving the cost slider moves the cost-minimising threshold (green diamond).</div></div>
+<div class="card" id="model"><h2>Model comparison (held-out test set)</h2><table id="tbl"></table><div class="sub" id="tsub"></div></div>
+<div class="card" id="dq"><h2>Data quality score by dimension (%)</h2><div class="box"><canvas id="c_dq"></canvas></div></div>
+<div class="card" id="quar"><h2>Quarantined records by reason</h2><div class="box"><canvas id="c_quar"></canvas></div></div>
+<div class="card" id="psi"><h2>Feature drift (PSI, train versus test)</h2><div class="box"><canvas id="c_psi"></canvas></div><div class="sub">Below 0.1 stable, 0.1 to 0.2 watch, above 0.2 significant shift.</div></div>
+</div>
+<footer>Synthetic data, so metrics show the method works, not production accuracy. Built by Vedansh | <a href="https://github.com/Vedansh553/fraud-risk-data-pipeline" target="_blank" rel="noopener">Source code</a></footer>
+</div>
+<script>
+const D={"kpi":{"n":118600,"rate":1.54,"fa":2091,"dq":100.0,"dq0":98.95},"daily":{"d":["2026-01-01","2026-01-02","2026-01-03","2026-01-04","2026-01-05","2026-01-06","2026-01-07","2026-01-08","2026-01-09","2026-01-10","2026-01-11","2026-01-12","2026-01-13","2026-01-14","2026-01-15","2026-01-16","2026-01-17","2026-01-18","2026-01-19","2026-01-20","2026-01-21","2026-01-22","2026-01-23","2026-01-24","2026-01-25","2026-01-26","2026-01-27","2026-01-28","2026-01-29","2026-01-30","2026-01-31","2026-02-01","2026-02-02","2026-02-03","2026-02-04","2026-02-05","2026-02-06","2026-02-07","2026-02-08","2026-02-09","2026-02-10","2026-02-11","2026-02-12","2026-02-13","2026-02-14","2026-02-15","2026-02-16","2026-02-17","2026-02-18","2026-02-19","2026-02-20","2026-02-21","2026-02-22","2026-02-23","2026-02-24","2026-02-25","2026-02-26","2026-02-27","2026-02-28","2026-03-01","2026-03-02","2026-03-03","2026-03-04","2026-03-05","2026-03-06","2026-03-07","2026-03-08","2026-03-09","2026-03-10","2026-03-11","2026-03-12","2026-03-13","2026-03-14","2026-03-15","2026-03-16","2026-03-17","2026-03-18","2026-03-19","2026-03-20","2026-03-21","2026-03-22","2026-03-23","2026-03-24","2026-03-25","2026-03-26","2026-03-27","2026-03-28","2026-03-29","2026-03-30","2026-03-31"],"r":[0.744,0.899,1.262,1.873,0.837,1.795,1.765,0.847,0.604,1.784,2.703,1.757,1.711,1.364,1.264,0.706,1.459,1.269,1.381,1.345,2.194,2.547,1.472,1.623,0.98,1.773,1.667,1.78,1.411,1.122,1.242,2.011,2.322,1.733,1.392,1.389,1.436,1.216,1.092,1.589,1.668,2.036,1.339,2.156,0.512,1.567,1.079,1.296,1.356,1.13,1.292,1.855,1.716,2.39,0.97,0.964,0.532,1.986,2.355,3.372,1.352,1.258,2.08,1.748,2.077,0.927,1.645,1.263,2.184,1.183,1.771,1.419,1.447,1.636,2.762,1.132,1.807,1.875,1.969,1.38,1.357,1.282,1.713,1.917,1.556,1.696,1.242,0.803,1.748,1.519],"ma":[0.744,0.821,0.968,1.194,1.123,1.235,1.311,1.325,1.283,1.358,1.476,1.608,1.596,1.538,1.598,1.613,1.566,1.361,1.308,1.255,1.374,1.557,1.667,1.69,1.649,1.705,1.751,1.692,1.529,1.479,1.425,1.572,1.651,1.66,1.605,1.602,1.647,1.643,1.512,1.407,1.397,1.489,1.482,1.585,1.485,1.552,1.48,1.427,1.329,1.3,1.176,1.368,1.389,1.576,1.53,1.474,1.388,1.488,1.559,1.795,1.647,1.688,1.848,2.022,2.035,1.831,1.584,1.571,1.703,1.575,1.579,1.485,1.559,1.557,1.772,1.621,1.71,1.725,1.804,1.794,1.755,1.543,1.626,1.642,1.596,1.557,1.538,1.458,1.525,1.497]},"cat":{"c":["travel","online_services","electronics","unknown","entertainment","health","dining","grocery","utilities","fuel","fashion"],"r":[3.604,3.342,3.251,1.938,1.269,1.151,1.104,1.102,1.046,1.006,0.845]},"heat":{"rows":["atm","contactless","ecommerce","pos"],"z":[[0.43,0.0,0.81,2.97,1.23,0.0,0.41,0.0,0.0,0.0,0.0,0.0,0.44,0.0,0.0,0.0,0.4,0.37,0.42,1.57,0.0,0.0,0.0,0.86],[1.13,0.54,0.89,0.32,0.68,0.1,0.11,0.2,0.1,0.0,0.0,0.1,0.0,0.21,0.0,0.21,0.09,0.11,0.0,0.0,0.0,0.1,0.51,1.21],[12.12,13.3,11.98,11.77,11.66,2.95,1.24,2.34,2.07,1.62,2.51,1.83,1.87,1.75,1.99,1.89,1.63,2.6,1.69,1.34,1.43,1.32,1.18,11.31],[0.84,0.55,0.85,1.01,1.05,0.09,0.04,0.27,0.23,0.05,0.04,0.13,0.18,0.0,0.09,0.04,0.04,0.0,0.09,0.0,0.09,0.27,0.0,0.88]]},"geo":{"ch":["atm","contactless","ecommerce","pos"],"domestic":[0.248,0.19,3.53,0.196],"foreign":[5.155,2.588,28.517,2.542]},"dq":{"dim":["Completeness","Consistency","Uniqueness","Validity"],"b":[98.57,99.7,98.81,99.02],"a":[100.0,100.0,100.0,100.0]},"quar":{"l":["amount_outlier","missing_amount","non_positive_amount","unparseable_timestamp"],"v":[40,963,481,355]},"psi":{"f":["amount_vs_cust_mean","secs_since_prev","secs_since_prev2","hour","log_amount","card_present","is_foreign","is_night","is_weekend","rapid_fire","cat_dining","cat_electronics","cat_entertainment","cat_fashion","cat_fuel","cat_grocery","cat_health","cat_online_services","cat_travel","cat_unknown","cat_utilities","ch_atm","ch_contactless","ch_ecommerce","ch_pos"],"v":[0.0931,0.0048,0.0034,0.0008,0.0005,0.0001,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]},"model":{"logistic_regression":{"roc_auc":0.933,"pr_auc":0.4715,"threshold":0.68,"precision":0.122,"recall":0.7958,"false_decline_rate_pct":9.371,"fraud_amount_caught_pct":80.4,"cost_with_model":143982,"cost_no_model":456584,"cost_reduction_pct":68.5},"gradient_boosting":{"roc_auc":0.9326,"pr_auc":0.5063,"threshold":0.39,"precision":0.0913,"recall":0.8717,"false_decline_rate_pct":14.196,"fraud_amount_caught_pct":91.0,"cost_with_model":123849,"cost_no_model":456584,"cost_reduction_pct":72.9}},"meta":{"test_rows":23720,"fraud_pct_test":1.61},"thr":{"tp":[382,382,377,377,376,374,373,373,372,369,369,368,366,366,365,364,364,361,361,357,357,355,353,353,353,353,352,351,348,344,339,338,338,336,335,335,333,333,333,333,332,331,330,329,329,329,327,326,326,325,325,325,324,321,321,321,321,321,317,316,313,309,307,307,303,300,297,296,294,288,282,277,271,263,250,242,242,240,239,236,234,232,227,223,222,216,208,193,175,158,146,134,133,126,120,104,88,66,49],"fp":[23337,20737,15245,13319,12994,12812,12544,12159,11754,11317,10716,10023,9387,8706,8346,8108,7943,7784,7657,7551,7446,7349,7269,7211,7108,6945,6799,6562,6072,5739,5013,4587,4289,3728,3546,3469,3418,3368,3313,3274,3243,3221,3195,3147,3102,3081,3044,2987,2965,2929,2899,2847,2802,2758,2711,2660,2623,2567,2421,2330,2226,2133,2069,1985,1912,1857,1815,1770,1726,1660,1536,1379,1154,1024,803,548,508,497,478,457,439,409,382,352,335,305,280,244,159,99,72,46,42,35,31,27,16,4,0],"missed":[0.0,0.0,3262.7,3262.7,4827.24,7134.01,8504.05,8504.05,8734.0,12043.4,12043.4,12349.04,12895.68,12895.68,13295.17,13588.55,13588.55,21817.3,21817.3,27089.06,27089.06,27222.26,28454.28,28454.28,28454.28,28454.28,29065.76,30634.7,32873.15,34237.87,37019.05,38142.06,38142.06,39560.51,39760.27,39760.27,41024.05,41024.05,41024.05,41024.05,41697.66,41867.17,42430.95,42543.51,42543.51,42543.51,43603.66,43909.35,43909.35,44366.17,44366.17,44366.17,47504.61,52415.17,52415.17,52415.17,52415.17,52415.17,57434.22,60618.02,63060.55,64563.77,64688.9,64688.9,78802.86,86085.97,90972.64,93235.79,96370.6,100535.09,112616.59,116968.85,120917.76,129974.13,136400.56,139998.04,139998.04,142979.85,144065.77,144745.02,151518.53,158231.78,162410.84,167649.49,170819.94,177062.71,184035.91,219259.96,245221.35,258825.4,288884.16,328278.62,328612.25,334070.88,341217.22,360002.27,388417.04,404320.41,417691.73],"F":382,"G":23338,"famt":456584.46}};const $=id=>document.getElementById(id);
+Chart.defaults.color="#9fb3d1";Chart.defaults.borderColor="#1f2d4d";Chart.defaults.font.family='Inter,"Segoe UI",system-ui,sans-serif';
+const base={responsive:true,maintainAspectRatio:false,plugins:{legend:{position:"bottom",labels:{usePointStyle:true}}}};
+const mix=(a,b,t)=>"rgb("+a.map((x,i)=>Math.round(x+(b[i]-x)*t)).join(",")+")";
+const heatc=t=>t<.5?mix([30,64,175],[251,191,36],t*2):mix([251,191,36],[248,113,113],(t-.5)*2);
+const fmt=(v,d=0)=>v.toLocaleString(undefined,{minimumFractionDigits:d,maximumFractionDigits:d});
+// KPIs with count-up
+const K=D.kpi,items=[["Transactions analysed",K.n,0,""],["Fraud rate",K.rate,2,"%"],["Fraud value",K.fa,0,"K"],["Data quality score",K.dq,2,"%"]];
+$("kpis").innerHTML=items.map(i=>`<div class="kpi"><div class="l">${i[0]}</div><div class="v" data-to="${i[1]}" data-d="${i[2]}" data-s="${i[3]}">0</div></div>`).join("");
+document.querySelectorAll(".v").forEach(el=>{const to=+el.dataset.to,d=+el.dataset.d,s=el.dataset.s,t0=performance.now();
+(function f(t){const p=Math.min((t-t0)/1500,1),e=1-Math.pow(1-p,3);el.textContent=fmt(to*e,d)+s;if(p<1)requestAnimationFrame(f)})(t0)});
+// Model table
+const mm=D.model,rows=[["ROC-AUC","roc_auc",""],["PR-AUC","pr_auc",""],["Recall","recall","pct"],["Precision","precision","pct"],["Good txns declined","false_decline_rate_pct","raw"],["Fraud value caught","fraud_amount_caught_pct","raw"],["Cost reduction vs approve-all","cost_reduction_pct","raw"]];
+const val=(m,k,t)=>t==="pct"?fmt(m[k]*100,1)+"%":t==="raw"?fmt(m[k],1)+"%":m[k];
+$("tbl").innerHTML="<tr><th>Metric</th><th>Logistic reg.</th><th>Gradient boosting</th></tr>"+rows.map(r=>`<tr><td>${r[0]}</td><td>${val(mm.logistic_regression,r[1],r[2])}</td><td>${val(mm.gradient_boosting,r[1],r[2])}</td></tr>`).join("");
+$("tsub").textContent=fmt(D.meta.test_rows)+" test transactions, "+D.meta.fraud_pct_test+"% fraud. Chronological split, no leakage.";
+// Heatmap
+const zmax=Math.max(...D.heat.z.flat());let hh='<div class="h"></div>'+[...Array(24).keys()].map(h=>`<div class="h">${h}</div>`).join("");
+D.heat.rows.forEach((r,ri)=>{hh+=`<div class="h" style="justify-content:flex-start">${r}</div>`;D.heat.z[ri].forEach((v,h)=>{hh+=`<div class="c" title="${r}, ${h}:00 - ${v}%" style="background:${heatc(v/zmax)};animation-delay:${(h*25+ri*60)}ms"></div>`})});
+$("heatgrid").innerHTML=hh;
+// Simulator
+const T=D.thr;let costChart;
+const cost=(i,cf)=>T.missed[i]+T.fp[i]*cf,curve=cf=>T.tp.map((_,i)=>({x:(i+1)/100,y:Math.round(cost(i,cf))}));
+const bestIdx=cf=>{let b=0;for(let i=1;i<99;i++)if(cost(i,cf)<cost(b,cf))b=i;return b};
+function sim(move){const cf=+$("cf").value;if(move)$("th").value=bestIdx(cf)+1;const i=+$("th").value-1,b=bestIdx(cf),c=cost(i,cf),tp=T.tp[i],fp=T.fp[i];
+$("cfv").textContent=cf;$("thv").textContent=((i+1)/100).toFixed(2);
+$("m1").textContent=fmt(100*tp/T.F,1)+"%";$("m2").textContent=tp+fp?fmt(100*tp/(tp+fp),1)+"%":"0%";$("m3").textContent=fmt(100*fp/T.G,1)+"%";$("m4").textContent=fmt(100*(1-c/T.famt),1)+"% lower";
+if(costChart){costChart.data.datasets[0].data=curve(cf);costChart.data.datasets[1].data=[{x:(i+1)/100,y:Math.round(c)}];costChart.data.datasets[2].data=[{x:(b+1)/100,y:Math.round(cost(b,cf))}];costChart.update()}}
+// Charts built when scrolled into view (so they animate)
+const B={trend:()=>new Chart($("c_trend"),{type:"line",data:{labels:D.daily.d,datasets:[{label:"Daily",data:D.daily.r,borderColor:"#475569",borderWidth:1.5,pointRadius:0,tension:.3},{label:"7-day avg",data:D.daily.ma,borderColor:"#22d3ee",borderWidth:3,pointRadius:0,tension:.35,fill:true,backgroundColor:"rgba(34,211,238,.12)"}]},options:{...base,animation:{duration:2400,easing:"easeOutQuart"},scales:{y:{beginAtZero:true,title:{display:true,text:"%"}},x:{ticks:{maxTicksLimit:8}}}}}),
+cat:()=>{const mx=Math.max(...D.cat.r);new Chart($("c_cat"),{type:"bar",data:{labels:D.cat.c,datasets:[{data:D.cat.r,backgroundColor:D.cat.r.map(v=>heatc(v/mx)),borderRadius:5}]},options:{...base,indexAxis:"y",animation:{duration:1600,easing:"easeOutCubic"},plugins:{legend:{display:false}}}})},
+geo:()=>new Chart($("c_geo"),{type:"bar",data:{labels:D.geo.ch,datasets:[{label:"Domestic",data:D.geo.domestic,backgroundColor:"#38bdf8",borderRadius:5},{label:"Foreign",data:D.geo.foreign,backgroundColor:"#f87171",borderRadius:5}]},options:{...base,animation:{duration:1600}}}),
+sim:()=>{costChart=new Chart($("c_cost"),{type:"scatter",data:{datasets:[{label:"Total cost",data:[],showLine:true,borderColor:"#38bdf8",borderWidth:3,pointRadius:0,fill:true,backgroundColor:"rgba(56,189,248,.1)"},{label:"Your threshold",data:[],backgroundColor:"#fbbf24",pointRadius:8,pointBorderColor:"#fff",pointBorderWidth:2},{label:"Cost-minimising",data:[],backgroundColor:"#34d399",pointStyle:"rectRot",pointRadius:9,pointBorderColor:"#fff",pointBorderWidth:2}]},options:{...base,animation:{duration:700},scales:{x:{title:{display:true,text:"Threshold"},min:0,max:1},y:{title:{display:true,text:"Total cost"}}}}});sim(true)},
+dq:()=>new Chart($("c_dq"),{type:"bar",data:{labels:D.dq.dim,datasets:[{label:"Before cleaning",data:D.dq.b,backgroundColor:"#f87171",borderRadius:5},{label:"After cleaning",data:D.dq.a,backgroundColor:"#34d399",borderRadius:5}]},options:{...base,animation:{duration:1600},scales:{y:{min:97,max:100.2}}}}),
+quar:()=>new Chart($("c_quar"),{type:"doughnut",data:{labels:D.quar.l,datasets:[{data:D.quar.v,backgroundColor:["#f87171","#fbbf24","#38bdf8","#a78bfa"],borderColor:"#121c33"}]},options:{...base,cutout:"58%",animation:{duration:1800,animateRotate:true}}}),
+psi:()=>new Chart($("c_psi"),{type:"bar",data:{labels:D.psi.f,datasets:[{data:D.psi.v,backgroundColor:D.psi.v.map(v=>v<.1?"#34d399":v<.2?"#fbbf24":"#f87171"),borderRadius:4}]},options:{...base,indexAxis:"y",animation:{duration:1600},plugins:{legend:{display:false}},scales:{y:{ticks:{font:{size:9}}}}}})};
+$("cf").addEventListener("input",()=>sim(true));$("th").addEventListener("input",()=>sim(false));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");const f=B[e.target.id];if(f){f();delete B[e.target.id]}io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll(".card").forEach(c=>io.observe(c));
+</script></body></html>
